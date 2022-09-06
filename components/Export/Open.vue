@@ -1,6 +1,6 @@
 <template>
   <div class="w-full">
-    <button @click="exportBlob">Export</button>
+    <button @click="exportBlob" class="flex gap-2 bg-violet-50 rounded-3xl px-8 py-2 justify-center h-30 text-violet-700 font-bold">Export</button>
     <div class="fixed left-0 top-0">
       <div class="generator relative w-[1000px]"></div>
     </div>

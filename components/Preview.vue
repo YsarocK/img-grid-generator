@@ -1,8 +1,11 @@
 <template>
   <div class="flex flex-col gap-4 justify-center w-full">
     <h2 class="align-left text-3xl font-bold	">Preview</h2>
-    <div class="preview w-full" ref="gridElement">
+    <div v-show="filesLength" class="preview w-full" ref="gridElement">
       <img v-for="(file, index) in files" :key="index" :style="{ borderRadius: settings.radius + 'rem' }" :src="file.content" >
+    </div>
+    <div v-show="!filesLength">
+      <p class="text-slate-400 text-sm italic">Import your images to preview your grid.</p>
     </div>
   </div>
 </template>
@@ -13,6 +16,10 @@ import { useSettings } from '~~/stores/settings';
 import { useFiles } from '~~/stores/files';
 
 const files = useFiles().files
+
+const filesLength = computed(() => {
+  return files.length ? true : false
+})
 
 const settings = useSettings()
 
