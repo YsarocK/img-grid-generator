@@ -19,7 +19,7 @@ let grid = ref()
 let config = reactive({})
 
 const exportSettings = {
-  preview: '.grid',
+  preview: '.preview',
   generator: '.generator',
   bgColor: 'white'
 }
