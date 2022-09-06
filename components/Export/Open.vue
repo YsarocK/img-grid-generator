@@ -8,9 +8,9 @@
 </template>
 
 <script setup>
+import Macy from 'macy'
 import { toBlob } from 'html-to-image'
 import { saveAs } from 'file-saver';
-import Macy from 'macy'
 import { useSettings } from '~~/stores/settings';
 
 const settings = useSettings()

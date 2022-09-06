@@ -4,7 +4,6 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   ssr: false,
   modules: [
-    'nuxt-svgo',
     '@nuxtjs/tailwindcss',
     '@nuxt/image-edge',
     'vue-plausible',
@@ -12,6 +11,5 @@ export default defineNuxtConfig({
   ],
   // plausible: {
   //   domain: 'links.etiennemoureton.fr',
-  //   enableAutoOutboundTracking: true
   // }
 })
