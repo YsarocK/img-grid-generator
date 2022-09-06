@@ -1,15 +1,16 @@
 <template>
-  <div class="m-h-screen flex flex-col justify-center gap-20 items-center px-6 py-[10rem]">
+  <div class="m-h-screen flex flex-col gap-20 items-center px-6 py-[10rem] min-h-screen max-w-[500px] mx-auto">
+    <Files/>
     <Settings/>
     <ClientOnly>
       <Preview/>
+      <ExportOpen/>
     </ClientOnly>
-    <ExportOpen/>
   </div>
 </template>
 <script setup lang="ts">
 useHead({
-  title: 'My links',
+  title: 'Grid from Imgs Generator',
   meta: [
     { name: 'robots', content: 'noindex' }
   ],

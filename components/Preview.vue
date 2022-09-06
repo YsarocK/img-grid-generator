@@ -1,10 +1,7 @@
 <template>
   <div class="flex flex-col gap-4 justify-center items-center w-full">
-    <div class="grid w-full max-w-[500px]" ref="gridElement">
-      <img :style="{ borderRadius: settings.radius + 'rem' }" src="https://www.etiennemoureton.fr/_vercel/image?url=/img/projects/inceptionexperience/home.webp&w=1536&q=60" >
-      <img :style="{ borderRadius: settings.radius + 'rem' }" src="https://www.etiennemoureton.fr/_vercel/image?url=/img/portrait.webp&w=1536&q=80" >
-      <img :style="{ borderRadius: settings.radius + 'rem' }" src="https://www.etiennemoureton.fr/_vercel/image?url=/img/projects/inceptionexperience/home.webp&w=1536&q=60" >
-      <img :style="{ borderRadius: settings.radius + 'rem' }" src="https://www.etiennemoureton.fr/_vercel/image?url=/img/portrait.webp&w=1536&q=80" >
+    <div class="grid w-full" ref="gridElement">
+      <img v-for="(file, index) in files" :key="index" :style="{ borderRadius: settings.radius + 'rem' }" :src="file.content" >
     </div>
   </div>
 </template>
@@ -12,6 +9,9 @@
 <script setup lang="ts">
 import Macy from 'macy'
 import { useSettings } from '~~/stores/settings';
+import { useFiles } from '~~/stores/files';
+
+const files = useFiles().files
 
 const settings = useSettings()
 
@@ -43,7 +43,6 @@ const Init = () => {
   // handle empty space at bottom
   grid.on(grid.constants.EVENT_IMAGE_COMPLETE, (ctx) => {
     gridElement.value.style.height = `${parseInt(gridElement.value.style.height.slice(0, -2)) - settings.margin}px`
-    console.log("njdsq")
   });
 
   setRadius()
@@ -54,10 +53,18 @@ onMounted(() => {
 })
 
 watch(
+  () => files,
+  (files, oldFiles) => {
+    Init()
+  },
+  { deep: true }
+)
+
+watch(
   () => settings.margin,
   (margin, prevMargin) => {
-   config.margin = margin
-   Init()
+    config.margin = margin
+    Init()
   }
 )
 

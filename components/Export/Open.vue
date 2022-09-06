@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full">
     <button @click="exportBlob">Export</button>
     <div class="fixed left-0 top-0">
       <div class="generator relative w-[1000px]"></div>

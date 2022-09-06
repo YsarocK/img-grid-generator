@@ -2,6 +2,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     'ExportOpen': typeof import("../components/Export/Open.vue")['default'],
+    'Files': typeof import("../components/Files.vue")['default'],
     'Preview': typeof import("../components/Preview.vue")['default'],
     'Settings': typeof import("../components/Settings.vue")['default'],
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
@@ -14,6 +15,7 @@ declare module 'vue' {
     'NuxtImg': typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-img.vue")['default'],
     'NuxtPicture': typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-picture.vue")['default']
     'LazyExportOpen': typeof import("../components/Export/Open.vue")['default'],
+    'LazyFiles': typeof import("../components/Files.vue")['default'],
     'LazyPreview': typeof import("../components/Preview.vue")['default'],
     'LazySettings': typeof import("../components/Settings.vue")['default'],
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
@@ -29,6 +31,7 @@ declare module 'vue' {
 }
 
 export const ExportOpen: typeof import("../components/Export/Open.vue")['default'],
+export const Files: typeof import("../components/Files.vue")['default'],
 export const Preview: typeof import("../components/Preview.vue")['default'],
 export const Settings: typeof import("../components/Settings.vue")['default'],
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
@@ -41,6 +44,7 @@ export const NuxtLoadingIndicator: typeof import("../node_modules/nuxt/dist/app/
 export const NuxtImg: typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-img.vue")['default'],
 export const NuxtPicture: typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-picture.vue")['default']
 export const LazyExportOpen: typeof import("../components/Export/Open.vue")['default'],
+export const LazyFiles: typeof import("../components/Files.vue")['default'],
 export const LazyPreview: typeof import("../components/Preview.vue")['default'],
 export const LazySettings: typeof import("../components/Settings.vue")['default'],
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default'],
