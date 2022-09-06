@@ -3,6 +3,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     'Export': typeof import("../components/Export.vue")['default'],
     'Files': typeof import("../components/Files.vue")['default'],
+    'Footer': typeof import("../components/Footer.vue")['default'],
     'Preview': typeof import("../components/Preview.vue")['default'],
     'Settings': typeof import("../components/Settings.vue")['default'],
     'Support': typeof import("../components/Support.vue")['default'],
@@ -17,6 +18,7 @@ declare module 'vue' {
     'NuxtPicture': typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-picture.vue")['default']
     'LazyExport': typeof import("../components/Export.vue")['default'],
     'LazyFiles': typeof import("../components/Files.vue")['default'],
+    'LazyFooter': typeof import("../components/Footer.vue")['default'],
     'LazyPreview': typeof import("../components/Preview.vue")['default'],
     'LazySettings': typeof import("../components/Settings.vue")['default'],
     'LazySupport': typeof import("../components/Support.vue")['default'],
@@ -34,6 +36,7 @@ declare module 'vue' {
 
 export const Export: typeof import("../components/Export.vue")['default'],
 export const Files: typeof import("../components/Files.vue")['default'],
+export const Footer: typeof import("../components/Footer.vue")['default'],
 export const Preview: typeof import("../components/Preview.vue")['default'],
 export const Settings: typeof import("../components/Settings.vue")['default'],
 export const Support: typeof import("../components/Support.vue")['default'],
@@ -48,6 +51,7 @@ export const NuxtImg: typeof import("../node_modules/@nuxt/image-edge/dist/runti
 export const NuxtPicture: typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-picture.vue")['default']
 export const LazyExport: typeof import("../components/Export.vue")['default'],
 export const LazyFiles: typeof import("../components/Files.vue")['default'],
+export const LazyFooter: typeof import("../components/Footer.vue")['default'],
 export const LazyPreview: typeof import("../components/Preview.vue")['default'],
 export const LazySettings: typeof import("../components/Settings.vue")['default'],
 export const LazySupport: typeof import("../components/Support.vue")['default'],

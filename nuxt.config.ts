@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-svgo'
   ],
-  // plausible: {
-  //   domain: 'links.etiennemoureton.fr',
-  // }
+  plausible: {
+    domain: 'img-grid-generator.com',
+  }
 })

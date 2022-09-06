@@ -1,7 +1,12 @@
 <template>
   <div class="w-full flex flex-col gap-2">
     <h2 class="align-left text-3xl font-bold">Files</h2>
-    <input ref="input" type="file" name="files" id="" multiple class="file:cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">
+    <div class="flex justify-between items-center">
+      <input ref="input" type="file" name="files" id="" multiple class="file:cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">
+      <div v-if="error" class="px-4 py-2 bg-red-200 rounded-md">
+        <p class="text-xs text-red-700">{{ error }}</p>
+      </div>
+    </div>
     <div class="grid grid-cols-3 gap-4">
       <div class="relative" v-for="(file, index) in items" :key="index">
         <img :src="file.content" />
@@ -18,8 +23,10 @@
 import FileType from '~/types/File'
 import { useFiles } from '~/stores/files'
 import DeleteIcon from '~/assets/svg/delete.svg'
+import type { Ref } from 'vue'
 
 const input = ref()
+const error: Ref<string> = ref('')
 
 const items = useFiles().files
 
@@ -30,6 +37,10 @@ onMounted(() => {
 const initListener = () => {
   input.value.addEventListener("change", function() {
     Array.from(this.files).forEach((file: File) => {
+      if(file.size > 5000000) {
+        error.value = 'Maximum file size is 2MB'
+        return
+      }
       const item: FileType = {
         name: file.name,
       } 
@@ -43,7 +54,7 @@ const initListener = () => {
   })
 }
 
-const deleteImg = (index) => {
+const deleteImg = (index: number) => {
   items.splice(index, 1)
 }
 </script>
