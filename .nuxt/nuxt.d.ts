@@ -3,6 +3,7 @@
 /// <reference types="@nuxt/image-edge" />
 /// <reference types="vue-plausible" />
 /// <reference types="@pinia/nuxt" />
+/// <reference types="nuxt-svgo" />
 /// <reference types="@nuxt/telemetry" />
 /// <reference types="nuxt" />
 /// <reference path="types/plugins.d.ts" />

@@ -1,11 +1,14 @@
 <template>
   <div class="w-full flex flex-col gap-2">
-    <input ref="input" type="file" name="files" id="" multiple>
-    <div class="flex gap-4">
+    <h2 class="align-left text-3xl font-bold">Files</h2>
+    <input ref="input" type="file" name="files" id="" multiple class="file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">
+    <div class="grid grid-cols-4 gap-4">
       <div class="relative" v-for="(file, index) in items" :key="index">
-        <img class="h-[200px]" :src="file.content" />
-        <p class="absolute top-0 text-white p-4" @click="deleteImg(index)">Supprimer</p>
-        <p>{{ file.name }}</p>
+        <img :src="file.content" />
+        <div class="flex justify-between p-4 bg-slate-100 rounded-b-md	">
+          <p>{{ file.name }}</p>
+          <DeleteIcon class="cursor-pointer" @click="deleteImg(index)" />
+        </div>
       </div>
     </div>
   </div>
@@ -14,6 +17,7 @@
 <script setup lang="ts">
 import FileType from '~/types/File'
 import { useFiles } from '~/stores/files'
+import DeleteIcon from '~/assets/svg/delete.svg'
 
 const input = ref()
 

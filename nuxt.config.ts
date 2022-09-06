@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
     'vue-plausible',
     '@pinia/nuxt',
+    'nuxt-svgo'
   ],
   // plausible: {
   //   domain: 'links.etiennemoureton.fr',

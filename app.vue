@@ -1,5 +1,5 @@
 <template>
-  <div class="m-h-screen flex flex-col gap-20 items-center px-6 py-[10rem] min-h-screen max-w-[500px] mx-auto">
+  <div class="m-h-screen flex flex-col gap-20 items-center px-6 py-[10rem] min-h-screen max-w-[800px] mx-auto">
     <Files/>
     <Settings/>
     <ClientOnly>

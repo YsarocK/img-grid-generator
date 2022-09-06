@@ -1,6 +1,7 @@
 <template>
-  <div class="flex flex-col gap-4 justify-center items-center w-full">
-    <div class="grid w-full" ref="gridElement">
+  <div class="flex flex-col gap-4 justify-center w-full">
+    <h2 class="align-left text-3xl font-bold	">Preview</h2>
+    <div class="preview w-full" ref="gridElement">
       <img v-for="(file, index) in files" :key="index" :style="{ borderRadius: settings.radius + 'rem' }" :src="file.content" >
     </div>
   </div>
@@ -18,7 +19,7 @@ const settings = useSettings()
 const gridElement = ref(null)
 let grid = ref(undefined)
 let config = reactive({
-  container: '.grid',
+  container: '.preview',
   trueOrder: false,
   margin: settings.margin,
   columns: settings.columns,
