@@ -6,6 +6,7 @@
       <Preview/>
       <Export/>
     </ClientOnly>
+    <adsbygoogle />
     <!-- <Support/> -->
     <Footer/>
   </div>
