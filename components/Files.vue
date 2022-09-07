@@ -1,12 +1,12 @@
 <template>
   <div class="w-full flex flex-col gap-2">
     <h2 class="align-left text-3xl font-bold">Files</h2>
-    <div class="flex justify-between items-center">
+    <form class="flex justify-between items-center">
       <input ref="input" type="file" name="files" id="" multiple class="file:cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">
       <div v-if="error" class="px-4 py-2 bg-red-200 rounded-md">
         <p class="text-xs text-red-700">{{ error }}</p>
       </div>
-    </div>
+    </form>
     <div v-if="items.length" class="grid grid-cols-3 gap-4 files">
       <div class="relative" v-for="(file, index) in items" :key="index">
         <img class="h-full w-full object-cover	" :src="file.content" />
