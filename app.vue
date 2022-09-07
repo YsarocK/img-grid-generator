@@ -16,7 +16,6 @@
       </ClientOnly>
     </div>
     <Footer/>
-    <Support/>
   </div>
 </template>
 

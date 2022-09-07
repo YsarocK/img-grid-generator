@@ -1,9 +1,9 @@
 <template>
-  <div class="w-full flex flex-col gap-2">
+  <div class="settings w-full flex flex-col gap-2">
     <h2 class="align-left text-3xl font-bold">Settings</h2>
     <form class="flex gap-8">
       <div class="w-24 flex flex-col gap-1">
-        <p class="text-sm font-semibold text-slate-300">Margin</p>
+        <label for="margin" class="text-sm font-semibold text-slate-300">Margin</label>
         <input class="h-30 bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" type="number" name="margin" v-model="settings.margin" min="0" max="50" step="1">
       </div>
       <div class="flex flex-col gap-1">
@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="w-40 flex flex-col gap-1">
-        <p class="text-sm font-semibold text-slate-300">Radius</p>
+        <label for="radius" class="text-sm font-semibold text-slate-300">Radius</label>
         <input class="bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" type="range" name="radius" v-model="settings.radius" min="0" max="2" step="0.1">
       </div>
     </form>
