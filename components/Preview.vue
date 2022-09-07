@@ -12,8 +12,8 @@
 
 <script setup lang="ts">
 import Macy from 'macy'
-import { useSettings } from '~~/stores/settings';
-import { useFiles } from '~~/stores/files';
+import useSettings from '~~/stores/settings';
+import useFiles from '~~/stores/files';
 
 const files = useFiles().files
 

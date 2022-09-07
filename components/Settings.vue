@@ -25,6 +25,6 @@
 <script setup lang="ts">
 import MinIcon from '~/assets/svg/min.svg'
 import MaxIcon from '~/assets/svg/max.svg'
-import { useSettings } from '~~/stores/settings';
+import useSettings from '~~/stores/settings';
 const settings = useSettings()
 </script>

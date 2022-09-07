@@ -11,7 +11,7 @@
 import Macy from 'macy'
 import { toBlob } from 'html-to-image'
 import { saveAs } from 'file-saver';
-import { useSettings } from '~~/stores/settings';
+import useSettings from '~~/stores/settings';
 import Plausible from 'plausible-tracker';
 
 const settings = useSettings()

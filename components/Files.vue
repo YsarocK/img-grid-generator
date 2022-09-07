@@ -21,7 +21,7 @@
 
 <script setup lang="ts">
 import FileType from '~/types/File'
-import { useFiles } from '~/stores/files'
+import useFiles from '~/stores/files'
 import DeleteIcon from '~/assets/svg/delete.svg'
 import type { Ref } from 'vue'
 

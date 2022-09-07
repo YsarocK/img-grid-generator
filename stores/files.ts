@@ -5,10 +5,12 @@ interface State {
   files: FileType[],
 }
 
-export const useFiles = defineStore('files', {
+const useFiles = defineStore('files', {
   state: (): State => {
     return {
       files: []
     }
   }
 })
+
+export default useFiles
