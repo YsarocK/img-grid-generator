@@ -6,8 +6,7 @@
       <Preview/>
       <Export/>
     </ClientOnly>
-    <adsbygoogle />
-    <!-- <Support/> -->
+    <Support/>
     <Footer/>
   </div>
 </template>
@@ -16,7 +15,6 @@
 useHead({
   title: 'Grid from Img Generator',
   meta: [
-    { name: 'robots', content: 'noindex' },
     { name: 'description', content: 'Generate PNG grids online for free. Select your images, margin, radius & more.' }
   ],
 })
