@@ -116,7 +116,17 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_vC10oUHchO)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_FMi1dBhUQk)
-// - /node_modules/nuxt/dist/app/components/server-placeholder.mjs ($id_m66RcdycyM)
+// - /components/Files.vue ($id_CRTg9XmBPA)
+// - /assets/svg/delete.svg ($id_iS5GlXgMvF)
+// - /components/Settings.vue ($id_KNB27G4VRc)
+// - /assets/svg/min.svg ($id_dJ2F6rn5hU)
+// - /assets/svg/max.svg ($id_BP1qmKgqb6)
+// - /node_modules/nuxt/dist/app/components/client-only.mjs ($id_HseDGTR18m)
+// - /components/Preview.vue ($id_7CNegRKX36)
+// - /components/Export.vue ($id_mpBCnzJAKE)
+// - /components/Support.vue ($id_GuipdVEtXc)
+// - /assets/svg/github.svg ($id_ceX65CDywN)
+// - /components/Footer.vue ($id_89jzJWR97X)
 // - /app.vue ($id_K0boQqLzfo)
 // Dependencies: 
 // - @vue/runtime-dom ($id_xcKel6nH2q)
@@ -264,6 +274,7 @@ import("ufo")
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_5vEgA2Fgrh)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
 // - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_fEh9isZZyu)
+// - /node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs ($id_i9ItelNnNP)
 // - /node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs ($id_Mj3mVTRNtW)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // Dependencies: 
@@ -1578,8 +1589,8 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxtjs/t
 // Dependencies: 
 
 // --------------------
-const $id_1c1ddq2cqk = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*\n! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::-webkit-backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n.container {\n  width: 100%;\n}\n@media (min-width: 640px) {\n\n  .container {\n    max-width: 640px;\n  }\n}\n@media (min-width: 768px) {\n\n  .container {\n    max-width: 768px;\n  }\n}\n@media (min-width: 1024px) {\n\n  .container {\n    max-width: 1024px;\n  }\n}\n@media (min-width: 1280px) {\n\n  .container {\n    max-width: 1280px;\n  }\n}\n@media (min-width: 1536px) {\n\n  .container {\n    max-width: 1536px;\n  }\n}\n.flex {\n  display: flex;\n}\n.grid {\n  display: grid;\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-center {\n  align-items: center;\n}\n.justify-center {\n  justify-content: center;\n}\n.gap-4 {\n  gap: 1rem;\n}\n.gap-20 {\n  gap: 5rem;\n}\n.px-6 {\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n.py-\\[10rem\\] {\n  padding-top: 10rem;\n  padding-bottom: 10rem;\n}\n";
+const $id_PaM7djyZYl = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/*\n! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::-webkit-backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n.container {\n  width: 100%;\n}\n@media (min-width: 640px) {\n\n  .container {\n    max-width: 640px;\n  }\n}\n@media (min-width: 768px) {\n\n  .container {\n    max-width: 768px;\n  }\n}\n@media (min-width: 1024px) {\n\n  .container {\n    max-width: 1024px;\n  }\n}\n@media (min-width: 1280px) {\n\n  .container {\n    max-width: 1280px;\n  }\n}\n@media (min-width: 1536px) {\n\n  .container {\n    max-width: 1536px;\n  }\n}\n.pointer-events-none {\n  pointer-events: none;\n}\n.fixed {\n  position: fixed;\n}\n.relative {\n  position: relative;\n}\n.right-0 {\n  right: 0px;\n}\n.bottom-0 {\n  bottom: 0px;\n}\n.left-0 {\n  left: 0px;\n}\n.top-0 {\n  top: 0px;\n}\n.bottom-10 {\n  bottom: 2.5rem;\n}\n.right-10 {\n  right: 2.5rem;\n}\n.m-auto {\n  margin: auto;\n}\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n.mt-auto {\n  margin-top: auto;\n}\n.mb-0 {\n  margin-bottom: 0px;\n}\n.mr-5 {\n  margin-right: 1.25rem;\n}\n.flex {\n  display: flex;\n}\n.grid {\n  display: grid;\n}\n.h-fit {\n  height: -webkit-fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n}\n.min-h-screen {\n  min-height: 100vh;\n}\n.w-full {\n  width: 100%;\n}\n.w-\\[1000px\\] {\n  width: 1000px;\n}\n.w-\\[1rem\\] {\n  width: 1rem;\n}\n.w-24 {\n  width: 6rem;\n}\n.w-4 {\n  width: 1rem;\n}\n.w-3 {\n  width: 0.75rem;\n}\n.w-40 {\n  width: 10rem;\n}\n.w-\\[2\\.5rem\\] {\n  width: 2.5rem;\n}\n.max-w-\\[800px\\] {\n  max-width: 800px;\n}\n.cursor-pointer {\n  cursor: pointer;\n}\n.select-none {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n}\n.grid-cols-3 {\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-center {\n  align-items: center;\n}\n.justify-center {\n  justify-content: center;\n}\n.justify-between {\n  justify-content: space-between;\n}\n.gap-2 {\n  gap: 0.5rem;\n}\n.gap-4 {\n  gap: 1rem;\n}\n.gap-8 {\n  gap: 2rem;\n}\n.gap-1 {\n  gap: 0.25rem;\n}\n.gap-20 {\n  gap: 5rem;\n}\n.overflow-hidden {\n  overflow: hidden;\n}\n.rounded-3xl {\n  border-radius: 1.5rem;\n}\n.rounded-md {\n  border-radius: 0.375rem;\n}\n.rounded-full {\n  border-radius: 9999px;\n}\n.rounded-b-md {\n  border-bottom-right-radius: 0.375rem;\n  border-bottom-left-radius: 0.375rem;\n}\n.bg-violet-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.bg-red-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 202 202 / var(--tw-bg-opacity));\n}\n.bg-slate-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(241 245 249 / var(--tw-bg-opacity));\n}\n.bg-transparent {\n  background-color: transparent;\n}\n.bg-slate-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 250 252 / var(--tw-bg-opacity));\n}\n.bg-\\[\\#f8dd03\\] {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 221 3 / var(--tw-bg-opacity));\n}\n.fill-violet-700 {\n  fill: #6d28d9;\n}\n.p-4 {\n  padding: 1rem;\n}\n.p-2 {\n  padding: 0.5rem;\n}\n.p-10 {\n  padding: 2.5rem;\n}\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n.text-center {\n  text-align: center;\n}\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n.text-xs {\n  font-size: 0.75rem;\n  line-height: 1rem;\n}\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n.font-bold {\n  font-weight: 700;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.italic {\n  font-style: italic;\n}\n.text-violet-700 {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.text-red-700 {\n  --tw-text-opacity: 1;\n  color: rgb(185 28 28 / var(--tw-text-opacity));\n}\n.text-slate-400 {\n  --tw-text-opacity: 1;\n  color: rgb(148 163 184 / var(--tw-text-opacity));\n}\n.text-slate-300 {\n  --tw-text-opacity: 1;\n  color: rgb(203 213 225 / var(--tw-text-opacity));\n}\n.text-slate-500 {\n  --tw-text-opacity: 1;\n  color: rgb(100 116 139 / var(--tw-text-opacity));\n}\n.shadow-2xl {\n  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);\n  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);\n  box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.file\\:mr-4::-webkit-file-upload-button {\n  margin-right: 1rem;\n}\n.file\\:mr-4::file-selector-button {\n  margin-right: 1rem;\n}\n.file\\:cursor-pointer::-webkit-file-upload-button {\n  cursor: pointer;\n}\n.file\\:cursor-pointer::file-selector-button {\n  cursor: pointer;\n}\n.file\\:rounded-full::-webkit-file-upload-button {\n  border-radius: 9999px;\n}\n.file\\:rounded-full::file-selector-button {\n  border-radius: 9999px;\n}\n.file\\:border-0::-webkit-file-upload-button {\n  border-width: 0px;\n}\n.file\\:border-0::file-selector-button {\n  border-width: 0px;\n}\n.file\\:bg-violet-50::-webkit-file-upload-button {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.file\\:bg-violet-50::file-selector-button {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.file\\:py-2::-webkit-file-upload-button {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.file\\:py-2::file-selector-button {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.file\\:px-4::-webkit-file-upload-button {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.file\\:px-4::file-selector-button {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.file\\:text-sm::-webkit-file-upload-button {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.file\\:text-sm::file-selector-button {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.file\\:font-semibold::-webkit-file-upload-button {\n  font-weight: 600;\n}\n.file\\:font-semibold::file-selector-button {\n  font-weight: 600;\n}\n.file\\:text-violet-700::-webkit-file-upload-button {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.file\\:text-violet-700::file-selector-button {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.hover\\:file\\:bg-violet-100::-webkit-file-upload-button:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(237 233 254 / var(--tw-bg-opacity));\n}\n.hover\\:file\\:bg-violet-100::file-selector-button:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(237 233 254 / var(--tw-bg-opacity));\n}\n";
 }
 
 
@@ -1593,9 +1604,10 @@ __vite_ssr_exports__.default = "/*\n! tailwindcss v3.1.8 | MIT License | https:/
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_5vEgA2Fgrh)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
 // - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_fEh9isZZyu)
+// - /node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs ($id_i9ItelNnNP)
 // - /node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs ($id_Mj3mVTRNtW)
 // --------------------
-const $id_7MO7u2QGkL = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_RmzrqwzXkl = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/preload.server.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/components.plugin.mjs");
@@ -1606,7 +1618,9 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/router.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs");
 
 __vite_ssr_exports__.default = [
   __vite_ssr_import_0__.default,
@@ -1614,7 +1628,8 @@ __vite_ssr_exports__.default = [
   __vite_ssr_import_2__.default,
   __vite_ssr_import_3__.default,
   __vite_ssr_import_4__.default,
-  __vite_ssr_import_5__.default
+  __vite_ssr_import_5__.default,
+  __vite_ssr_import_6__.default
 ];
 }
 
@@ -2754,6 +2769,61 @@ Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: tru
 
 
 // --------------------
+// Request: /node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs
+// Parents: 
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs ($id_5a07wt6Pki)
+// Dependencies: 
+// - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
+// - pinia ($id_08NwGtDtAK)
+// --------------------
+const $id_wcjqAwSegi = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("pinia");
+
+__vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) => {
+  const pinia = __vite_ssr_import_1__.createPinia();
+  nuxtApp.vueApp.use(pinia);
+  __vite_ssr_import_1__.setActivePinia(pinia);
+  if (true) {
+    nuxtApp.payload.pinia = pinia.state.value;
+  } else if (nuxtApp.payload && nuxtApp.payload.pinia) {
+    pinia.state.value = nuxtApp.payload.pinia;
+  }
+  return {
+    provide: {
+      pinia
+    }
+  };
+});
+;
+}
+
+
+// --------------------
+// Request: pinia
+// Parents: 
+// - /node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs ($id_i9ItelNnNP)
+// - /stores/files.ts ($id_oa6KAcnDRL)
+// - /stores/settings.ts ($id_8kiXpCQM3B)
+// Dependencies: 
+
+// --------------------
+const $id_jzLU7WEUI3 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("pinia")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"pinia\".")
+  })
+
+
+// --------------------
 // Request: /node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs
 // Parents: 
 // - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs ($id_5a07wt6Pki)
@@ -3332,6 +3402,12 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_vC10oUHchO)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_FMi1dBhUQk)
+// - /components/Files.vue ($id_CRTg9XmBPA)
+// - /components/Settings.vue ($id_KNB27G4VRc)
+// - /components/Preview.vue ($id_7CNegRKX36)
+// - /components/Export.vue ($id_mpBCnzJAKE)
+// - /components/Support.vue ($id_GuipdVEtXc)
+// - /components/Footer.vue ($id_89jzJWR97X)
 // - /app.vue ($id_K0boQqLzfo)
 // Dependencies: 
 
@@ -3358,6 +3434,12 @@ import("vue/server-renderer")
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_vC10oUHchO)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_FMi1dBhUQk)
+// - /components/Files.vue ($id_CRTg9XmBPA)
+// - /components/Settings.vue ($id_KNB27G4VRc)
+// - /components/Preview.vue ($id_7CNegRKX36)
+// - /components/Export.vue ($id_mpBCnzJAKE)
+// - /components/Support.vue ($id_GuipdVEtXc)
+// - /components/Footer.vue ($id_89jzJWR97X)
 // - /app.vue ($id_K0boQqLzfo)
 // Dependencies: 
 
@@ -3845,27 +3927,45 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // Parents: 
 // - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/app-component.mjs ($id_odOhY3wtG7)
 // Dependencies: 
-// - /node_modules/nuxt/dist/app/components/server-placeholder.mjs ($id_m66RcdycyM)
+// - /components/Files.vue ($id_CRTg9XmBPA)
+// - /components/Settings.vue ($id_KNB27G4VRc)
+// - /node_modules/nuxt/dist/app/components/client-only.mjs ($id_HseDGTR18m)
+// - /components/Preview.vue ($id_7CNegRKX36)
+// - /components/Export.vue ($id_mpBCnzJAKE)
+// - /components/Support.vue ($id_GuipdVEtXc)
+// - /components/Footer.vue ($id_89jzJWR97X)
 // - /node_modules/nuxt/dist/head/runtime/index.mjs ($id_tzUUgT5kx6)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_Ax96ZYwD3L = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/server-placeholder.mjs");
+const $id_xNkuodh61d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/Files.vue");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Settings.vue");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/client-only.mjs");
 
-const _sfc_main = /* @__PURE__ */ __vite_ssr_import_2__.defineComponent({
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Preview.vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Export.vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Support.vue");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Footer.vue");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
+
+const __vite_ssr_import_8__ = await __vite_ssr_import__("vue");
+
+const _sfc_main = /* @__PURE__ */ __vite_ssr_import_8__.defineComponent({
   __name: "app",
   setup(__props, { expose }) {
     expose();
-    __vite_ssr_import_1__.useHead({
-      title: "My links",
+    __vite_ssr_import_7__.useHead({
+      title: "Grid from Img Generator",
       meta: [
-        { name: "robots", content: "noindex" }
+        { name: "description", content: "Generate PNG grids online for free. Select your images, margin, radius & more." }
       ]
     });
     const __returned__ = {};
@@ -3873,48 +3973,894 @@ const _sfc_main = /* @__PURE__ */ __vite_ssr_import_2__.defineComponent({
     return __returned__;
   }
 });
-const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_9__ = await __vite_ssr_import__("vue");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("vue/server-renderer");
+const __vite_ssr_import_10__ = await __vite_ssr_import__("vue/server-renderer");
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  const _component_Grid = __vite_ssr_import_0__.default;
-  _push(`<div${__vite_ssr_import_4__.ssrRenderAttrs(__vite_ssr_import_3__.mergeProps({ class: "m-h-screen flex flex-col justify-center gap-20 items-center px-6 py-[10rem]" }, _attrs))}>`);
-  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_Grid, null, null, _parent));
+  const _component_Files = __vite_ssr_import_0__.default;
+  const _component_Settings = __vite_ssr_import_1__.default;
+  const _component_ClientOnly = __vite_ssr_import_2__.default;
+  const _component_Preview = __vite_ssr_import_3__.default;
+  const _component_Export = __vite_ssr_import_4__.default;
+  const _component_Support = __vite_ssr_import_5__.default;
+  const _component_Footer = __vite_ssr_import_6__.default;
+  _push(`<div${__vite_ssr_import_10__.ssrRenderAttrs(__vite_ssr_import_9__.mergeProps({ class: "m-h-screen flex flex-col gap-20 items-center p-10 min-h-screen max-w-[800px] mx-auto" }, _attrs))}>`);
+  _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Files, null, null, _parent));
+  _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Settings, null, null, _parent));
+  _push(__vite_ssr_import_10__.ssrRenderComponent(_component_ClientOnly, null, {
+    default: __vite_ssr_import_9__.withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(__vite_ssr_import_10__.ssrRenderComponent(_component_Preview, null, null, _parent2, _scopeId));
+        _push2(__vite_ssr_import_10__.ssrRenderComponent(_component_Export, null, null, _parent2, _scopeId));
+      } else {
+        return [
+          __vite_ssr_import_9__.createVNode(_component_Preview),
+          __vite_ssr_import_9__.createVNode(_component_Export)
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+  _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Support, null, null, _parent));
+  _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Footer, null, null, _parent));
   _push(`</div>`);
 }
-const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_11__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_5__.useSSRContext();
+  const ssrContext = __vite_ssr_import_11__.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("app.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_12__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_6__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/app.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_12__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/app.vue"]]);
 ;
 }
 
 
 // --------------------
-// Request: /node_modules/nuxt/dist/app/components/server-placeholder.mjs
+// Request: /components/Files.vue
+// Parents: 
+// - /app.vue ($id_K0boQqLzfo)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// - /stores/files.ts ($id_oa6KAcnDRL)
+// - /assets/svg/delete.svg ($id_iS5GlXgMvF)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_W8Gf8LbztI = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/stores/files.ts");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/assets/svg/delete.svg");
+
+const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
+  __name: "Files",
+  setup(__props, { expose }) {
+    expose();
+    const input = __vite_ssr_import_0__.ref();
+    const error = __vite_ssr_import_0__.ref("");
+    const items = __vite_ssr_import_2__.useFiles().files;
+    __vite_ssr_import_0__.onMounted(() => {
+      initListener();
+    });
+    const initListener = () => {
+      input.value.addEventListener("change", function() {
+        Array.from(this.files).forEach((file) => {
+          if (file.size > 5e6) {
+            error.value = "Maximum file size is 2MB";
+            return;
+          }
+          const item = {
+            name: file.name
+          };
+          const reader = new FileReader();
+          reader.addEventListener("load", (e) => {
+            item.content = typeof e.target.result === "string" ? e.target.result : String.fromCharCode.apply(null, new Uint16Array(e.target.result));
+            items.push(item);
+          });
+          reader.readAsDataURL(file);
+        });
+      });
+    };
+    const deleteImg = (index) => {
+      items.splice(index, 1);
+    };
+    const __returned__ = { input, error, items, initListener, deleteImg, DeleteIcon: __vite_ssr_import_3__.default };
+    Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
+    return __returned__;
+  }
+});
+const __vite_ssr_import_4__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue/server-renderer");
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(__vite_ssr_import_4__.mergeProps({ class: "w-full flex flex-col gap-2" }, _attrs))}><h2 class="align-left text-3xl font-bold">Files</h2><div class="flex justify-between items-center"><input type="file" name="files" id="" multiple class="file:cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">`);
+  if ($setup.error) {
+    _push(`<div class="px-4 py-2 bg-red-200 rounded-md"><p class="text-xs text-red-700">${__vite_ssr_import_5__.ssrInterpolate($setup.error)}</p></div>`);
+  } else {
+    _push(`<!---->`);
+  }
+  _push(`</div><div class="grid grid-cols-3 gap-4"><!--[-->`);
+  __vite_ssr_import_5__.ssrRenderList($setup.items, (file, index) => {
+    _push(`<div class="relative"><img${__vite_ssr_import_5__.ssrRenderAttr("src", file.content)}><div class="flex justify-between p-4 bg-slate-100 rounded-b-md"><p class="text-sm">${__vite_ssr_import_5__.ssrInterpolate(file.name)}</p>`);
+    _push(__vite_ssr_import_5__.ssrRenderComponent($setup["DeleteIcon"], {
+      class: "cursor-pointer",
+      onClick: ($event) => $setup.deleteImg(index)
+    }, null, _parent));
+    _push(`</div></div>`);
+  });
+  _push(`<!--]--></div></div>`);
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_6__.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Files.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_7__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Files.vue"]]);
+;
+}
+
+
+// --------------------
+// Request: /stores/files.ts
+// Parents: 
+// - /components/Files.vue ($id_CRTg9XmBPA)
+// - /components/Preview.vue ($id_7CNegRKX36)
+// Dependencies: 
+// - pinia ($id_08NwGtDtAK)
+// --------------------
+const $id_UMbAIFYanX = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("pinia");
+
+const useFiles = __vite_ssr_import_0__.defineStore("files", {
+  state: () => {
+    return {
+      files: []
+    };
+  }
+});
+Object.defineProperty(__vite_ssr_exports__, "useFiles", { enumerable: true, configurable: true, get(){ return useFiles }});
+;
+}
+
+
+// --------------------
+// Request: /assets/svg/delete.svg
+// Parents: 
+// - /components/Files.vue ($id_CRTg9XmBPA)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// --------------------
+const $id_Gi9UNEg3Ic = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+
+const _hoisted_1 = {
+  width: "24",
+  height: "24",
+  xmlns: "http://www.w3.org/2000/svg"
+}
+const _hoisted_2 = /*#__PURE__*/__vite_ssr_import_0__.createElementVNode("g", {
+  "fill-rule": "nonzero",
+  fill: "none"
+}, [
+  /*#__PURE__*/__vite_ssr_import_0__.createElementVNode("path", { d: "M0 0h24v24H0z" }),
+  /*#__PURE__*/__vite_ssr_import_0__.createElementVNode("path", {
+    d: "M14.28 2a2 2 0 0 1 1.897 1.368L16.72 5H20a1 1 0 1 1 0 2l-.003.071-.867 12.143A3 3 0 0 1 16.138 22H7.862a3 3 0 0 1-2.992-2.786L4.003 7.07A1.01 1.01 0 0 1 4 7a1 1 0 0 1 0-2h3.28l.543-1.632A2 2 0 0 1 9.721 2h4.558Zm3.717 5H6.003l.862 12.071a1 1 0 0 0 .997.929h8.276a1 1 0 0 0 .997-.929L17.997 7ZM10 10a1 1 0 0 1 .993.883L11 11v5a1 1 0 0 1-1.993.117L9 16v-5a1 1 0 0 1 1-1Zm4 0a1 1 0 0 1 1 1v5a1 1 0 1 1-2 0v-5a1 1 0 0 1 1-1Zm.28-6H9.72l-.333 1h5.226l-.334-1Z",
+    fill: "#09244BFF"
+  })
+], -1 /* HOISTED */)
+const _hoisted_3 = [
+  _hoisted_2
+]
+
+function render(_ctx, _cache) {
+  return (__vite_ssr_import_0__.openBlock(), __vite_ssr_import_0__.createElementBlock("svg", _hoisted_1, _hoisted_3))
+}
+Object.defineProperty(__vite_ssr_exports__, "render", { enumerable: true, configurable: true, get(){ return render }});
+__vite_ssr_exports__.default = { render: render };
+}
+
+
+// --------------------
+// Request: /components/Settings.vue
+// Parents: 
+// - /app.vue ($id_K0boQqLzfo)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// - /assets/svg/min.svg ($id_dJ2F6rn5hU)
+// - /assets/svg/max.svg ($id_BP1qmKgqb6)
+// - /stores/settings.ts ($id_8kiXpCQM3B)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_F32dP1Lqk2 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/assets/svg/min.svg");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/svg/max.svg");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/stores/settings.ts");
+
+const _sfc_main = /* @__PURE__ */ __vite_ssr_import_0__.defineComponent({
+  __name: "Settings",
+  setup(__props, { expose }) {
+    expose();
+    const settings = __vite_ssr_import_3__.useSettings();
+    const __returned__ = { settings, MinIcon: __vite_ssr_import_1__.default, MaxIcon: __vite_ssr_import_2__.default };
+    Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
+    return __returned__;
+  }
+});
+const __vite_ssr_import_4__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue/server-renderer");
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(__vite_ssr_import_4__.mergeProps({ class: "w-full flex flex-col gap-2" }, _attrs))}><h2 class="align-left text-3xl font-bold">Settings</h2><div class="flex gap-8"><div class="w-24 flex flex-col gap-1"><p class="text-sm font-semibold text-slate-300">Margin</p><input class="h-30 bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" type="number" name="margin"${__vite_ssr_import_5__.ssrRenderAttr("value", $setup.settings.margin)} min="0" max="50" step="1"></div><div class="flex flex-col gap-1"><p class="text-sm font-semibold text-slate-300">Columns</p><div class="flex gap-2 bg-violet-50 rounded-3xl px-4 py-1 justify-center h-30">`);
+  _push(__vite_ssr_import_5__.ssrRenderComponent($setup["MinIcon"], {
+    class: "cursor-pointer w-4 fill-violet-700",
+    onClick: ($event) => $setup.settings.columns > 0 && $setup.settings.columns--
+  }, null, _parent));
+  _push(`<p class="select-none w-3 text-center text-violet-700 bg-transparent" type="number" name="columns">${__vite_ssr_import_5__.ssrInterpolate($setup.settings.columns)}</p>`);
+  _push(__vite_ssr_import_5__.ssrRenderComponent($setup["MaxIcon"], {
+    class: "cursor-pointer w-4 fill-violet-700",
+    onClick: ($event) => $setup.settings.columns < 5 && $setup.settings.columns++
+  }, null, _parent));
+  _push(`</div></div><div class="w-40 flex flex-col gap-1"><p class="text-sm font-semibold text-slate-300">Radius</p><input class="bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" type="range" name="radius"${__vite_ssr_import_5__.ssrRenderAttr("value", $setup.settings.radius)} min="0" max="2" step="0.1"></div></div></div>`);
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_6__.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Settings.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_7__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Settings.vue"]]);
+;
+}
+
+
+// --------------------
+// Request: /assets/svg/min.svg
+// Parents: 
+// - /components/Settings.vue ($id_KNB27G4VRc)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// --------------------
+const $id_Q0gwYcjRNN = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+
+const _hoisted_1 = {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 24 24",
+  style: {"enable-background":"new 0 0 24 24"},
+  "xml:space": "preserve"
+}
+const _hoisted_2 = /*#__PURE__*/__vite_ssr_import_0__.createElementVNode("path", {
+  style: {"fill":"none"},
+  d: "M0 0h24v24H0z"
+}, null, -1 /* HOISTED */)
+const _hoisted_3 = /*#__PURE__*/__vite_ssr_import_0__.createElementVNode("path", {
+  d: "M2.5 12c0-.8.7-1.5 1.5-1.5h16c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5H4c-.8 0-1.5-.7-1.5-1.5z",
+  style: {"fill-rule":"evenodd","clip-rule":"evenodd"}
+}, null, -1 /* HOISTED */)
+const _hoisted_4 = [
+  _hoisted_2,
+  _hoisted_3
+]
+
+function render(_ctx, _cache) {
+  return (__vite_ssr_import_0__.openBlock(), __vite_ssr_import_0__.createElementBlock("svg", _hoisted_1, _hoisted_4))
+}
+Object.defineProperty(__vite_ssr_exports__, "render", { enumerable: true, configurable: true, get(){ return render }});
+__vite_ssr_exports__.default = { render: render };
+}
+
+
+// --------------------
+// Request: /assets/svg/max.svg
+// Parents: 
+// - /components/Settings.vue ($id_KNB27G4VRc)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// --------------------
+const $id_3AbeJUVQcj = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+
+const _hoisted_1 = {
+  version: "1.1",
+  id: "Calque_1",
+  xmlns: "http://www.w3.org/2000/svg",
+  x: "0",
+  y: "0",
+  viewBox: "0 0 24 24",
+  style: {"enable-background":"new 0 0 24 24"},
+  "xml:space": "preserve"
+}
+const _hoisted_2 = /*#__PURE__*/__vite_ssr_import_0__.createStaticVNode("<g id=\"System_00000138545238822379943860000014689089983249913244_\" transform=\"translate(-192 -240)\"><g id=\"minimize_fill\" transform=\"translate(192 240)\"><path id=\"矩形\" style=\"fill:none;\" d=\"M0 0h24v24H0z\"></path><path id=\"路径\" class=\"st1\" d=\"M2.5 12c0-.8.7-1.5 1.5-1.5h16c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5H4c-.8 0-1.5-.7-1.5-1.5z\"></path><path id=\"路径_00000024003254637438360940000017780482372573835709_\" class=\"st1\" d=\"M12 2.5c.8 0 1.5.7 1.5 1.5v16c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5V4c0-.8.7-1.5 1.5-1.5z\"></path></g></g>", 1)
+const _hoisted_3 = [
+  _hoisted_2
+]
+
+function render(_ctx, _cache) {
+  return (__vite_ssr_import_0__.openBlock(), __vite_ssr_import_0__.createElementBlock("svg", _hoisted_1, _hoisted_3))
+}
+Object.defineProperty(__vite_ssr_exports__, "render", { enumerable: true, configurable: true, get(){ return render }});
+__vite_ssr_exports__.default = { render: render };
+}
+
+
+// --------------------
+// Request: /stores/settings.ts
+// Parents: 
+// - /components/Settings.vue ($id_KNB27G4VRc)
+// - /components/Preview.vue ($id_7CNegRKX36)
+// - /components/Export.vue ($id_mpBCnzJAKE)
+// Dependencies: 
+// - pinia ($id_08NwGtDtAK)
+// --------------------
+const $id_bBxDmCFZiv = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("pinia");
+
+const useSettings = __vite_ssr_import_0__.defineStore("settings", {
+  state: () => {
+    return {
+      radius: 0.5,
+      margin: 10,
+      columns: 3
+    };
+  }
+});
+Object.defineProperty(__vite_ssr_exports__, "useSettings", { enumerable: true, configurable: true, get(){ return useSettings }});
+;
+}
+
+
+// --------------------
+// Request: /node_modules/nuxt/dist/app/components/client-only.mjs
 // Parents: 
 // - /app.vue ($id_K0boQqLzfo)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // --------------------
-const $id_VPbfrgYYH7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_jGGcL8nQCs = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
+
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
-  name: "ServerPlaceholder",
-  render() {
-    return __vite_ssr_import_0__.createElementBlock("div");
+  name: 'ClientOnly',
+  // eslint-disable-next-line vue/require-prop-types
+  props: ['fallback', 'placeholder', 'placeholderTag', 'fallbackTag'],
+  setup (_, { slots }) {
+    const mounted = __vite_ssr_import_0__.ref(false)
+    __vite_ssr_import_0__.onMounted(() => { mounted.value = true })
+    return (props) => {
+      if (mounted.value) { return slots.default?.() }
+      const slot = slots.fallback || slots.placeholder
+      if (slot) { return slot() }
+      const fallbackStr = props.fallback || props.placeholder || ''
+      const fallbackTag = props.fallbackTag || props.placeholderTag || 'span'
+      return __vite_ssr_import_0__.createElementBlock(fallbackTag, null, fallbackStr)
+    }
+  }
+})
+
+function createClientOnly (component) {
+  const { setup, render: _render, template: _template } = component
+  if (_render) {
+    // override the component render (non script setup component)
+    component.render = (ctx, ...args) => {
+      return ctx.mounted$
+        ? __vite_ssr_import_0__.h(__vite_ssr_import_0__.Fragment, null, [__vite_ssr_import_0__.h(_render(ctx, ...args), ctx.$attrs ?? ctx._.attrs)])
+        : __vite_ssr_import_0__.h('div', ctx.$attrs ?? ctx._.attrs)
+    }
+  } else if (_template) {
+    // handle runtime-compiler template
+    component.template = `
+      <template v-if="mounted$">${_template}</template>
+      <template v-else><div></div></template>
+    `
+  }
+  return __vite_ssr_import_0__.defineComponent({
+    ...component,
+    setup (props, ctx) {
+      const mounted$ = __vite_ssr_import_0__.ref(false)
+      __vite_ssr_import_0__.onMounted(() => { mounted$.value = true })
+
+      return Promise.resolve(setup?.(props, ctx) || {})
+        .then((setupState) => {
+          return typeof setupState !== 'function'
+            ? { ...setupState, mounted$ }
+            : () => {
+                return mounted$.value
+                // use Fragment to avoid oldChildren is null issue
+                  ? __vite_ssr_import_0__.h(__vite_ssr_import_0__.Fragment, null, [__vite_ssr_import_0__.h(setupState(props, ctx), ctx.attrs)])
+                  : __vite_ssr_import_0__.h('div', ctx.attrs)
+              }
+        })
+    }
+  })
+}
+Object.defineProperty(__vite_ssr_exports__, "createClientOnly", { enumerable: true, configurable: true, get(){ return createClientOnly }});
+;
+}
+
+
+// --------------------
+// Request: /components/Preview.vue
+// Parents: 
+// - /app.vue ($id_K0boQqLzfo)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// - macy ($id_RQMDm40qvh)
+// - /stores/settings.ts ($id_8kiXpCQM3B)
+// - /stores/files.ts ($id_oa6KAcnDRL)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_ZHTwaAqnUn = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("macy");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/stores/settings.ts");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/stores/files.ts");
+
+const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
+  __name: "Preview",
+  setup(__props, { expose }) {
+    expose();
+    const files = __vite_ssr_import_4__.useFiles().files;
+    const filesLength = __vite_ssr_import_0__.computed(() => {
+      return files.length ? true : false;
+    });
+    const settings = __vite_ssr_import_3__.useSettings();
+    const gridElement = __vite_ssr_import_0__.ref(null);
+    let grid = __vite_ssr_import_0__.ref(void 0);
+    let config = __vite_ssr_import_0__.reactive({
+      container: ".preview",
+      trueOrder: false,
+      margin: settings.margin,
+      columns: settings.columns,
+      breakAt: {
+        520: 2,
+        400: 1
+      }
+    });
+    const setRadius = () => {
+      gridElement.value.querySelectorAll("img").forEach((el) => {
+        el.style.borderRadius = settings.radius + "rem";
+      });
+    };
+    const Init = () => {
+      grid.value && grid.remove();
+      grid = __vite_ssr_import_2__.default(config);
+      grid.on(grid.constants.EVENT_IMAGE_COMPLETE, (ctx) => {
+        gridElement.value.style.height = `${parseInt(gridElement.value.style.height.slice(0, -2)) - settings.margin}px`;
+      });
+      setRadius();
+    };
+    __vite_ssr_import_0__.onMounted(() => {
+      Init();
+    });
+    __vite_ssr_import_0__.watch(
+      () => files,
+      (files2, oldFiles) => {
+        Init();
+      },
+      { deep: true }
+    );
+    __vite_ssr_import_0__.watch(
+      () => settings.margin,
+      (margin, prevMargin) => {
+        config.margin = margin;
+        Init();
+      }
+    );
+    __vite_ssr_import_0__.watch(
+      () => settings.columns,
+      (columns, prevColumns) => {
+        config.columns = columns;
+        Init();
+      }
+    );
+    __vite_ssr_import_0__.watch(
+      () => settings.radius,
+      (radius, prevRadius) => {
+        setRadius();
+      }
+    );
+    const __returned__ = { files, filesLength, settings, gridElement, grid, config, setRadius, Init };
+    Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
+    return __returned__;
   }
 });
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("vue/server-renderer");
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({ class: "flex flex-col gap-2 justify-center w-full" }, _attrs))}><h2 class="align-left text-3xl font-bold">Preview</h2><div style="${__vite_ssr_import_6__.ssrRenderStyle($setup.filesLength ? null : { display: "none" })}" class="preview w-full"><!--[-->`);
+  __vite_ssr_import_6__.ssrRenderList($setup.files, (file, index) => {
+    _push(`<img style="${__vite_ssr_import_6__.ssrRenderStyle({ borderRadius: $setup.settings.radius + "rem" })}"${__vite_ssr_import_6__.ssrRenderAttr("src", file.content)}>`);
+  });
+  _push(`<!--]--></div><div style="${__vite_ssr_import_6__.ssrRenderStyle(!$setup.filesLength ? null : { display: "none" })}"><p class="text-slate-400 text-sm italic">Import your images to preview your grid.</p></div></div>`);
+}
+const __vite_ssr_import_7__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_7__.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Preview.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_8__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Preview.vue"]]);
 ;
+}
+
+
+// --------------------
+// Request: macy
+// Parents: 
+// - /components/Preview.vue ($id_7CNegRKX36)
+// - /components/Export.vue ($id_mpBCnzJAKE)
+// Dependencies: 
+
+// --------------------
+const $id_tyBfKjChNC = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("macy")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"macy\".")
+  })
+
+
+// --------------------
+// Request: /components/Export.vue
+// Parents: 
+// - /app.vue ($id_K0boQqLzfo)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// - macy ($id_RQMDm40qvh)
+// - html-to-image ($id_HfQwJBh6KO)
+// - file-saver ($id_vMWPfZBttV)
+// - /stores/settings.ts ($id_8kiXpCQM3B)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_pvvXELUK4h = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("macy");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("html-to-image");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("file-saver");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/stores/settings.ts");
+
+
+
+const _sfc_main = {
+  __name: 'Export',
+  setup(__props, { expose }) {
+  expose();
+
+const settings = __vite_ssr_import_4__.useSettings()
+
+let grid = __vite_ssr_import_0__.ref()
+let config = __vite_ssr_import_0__.reactive({})
+
+const exportSettings = {
+  preview: '.preview',
+  generator: '.generator',
+  bgColor: 'white'
+}
+
+const exportBlob = () => {
+  config = {
+    container: '.generator',
+    trueOrder: false,
+    margin: settings.margin,
+    columns: settings.columns,
+    breakAt: {
+        520: 2,
+        400: 1
+    }
+  }
+  generateNewCanvas()
+  setTimeout(() => saveFile(), 100)
+}
+
+const saveFile = () => {
+  const gen = document.querySelector(exportSettings.generator)
+  __vite_ssr_import_2__.toBlob(gen)
+  .then(function (blob) {
+    if (window.saveAs) {
+      window.saveAs(blob, 'my-grid.png');
+    } else {
+     __vite_ssr_import_3__.saveAs(blob, 'my-grid.png');
+    }
+    gen.innerHTML = ""
+  })
+  .catch((err) => console.log(err))
+}
+
+const generateNewCanvas = () => {
+  const gridElement = document.querySelector(exportSettings.preview)
+  const generatorElement = document.querySelector(exportSettings.generator)
+  generatorElement.innerHTML = gridElement.innerHTML
+
+  grid = __vite_ssr_import_1__.default(config);
+
+  grid.on(grid.constants.EVENT_IMAGE_COMPLETE, (ctx) => {
+    gridElement.style.height = `${parseInt(gridElement.style.height.slice(0, -2)) - settings.margin}px`
+  });
+}
+
+__vite_ssr_import_0__.watch(
+  () => settings.margin,
+  (margin, prevMargin) => {
+    config.margin = parseInt(margin)
+  }
+)
+
+__vite_ssr_import_0__.watch(
+  () => settings.columns,
+  (columns, prevColumns) => {
+    config.columns = parseInt(columns)
+  }
+)
+
+const __returned__ = { settings, grid, config, exportSettings, exportBlob, saveFile, generateNewCanvas, Macy: __vite_ssr_import_1__.default, toBlob: __vite_ssr_import_2__.toBlob, saveAs: __vite_ssr_import_3__.saveAs, useSettings: __vite_ssr_import_4__.useSettings }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_6__ = await __vite_ssr_import__("vue/server-renderer");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({ class: "w-full" }, _attrs))}><button class="flex gap-2 bg-violet-50 rounded-3xl px-8 py-2 justify-center h-30 text-violet-700 font-bold">Export</button><div class="fixed right-0 bottom-0 m-auto left-0 top-0 pointer-events-none"><div class="generator relative w-[1000px]"></div></div></div>`)
+}
+
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_7__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Export.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Export.vue"]]);
+}
+
+
+// --------------------
+// Request: html-to-image
+// Parents: 
+// - /components/Export.vue ($id_mpBCnzJAKE)
+// Dependencies: 
+
+// --------------------
+const $id_IqGGcwm447 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("html-to-image")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"html-to-image\".")
+  })
+
+
+// --------------------
+// Request: file-saver
+// Parents: 
+// - /components/Export.vue ($id_mpBCnzJAKE)
+// Dependencies: 
+
+// --------------------
+const $id_yVoyX8fRFT = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("file-saver")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"file-saver\".")
+  })
+
+
+// --------------------
+// Request: /components/Support.vue
+// Parents: 
+// - /app.vue ($id_K0boQqLzfo)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /assets/imgs/coffee.png ($id_WKugRGwJ4J)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_YQOgexm6V4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue/server-renderer");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/imgs/coffee.png");
+
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<a${
+    __vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({
+      href: "https://www.buymeacoffee.com/etiennemoureton",
+      target: "_blank",
+      class: "fixed bottom-10 right-10 p-4 rounded-full flex items-center gap-4 bg-slate-50 shadow-2xl"
+    }, _attrs))
+  }><div class="w-[2.5rem] h-fit p-2 rounded-full overflow-hidden bg-[#f8dd03]"><img class="w-full"${
+    __vite_ssr_import_1__.ssrRenderAttr("src", __vite_ssr_import_2__.default)
+  }></div><div class="flex flex-col justify-center mr-5"><p class="text-xs text-slate-500">Liked using my tool ?</p><p class="text-base">Buy me a coffee</p></div></a>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Support.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Support.vue"]]);
+}
+
+
+// --------------------
+// Request: /assets/imgs/coffee.png
+// Parents: 
+// - /components/Support.vue ($id_GuipdVEtXc)
+// Dependencies: 
+
+// --------------------
+const $id_JV51KbaC5x = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/_nuxt/assets/imgs/coffee.png";
+}
+
+
+// --------------------
+// Request: /components/Footer.vue
+// Parents: 
+// - /app.vue ($id_K0boQqLzfo)
+// Dependencies: 
+// - /assets/svg/github.svg ($id_ceX65CDywN)
+// - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_w9W7clx80w = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/svg/github.svg");
+
+
+const _sfc_main = {
+  __name: 'Footer',
+  setup(__props, { expose }) {
+  expose();
+
+
+const __returned__ = { GithubIcon: __vite_ssr_import_0__.default }
+Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
+return __returned__
+}
+
+}
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("vue/server-renderer");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<footer${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "w-full mt-auto mb-0" }, _attrs))}><div class="w-full flex justify-between align-center"><p class="text-sm">Made with <span>❤</span> by <a href="https://etiennemoureton.fr" target="_blank">Etienne Moureton</a></p><p class="text-sm"><a class="flex gap-2 align-center" href="https://github.com/YsarocK/mansorygrid-maker" target="_blank">`)
+  _push(__vite_ssr_import_2__.ssrRenderComponent($setup["GithubIcon"], { class: "w-[1rem]" }, null, _parent))
+  _push(`</a></p></div></footer>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Footer.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Footer.vue"]]);
+}
+
+
+// --------------------
+// Request: /assets/svg/github.svg
+// Parents: 
+// - /components/Footer.vue ($id_89jzJWR97X)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// --------------------
+const $id_GEvmaYxvOp = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+
+const _hoisted_1 = {
+  viewBox: "0 0 24 24",
+  xmlns: "http://www.w3.org/2000/svg"
+}
+const _hoisted_2 = /*#__PURE__*/__vite_ssr_import_0__.createElementVNode("g", {
+  "fill-rule": "nonzero",
+  fill: "none"
+}, [
+  /*#__PURE__*/__vite_ssr_import_0__.createElementVNode("path", { d: "M0 0h24v24H0z" }),
+  /*#__PURE__*/__vite_ssr_import_0__.createElementVNode("path", {
+    d: "M7.024 2.31a9.08 9.08 0 0 1 2.125 1.046A11.432 11.432 0 0 1 12 3c.993 0 1.951.124 2.849.355a9.08 9.08 0 0 1 2.124-1.045c.697-.237 1.69-.621 2.28.032.4.444.5 1.188.571 1.756.08.634.099 1.46-.111 2.28C20.516 7.415 21 8.652 21 10c0 2.042-1.106 3.815-2.743 5.043a9.456 9.456 0 0 1-2.59 1.356c.214.49.333 1.032.333 1.601v3a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-.991c-.955.117-1.756.013-2.437-.276-.712-.302-1.208-.77-1.581-1.218-.354-.424-.74-1.38-1.298-1.566a1 1 0 0 1 .632-1.898c.666.222 1.1.702 1.397 1.088.48.62.87 1.43 1.63 1.753.313.133.772.22 1.49.122L8 17.98a3.986 3.986 0 0 1 .333-1.581 9.455 9.455 0 0 1-2.59-1.356C4.106 13.815 3 12.043 3 10c0-1.346.483-2.582 1.284-3.618-.21-.82-.192-1.648-.112-2.283l.005-.038c.073-.582.158-1.267.566-1.719.59-.653 1.584-.268 2.28-.031Z",
+    fill: "#000000FF"
+  })
+], -1 /* HOISTED */)
+const _hoisted_3 = [
+  _hoisted_2
+]
+
+function render(_ctx, _cache) {
+  return (__vite_ssr_import_0__.openBlock(), __vite_ssr_import_0__.createElementBlock("svg", _hoisted_1, _hoisted_3))
+}
+Object.defineProperty(__vite_ssr_exports__, "render", { enumerable: true, configurable: true, get(){ return render }});
+__vite_ssr_exports__.default = { render: render };
 }
 
 
@@ -3951,8 +4897,8 @@ const __modules__ = {
   "/node_modules/nuxt/dist/head/runtime/composables.mjs": $id_TG3cDPMBp5,
   "@vue/shared": $id_NOAOzpHkPB,
   "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/css.mjs": $id_QnFlLIYsPD,
-  "/node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css": $id_1c1ddq2cqk,
-  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs": $id_7MO7u2QGkL,
+  "/node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css": $id_PaM7djyZYl,
+  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs": $id_RmzrqwzXkl,
   "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_1SAEi7QN5N,
   "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/components.plugin.mjs": $id_R47NsnU6Pd,
   "/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs": $id_wRsEVKfW1P,
@@ -3963,6 +4909,8 @@ const __modules__ = {
   "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/meta.config.mjs": $id_3Ucdmp6tjs,
   "/node_modules/nuxt/dist/app/plugins/router.mjs": $id_yBdPh8v8UY,
   "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/middleware.mjs": $id_ht3noj0wDX,
+  "/node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs": $id_wcjqAwSegi,
+  pinia: $id_jzLU7WEUI3,
   "/node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs": $id_GuOVHGXzPc,
   "/node_modules/@nuxt/image-edge/dist/runtime/index.mjs": $id_WEuMxsaWIV,
   "/node_modules/@nuxt/image-edge/dist/runtime/image.mjs": $id_YGfFNhFXXl,
@@ -3984,8 +4932,24 @@ const __modules__ = {
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": $id_IkGfpTjoiM,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css": $id_aNL2Q0cdkg,
   "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/app-component.mjs": $id_feg3mEF6YC,
-  "/app.vue": $id_Ax96ZYwD3L,
-  "/node_modules/nuxt/dist/app/components/server-placeholder.mjs": $id_VPbfrgYYH7
+  "/app.vue": $id_xNkuodh61d,
+  "/components/Files.vue": $id_W8Gf8LbztI,
+  "/stores/files.ts": $id_UMbAIFYanX,
+  "/assets/svg/delete.svg": $id_Gi9UNEg3Ic,
+  "/components/Settings.vue": $id_F32dP1Lqk2,
+  "/assets/svg/min.svg": $id_Q0gwYcjRNN,
+  "/assets/svg/max.svg": $id_3AbeJUVQcj,
+  "/stores/settings.ts": $id_bBxDmCFZiv,
+  "/node_modules/nuxt/dist/app/components/client-only.mjs": $id_jGGcL8nQCs,
+  "/components/Preview.vue": $id_ZHTwaAqnUn,
+  macy: $id_tyBfKjChNC,
+  "/components/Export.vue": $id_pvvXELUK4h,
+  "html-to-image": $id_IqGGcwm447,
+  "file-saver": $id_yVoyX8fRFT,
+  "/components/Support.vue": $id_YQOgexm6V4,
+  "/assets/imgs/coffee.png": $id_JV51KbaC5x,
+  "/components/Footer.vue": $id_w9W7clx80w,
+  "/assets/svg/github.svg": $id_GEvmaYxvOp
 }
 
 

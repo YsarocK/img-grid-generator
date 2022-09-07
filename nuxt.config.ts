@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     'vue-plausible',
     '@pinia/nuxt',
     'nuxt-svgo',
-    '@nuxtjs/sitemap'
   ],
   plausible: {
     domain: 'img-grid-generator.com',
