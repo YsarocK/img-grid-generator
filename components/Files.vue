@@ -7,9 +7,9 @@
         <p class="text-xs text-red-700">{{ error }}</p>
       </div>
     </div>
-    <div class="grid grid-cols-3 gap-4">
+    <div v-if="items.length" class="grid grid-cols-3 gap-4 files">
       <div class="relative" v-for="(file, index) in items" :key="index">
-        <img :src="file.content" />
+        <img class="h-full w-full object-cover	" :src="file.content" />
         <div class="flex justify-between p-4 bg-slate-100 rounded-b-md	">
           <p class="text-sm">{{ file.name }}</p>
           <DeleteIcon class="cursor-pointer" @click="deleteImg(index)" />
@@ -58,3 +58,9 @@ const deleteImg = (index: number) => {
   items.splice(index, 1)
 }
 </script>
+
+<style lang="scss">
+.files {
+  grid-template-rows: repeat(auto-fill, 150px);
+}
+</style>

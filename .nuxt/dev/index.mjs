@@ -8,7 +8,6 @@ import { provider, isWindows } from 'file:///Users/etienne/Documents/etiennemour
 import { createRenderer } from 'file:///Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { eventHandler, defineEventHandler, handleCacheHeaders, createEvent, createApp, createRouter, lazyEventHandler, getQuery } from 'file:///Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/h3/dist/index.mjs';
 import devalue from 'file:///Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/@nuxt/devalue/dist/devalue.mjs';
-import { renderToString } from 'file:///Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/vue/server-renderer/index.mjs';
 import { parseURL, withQuery, joinURL } from 'file:///Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/ufo/dist/index.mjs';
 import destr from 'file:///Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/destr/dist/index.mjs';
 import { snakeCase } from 'file:///Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/scule/dist/index.mjs';
@@ -449,31 +448,6 @@ function publicAssetsURL(...path) {
 
 const defineRenderHandler = defineRenderHandler$1;
 const getClientManifest = () => import('/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
-const getServerEntry = () => import('/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
-const getSSRRenderer = lazyCachedFunction(async () => {
-  const manifest = await getClientManifest();
-  if (!manifest) {
-    throw new Error("client.manifest is not available");
-  }
-  const createSSRApp = await getServerEntry();
-  if (!createSSRApp) {
-    throw new Error("Server bundle is not available");
-  }
-  const options = {
-    manifest,
-    renderToString: renderToString$1,
-    buildAssetsURL
-  };
-  const renderer = createRenderer(createSSRApp, options);
-  async function renderToString$1(input, context) {
-    const html = await renderToString(input, context);
-    if (process.env.NUXT_VITE_NODE_OPTIONS) {
-      renderer.rendererContext.updateManifest(await getClientManifest());
-    }
-    return `<div id="__nuxt">${html}</div>`;
-  }
-  return renderer;
-});
 const getSPARenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   const options = {
@@ -512,7 +486,7 @@ const renderer = defineRenderHandler(async (event) => {
     nuxt: void 0,
     payload: ssrError ? { error: ssrError } : void 0
   };
-  const renderer = ssrContext.noSSR ? await getSPARenderer() : await getSSRRenderer();
+  const renderer = await getSPARenderer() ;
   const _rendered = await renderer.renderToString(ssrContext).catch((err) => {
     if (!ssrError) {
       throw err;

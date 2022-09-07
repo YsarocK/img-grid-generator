@@ -12,8 +12,11 @@ import Macy from 'macy'
 import { toBlob } from 'html-to-image'
 import { saveAs } from 'file-saver';
 import { useSettings } from '~~/stores/settings';
+import Plausible from 'plausible-tracker';
 
 const settings = useSettings()
+
+const { trackEvent } = Plausible()
 
 let grid = ref()
 let config = reactive({})
@@ -25,6 +28,7 @@ const exportSettings = {
 }
 
 const exportBlob = () => {
+  trackEvent('exports')
   config = {
     container: '.generator',
     trueOrder: false,
