@@ -8,9 +8,13 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
     'vue-plausible',
     '@pinia/nuxt',
-    'nuxt-svgo'
+    'nuxt-svgo',
+    '@nuxtjs/google-adsense'
   ],
   plausible: {
     domain: 'img-grid-generator.com',
+  },
+  'google-adsense': {
+    id: 'ca-pub-6990326026895148'
   }
 })

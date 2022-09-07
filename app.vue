@@ -6,7 +6,7 @@
       <Preview/>
       <Export/>
     </ClientOnly>
-    <Support/>
+    <!-- <Support/> -->
     <Footer/>
   </div>
 </template>
