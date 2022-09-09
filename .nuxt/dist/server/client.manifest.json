@@ -6,9 +6,9 @@
     "module": true,
     "resourceType": "script"
   },
-  "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry": {
+  "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry": {
     "isEntry": true,
-    "file": "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry",
+    "file": "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry",
     "module": true,
     "resourceType": "script"
   }

@@ -44,13 +44,14 @@ const exportBlob = () => {
 }
 
 const saveFile = () => {
+  const extension = 'png'
   const gen = document.querySelector(exportSettings.generator)
   toBlob(gen)
   .then(function (blob) {
     if (window.saveAs) {
-      window.saveAs(blob, 'my-grid.png');
+      window.saveAs(blob, `my-grid.${extension}`);
     } else {
-     saveAs(blob, 'my-grid.png');
+      saveAs(blob, `my-grid.${extension}`);
     }
     gen.innerHTML = ""
   })

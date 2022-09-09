@@ -1,6 +1,9 @@
-import { Config } from 'tailwindcss'
-export default <Config> {
+export default {
   theme: {
-    extend: {}
+    extend: {
+      height: {
+        'input': '32px'
+      }
+    }
   },
 }
