@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-2 justify-center w-full">
-    <h2 class="align-left text-3xl font-bold	">Preview</h2>
+    <h2>Preview</h2>
     <div v-show="filesLength" class="preview w-full" ref="gridElement">
       <img v-for="(file, index) in files" :key="index" :style="{ borderRadius: settings.radius + 'rem' }" :src="file.content" >
     </div>

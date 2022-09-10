@@ -1,6 +1,6 @@
 <template>
   <div class="settings w-full flex flex-col gap-2">
-    <h2 class="align-left text-3xl font-bold">Settings</h2>
+    <h2>Settings</h2>
     <form class="flex gap-8">
       <div class="w-24 flex flex-col gap-1">
         <label for="margin" class="text-sm font-semibold text-slate-300">Margin</label>
@@ -41,11 +41,3 @@ import ArrowIcon from '~/assets/svg/arrow.svg'
 import useSettings from '~~/stores/settings';
 const settings = useSettings()
 </script>
-
-<style lang="scss">
-.settings {
-  &__slider::-webkit-slider-thumb {
-    background: blue;
-  }
-}
-</style>
