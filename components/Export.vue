@@ -10,9 +10,9 @@
 <script setup>
 import { toBlob } from 'html-to-image'
 import { saveAs } from 'file-saver';
-import useSettings from '~~/stores/settings';
 import Plausible from 'plausible-tracker';
-import useMacy from '~~/composables/Macy';
+import useSettings from '~/stores/settings';
+import useMacy from '~/composables/Macy';
 
 const settings = useSettings()
 

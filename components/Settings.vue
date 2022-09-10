@@ -9,7 +9,7 @@
       <div class="flex flex-col gap-1">
         <p class="text-sm font-semibold text-slate-300">Columns</p>
         <div class="flex gap-2 bg-violet-50 rounded-3xl px-4 py-1 justify-center h-input">
-          <MinIcon class="cursor-pointer w-4 fill-violet-700" @click="settings.columns > 0 && settings.columns--"/>
+          <MinIcon class="cursor-pointer w-4 fill-violet-700" @click="settings.columns > 1 && settings.columns--"/>
           <p class="select-none	w-3 text-center text-violet-700 bg-transparent" type="number" name="columns">{{ settings.columns }}</p>
           <MaxIcon class="cursor-pointer w-4 fill-violet-700	" @click="settings.columns < 5 && settings.columns++"/>
         </div>

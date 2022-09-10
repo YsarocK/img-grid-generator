@@ -3746,7 +3746,7 @@ __vite_ssr_exports__.default = ".files {\n  grid-template-rows: repeat(auto-fill
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_tDKmiFRayd = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_HKWUdc3vEd = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/assets/svg/min.svg");
@@ -3775,7 +3775,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   _push(`<div${__vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({ class: "settings w-full flex flex-col gap-2" }, _attrs))}><h2>Settings</h2><form class="flex gap-8"><div class="w-24 flex flex-col gap-1"><label for="margin" class="text-sm font-semibold text-slate-300">Margin</label><input class="h-input bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" type="number" name="margin"${__vite_ssr_import_6__.ssrRenderAttr("value", $setup.settings.margin)} min="0" max="50" step="1"></div><div class="flex flex-col gap-1"><p class="text-sm font-semibold text-slate-300">Columns</p><div class="flex gap-2 bg-violet-50 rounded-3xl px-4 py-1 justify-center h-input">`);
   _push(__vite_ssr_import_6__.ssrRenderComponent($setup["MinIcon"], {
     class: "cursor-pointer w-4 fill-violet-700",
-    onClick: ($event) => $setup.settings.columns > 0 && $setup.settings.columns--
+    onClick: ($event) => $setup.settings.columns > 1 && $setup.settings.columns--
   }, null, _parent));
   _push(`<p class="select-none w-3 text-center text-violet-700 bg-transparent" type="number" name="columns">${__vite_ssr_import_6__.ssrInterpolate($setup.settings.columns)}</p>`);
   _push(__vite_ssr_import_6__.ssrRenderComponent($setup["MaxIcon"], {
@@ -4171,22 +4171,22 @@ import("macy")
 // - vue ($id_VkOCJnUZrn)
 // - html-to-image ($id_HfQwJBh6KO)
 // - file-saver ($id_vMWPfZBttV)
-// - /stores/settings.ts ($id_8kiXpCQM3B)
 // - plausible-tracker ($id_UWiGBMK5o6)
+// - /stores/settings.ts ($id_8kiXpCQM3B)
 // - /composables/Macy.ts ($id_V5AxMN7Tp1)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_a8oUfhLo8U = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_n02KBAXB0t = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("html-to-image");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("file-saver");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/stores/settings.ts");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("plausible-tracker");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("plausible-tracker");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/stores/settings.ts");
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/composables/Macy.ts");
 
@@ -4197,11 +4197,11 @@ const _sfc_main = {
   setup(__props, { expose }) {
   expose();
 
-const settings = __vite_ssr_import_3__.default()
+const settings = __vite_ssr_import_4__.default()
 
 const Macy = __vite_ssr_import_5__.default()
 
-const { trackEvent } = __vite_ssr_import_4__.default()
+const { trackEvent } = __vite_ssr_import_3__.default()
 
 let grid = __vite_ssr_import_0__.ref()
 let config = __vite_ssr_import_0__.reactive({})
@@ -4269,7 +4269,7 @@ __vite_ssr_import_0__.watch(
   }
 )
 
-const __returned__ = { settings, Macy, trackEvent, grid, config, exportSettings, exportBlob, saveFile, generateNewCanvas, toBlob: __vite_ssr_import_1__.toBlob, saveAs: __vite_ssr_import_2__.saveAs, useSettings: __vite_ssr_import_3__.default, Plausible: __vite_ssr_import_4__.default, useMacy: __vite_ssr_import_5__.default }
+const __returned__ = { settings, Macy, trackEvent, grid, config, exportSettings, exportBlob, saveFile, generateNewCanvas, toBlob: __vite_ssr_import_1__.toBlob, saveAs: __vite_ssr_import_2__.saveAs, Plausible: __vite_ssr_import_3__.default, useSettings: __vite_ssr_import_4__.default, useMacy: __vite_ssr_import_5__.default }
 Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
 return __returned__
 }
@@ -4587,7 +4587,7 @@ const __modules__ = {
   "/stores/files.ts": $id_ZFJEljkKMs,
   "/assets/svg/delete.svg": $id_Gi9UNEg3Ic,
   "/components/Files.vue?vue&type=style&index=0&lang.scss": $id_xsnQLHdYew,
-  "/components/Settings.vue": $id_tDKmiFRayd,
+  "/components/Settings.vue": $id_HKWUdc3vEd,
   "/assets/svg/min.svg": $id_Q0gwYcjRNN,
   "/assets/svg/max.svg": $id_3AbeJUVQcj,
   "/assets/svg/arrow.svg": $id_0rxO8GVDOO,
@@ -4596,7 +4596,7 @@ const __modules__ = {
   "/components/Preview.vue": $id_JI8a0wcsME,
   "/composables/Macy.ts": $id_UBR6Q5sMQ3,
   macy: $id_tyBfKjChNC,
-  "/components/Export.vue": $id_a8oUfhLo8U,
+  "/components/Export.vue": $id_n02KBAXB0t,
   "html-to-image": $id_IqGGcwm447,
   "file-saver": $id_yVoyX8fRFT,
   "plausible-tracker": $id_QniKmyHtR4,
