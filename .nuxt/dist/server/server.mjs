@@ -1,34 +1,34 @@
 
 // --------------------
-// Request: /Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry
+// Request: /Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry
 // Parents: 
 // - <entry> ($id_x1frnpf8FZ)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - ohmyfetch ($id_4T3an2dV6G)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/paths.mjs ($id_WlG0ceNApX)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/paths.mjs ($id_MHC7MEfu5i)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/css.mjs ($id_2DInrIBmIg)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs ($id_5a07wt6Pki)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/root-component.mjs ($id_v3scbUuHxZ)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/app-component.mjs ($id_odOhY3wtG7)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/css.mjs ($id_yUk6rpuoFs)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/plugins/server.mjs ($id_YMrWq4AFs9)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/root-component.mjs ($id_GVs4MIucWl)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/app-component.mjs ($id_E1dmq1EXzg)
 // --------------------
-const $id_Xk2am7UNEn = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_tEpgkFvrUI = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("ohmyfetch");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/paths.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/paths.mjs");
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/css.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/css.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/root-component.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/app-component.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/app-component.mjs");
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = __vite_ssr_import_1__.$fetch.create({
@@ -93,7 +93,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // --------------------
 // Request: vue
 // Parents: 
-// - /Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry ($id_wP7aTsDxG9)
+// - /Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry ($id_NpTU6uJtm8)
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_4GnUEZ7ifE)
 // - /node_modules/nuxt/dist/app/composables/component.mjs ($id_UzRZUO1GKq)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_1baiIWALJh)
@@ -105,7 +105,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/composables/router.mjs ($id_202QqPjMtu)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/components.plugin.mjs ($id_0madM1qOUt)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/components.plugin.mjs ($id_vjoJ9k1ixf)
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_wDImTp8t2G)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_5vEgA2Fgrh)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
@@ -121,12 +121,14 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /components/Settings.vue ($id_KNB27G4VRc)
 // - /assets/svg/min.svg ($id_dJ2F6rn5hU)
 // - /assets/svg/max.svg ($id_BP1qmKgqb6)
+// - /assets/svg/arrow.svg ($id_XsFpxH5tHO)
 // - /node_modules/nuxt/dist/app/components/client-only.mjs ($id_HseDGTR18m)
 // - /components/Preview.vue ($id_7CNegRKX36)
+// - /composables/Macy.js ($id_nqWd37KtKo)
 // - /components/Export.vue ($id_mpBCnzJAKE)
-// - /components/Support.vue ($id_GuipdVEtXc)
 // - /assets/svg/github.svg ($id_ceX65CDywN)
 // - /components/Footer.vue ($id_89jzJWR97X)
+// - /components/Support.vue ($id_GuipdVEtXc)
 // - /app.vue ($id_K0boQqLzfo)
 // Dependencies: 
 // - @vue/runtime-dom ($id_xcKel6nH2q)
@@ -185,7 +187,7 @@ import("@vue/runtime-dom")
 // --------------------
 // Request: ohmyfetch
 // Parents: 
-// - /Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry ($id_wP7aTsDxG9)
+// - /Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry ($id_NpTU6uJtm8)
 // Dependencies: 
 
 // --------------------
@@ -204,13 +206,13 @@ import("ohmyfetch")
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/paths.mjs
+// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/paths.mjs
 // Parents: 
-// - /Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry ($id_wP7aTsDxG9)
+// - /Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry ($id_NpTU6uJtm8)
 // Dependencies: 
 // - ufo ($id_Idgm3MW7hZ)
 // --------------------
-const $id_ffdzpSP0Vn = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ZxIb9N3Kgi = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("ufo");
 
 const appConfig = {"baseURL":"/","buildAssetsDir":"/_nuxt/","assetsPath":{},"cdnURL":"","head":{"meta":[],"link":[],"style":[],"script":[],"noscript":[],"charset":"utf-8","viewport":"width=device-width, initial-scale=1"}}
@@ -233,12 +235,10 @@ globalThis.__publicAssetsURL = publicAssetsURL;
 // --------------------
 // Request: ufo
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/paths.mjs ($id_WlG0ceNApX)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/paths.mjs ($id_MHC7MEfu5i)
 // - /node_modules/nuxt/dist/app/composables/router.mjs ($id_202QqPjMtu)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_fEh9isZZyu)
-// - /node_modules/@nuxt/image-edge/dist/runtime/image.mjs ($id_7oQJhkGG8t)
-// - /node_modules/@nuxt/image-edge/dist/runtime/providers/ipx.mjs ($id_O1mqexVyq4)
 // Dependencies: 
 
 // --------------------
@@ -259,7 +259,7 @@ import("ufo")
 // --------------------
 // Request: /node_modules/nuxt/dist/app/index.mjs
 // Parents: 
-// - /Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry ($id_wP7aTsDxG9)
+// - /Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry ($id_NpTU6uJtm8)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_1baiIWALJh)
 // - /node_modules/nuxt/dist/app/composables/hydrate.mjs ($id_AGPfGxS2fu)
 // - /node_modules/nuxt/dist/app/composables/state.mjs ($id_fYchCJb7XZ)
@@ -270,12 +270,11 @@ import("ufo")
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_mHG7oNEQOP)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/components.plugin.mjs ($id_0madM1qOUt)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/components.plugin.mjs ($id_vjoJ9k1ixf)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_5vEgA2Fgrh)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
 // - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_fEh9isZZyu)
 // - /node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs ($id_i9ItelNnNP)
-// - /node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs ($id_Mj3mVTRNtW)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_4GnUEZ7ifE)
@@ -1570,13 +1569,13 @@ import("@vue/shared")
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/css.mjs
+// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/css.mjs
 // Parents: 
-// - /Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry ($id_wP7aTsDxG9)
+// - /Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry ($id_NpTU6uJtm8)
 // Dependencies: 
 // - /node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css ($id_ChQC5gbR6S)
 // --------------------
-const $id_QnFlLIYsPD = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_93hvp1aTls = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css");
 ;
 }
@@ -1585,32 +1584,31 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxtjs/t
 // --------------------
 // Request: /node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/css.mjs ($id_2DInrIBmIg)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/css.mjs ($id_yUk6rpuoFs)
 // Dependencies: 
 
 // --------------------
-const $id_PaM7djyZYl = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*\n! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::-webkit-backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n.container {\n  width: 100%;\n}\n@media (min-width: 640px) {\n\n  .container {\n    max-width: 640px;\n  }\n}\n@media (min-width: 768px) {\n\n  .container {\n    max-width: 768px;\n  }\n}\n@media (min-width: 1024px) {\n\n  .container {\n    max-width: 1024px;\n  }\n}\n@media (min-width: 1280px) {\n\n  .container {\n    max-width: 1280px;\n  }\n}\n@media (min-width: 1536px) {\n\n  .container {\n    max-width: 1536px;\n  }\n}\n.pointer-events-none {\n  pointer-events: none;\n}\n.fixed {\n  position: fixed;\n}\n.relative {\n  position: relative;\n}\n.right-0 {\n  right: 0px;\n}\n.bottom-0 {\n  bottom: 0px;\n}\n.left-0 {\n  left: 0px;\n}\n.top-0 {\n  top: 0px;\n}\n.bottom-10 {\n  bottom: 2.5rem;\n}\n.right-10 {\n  right: 2.5rem;\n}\n.m-auto {\n  margin: auto;\n}\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n.mt-auto {\n  margin-top: auto;\n}\n.mb-0 {\n  margin-bottom: 0px;\n}\n.mr-5 {\n  margin-right: 1.25rem;\n}\n.flex {\n  display: flex;\n}\n.grid {\n  display: grid;\n}\n.h-fit {\n  height: -webkit-fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n}\n.min-h-screen {\n  min-height: 100vh;\n}\n.w-full {\n  width: 100%;\n}\n.w-\\[1000px\\] {\n  width: 1000px;\n}\n.w-\\[1rem\\] {\n  width: 1rem;\n}\n.w-24 {\n  width: 6rem;\n}\n.w-4 {\n  width: 1rem;\n}\n.w-3 {\n  width: 0.75rem;\n}\n.w-40 {\n  width: 10rem;\n}\n.w-\\[2\\.5rem\\] {\n  width: 2.5rem;\n}\n.max-w-\\[800px\\] {\n  max-width: 800px;\n}\n.cursor-pointer {\n  cursor: pointer;\n}\n.select-none {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n}\n.grid-cols-3 {\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-center {\n  align-items: center;\n}\n.justify-center {\n  justify-content: center;\n}\n.justify-between {\n  justify-content: space-between;\n}\n.gap-2 {\n  gap: 0.5rem;\n}\n.gap-4 {\n  gap: 1rem;\n}\n.gap-8 {\n  gap: 2rem;\n}\n.gap-1 {\n  gap: 0.25rem;\n}\n.gap-20 {\n  gap: 5rem;\n}\n.overflow-hidden {\n  overflow: hidden;\n}\n.rounded-3xl {\n  border-radius: 1.5rem;\n}\n.rounded-md {\n  border-radius: 0.375rem;\n}\n.rounded-full {\n  border-radius: 9999px;\n}\n.rounded-b-md {\n  border-bottom-right-radius: 0.375rem;\n  border-bottom-left-radius: 0.375rem;\n}\n.bg-violet-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.bg-red-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 202 202 / var(--tw-bg-opacity));\n}\n.bg-slate-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(241 245 249 / var(--tw-bg-opacity));\n}\n.bg-transparent {\n  background-color: transparent;\n}\n.bg-slate-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 250 252 / var(--tw-bg-opacity));\n}\n.bg-\\[\\#f8dd03\\] {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 221 3 / var(--tw-bg-opacity));\n}\n.fill-violet-700 {\n  fill: #6d28d9;\n}\n.p-4 {\n  padding: 1rem;\n}\n.p-2 {\n  padding: 0.5rem;\n}\n.p-10 {\n  padding: 2.5rem;\n}\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n.text-center {\n  text-align: center;\n}\n.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}\n.text-xs {\n  font-size: 0.75rem;\n  line-height: 1rem;\n}\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n.font-bold {\n  font-weight: 700;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.italic {\n  font-style: italic;\n}\n.text-violet-700 {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.text-red-700 {\n  --tw-text-opacity: 1;\n  color: rgb(185 28 28 / var(--tw-text-opacity));\n}\n.text-slate-400 {\n  --tw-text-opacity: 1;\n  color: rgb(148 163 184 / var(--tw-text-opacity));\n}\n.text-slate-300 {\n  --tw-text-opacity: 1;\n  color: rgb(203 213 225 / var(--tw-text-opacity));\n}\n.text-slate-500 {\n  --tw-text-opacity: 1;\n  color: rgb(100 116 139 / var(--tw-text-opacity));\n}\n.shadow-2xl {\n  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);\n  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);\n  box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.file\\:mr-4::-webkit-file-upload-button {\n  margin-right: 1rem;\n}\n.file\\:mr-4::file-selector-button {\n  margin-right: 1rem;\n}\n.file\\:cursor-pointer::-webkit-file-upload-button {\n  cursor: pointer;\n}\n.file\\:cursor-pointer::file-selector-button {\n  cursor: pointer;\n}\n.file\\:rounded-full::-webkit-file-upload-button {\n  border-radius: 9999px;\n}\n.file\\:rounded-full::file-selector-button {\n  border-radius: 9999px;\n}\n.file\\:border-0::-webkit-file-upload-button {\n  border-width: 0px;\n}\n.file\\:border-0::file-selector-button {\n  border-width: 0px;\n}\n.file\\:bg-violet-50::-webkit-file-upload-button {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.file\\:bg-violet-50::file-selector-button {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.file\\:py-2::-webkit-file-upload-button {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.file\\:py-2::file-selector-button {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.file\\:px-4::-webkit-file-upload-button {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.file\\:px-4::file-selector-button {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.file\\:text-sm::-webkit-file-upload-button {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.file\\:text-sm::file-selector-button {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.file\\:font-semibold::-webkit-file-upload-button {\n  font-weight: 600;\n}\n.file\\:font-semibold::file-selector-button {\n  font-weight: 600;\n}\n.file\\:text-violet-700::-webkit-file-upload-button {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.file\\:text-violet-700::file-selector-button {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.hover\\:file\\:bg-violet-100::-webkit-file-upload-button:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(237 233 254 / var(--tw-bg-opacity));\n}\n.hover\\:file\\:bg-violet-100::file-selector-button:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(237 233 254 / var(--tw-bg-opacity));\n}\n";
+const $id_uQEhhwyoEw = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/*\n! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\n\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\n\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\n\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\n\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\n\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\n\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\n\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\n\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\n\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\n\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\n\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\n\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\n\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\n\nfieldset {\n  margin: 0;\n  padding: 0;\n}\n\nlegend {\n  padding: 0;\n}\n\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\n\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\n\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\n\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\n\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\n\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\n\n*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::-webkit-backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n.container {\n  width: 100%;\n}\n@media (min-width: 640px) {\n\n  .container {\n    max-width: 640px;\n  }\n}\n@media (min-width: 768px) {\n\n  .container {\n    max-width: 768px;\n  }\n}\n@media (min-width: 1024px) {\n\n  .container {\n    max-width: 1024px;\n  }\n}\n@media (min-width: 1280px) {\n\n  .container {\n    max-width: 1280px;\n  }\n}\n@media (min-width: 1536px) {\n\n  .container {\n    max-width: 1536px;\n  }\n}\n.pointer-events-none {\n  pointer-events: none;\n}\n.fixed {\n  position: fixed;\n}\n.absolute {\n  position: absolute;\n}\n.relative {\n  position: relative;\n}\n.right-0 {\n  right: 0px;\n}\n.bottom-0 {\n  bottom: 0px;\n}\n.left-0 {\n  left: 0px;\n}\n.top-0 {\n  top: 0px;\n}\n.right-2 {\n  right: 0.5rem;\n}\n.bottom-10 {\n  bottom: 2.5rem;\n}\n.right-10 {\n  right: 2.5rem;\n}\n.m-auto {\n  margin: auto;\n}\n.my-auto {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n.my-5 {\n  margin-top: 1.25rem;\n  margin-bottom: 1.25rem;\n}\n.mt-auto {\n  margin-top: auto;\n}\n.mb-0 {\n  margin-bottom: 0px;\n}\n.mr-5 {\n  margin-right: 1.25rem;\n}\n.mb-10 {\n  margin-bottom: 2.5rem;\n}\n.flex {\n  display: flex;\n}\n.grid {\n  display: grid;\n}\n.h-full {\n  height: 100%;\n}\n.h-input {\n  height: 32px;\n}\n.h-1 {\n  height: 0.25rem;\n}\n.h-fit {\n  height: -webkit-fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n}\n.min-h-screen {\n  min-height: 100vh;\n}\n.w-full {\n  width: 100%;\n}\n.w-\\[1000px\\] {\n  width: 1000px;\n}\n.w-\\[1rem\\] {\n  width: 1rem;\n}\n.w-24 {\n  width: 6rem;\n}\n.w-4 {\n  width: 1rem;\n}\n.w-3 {\n  width: 0.75rem;\n}\n.w-40 {\n  width: 10rem;\n}\n.w-\\[2\\.5rem\\] {\n  width: 2.5rem;\n}\n.max-w-\\[800px\\] {\n  max-width: 800px;\n}\n.cursor-pointer {\n  cursor: pointer;\n}\n.select-none {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n}\n.appearance-none {\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n}\n.grid-cols-3 {\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-center {\n  align-items: center;\n}\n.justify-center {\n  justify-content: center;\n}\n.justify-between {\n  justify-content: space-between;\n}\n.gap-2 {\n  gap: 0.5rem;\n}\n.gap-4 {\n  gap: 1rem;\n}\n.gap-8 {\n  gap: 2rem;\n}\n.gap-1 {\n  gap: 0.25rem;\n}\n.gap-20 {\n  gap: 5rem;\n}\n.overflow-hidden {\n  overflow: hidden;\n}\n.rounded-3xl {\n  border-radius: 1.5rem;\n}\n.rounded-md {\n  border-radius: 0.375rem;\n}\n.rounded-sm {\n  border-radius: 0.125rem;\n}\n.rounded-full {\n  border-radius: 9999px;\n}\n.rounded-b-md {\n  border-bottom-right-radius: 0.375rem;\n  border-bottom-left-radius: 0.375rem;\n}\n.bg-violet-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.bg-red-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 202 202 / var(--tw-bg-opacity));\n}\n.bg-slate-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(241 245 249 / var(--tw-bg-opacity));\n}\n.bg-transparent {\n  background-color: transparent;\n}\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n.bg-slate-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 250 252 / var(--tw-bg-opacity));\n}\n.bg-\\[\\#f8dd03\\] {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 221 3 / var(--tw-bg-opacity));\n}\n.fill-violet-700 {\n  fill: #6d28d9;\n}\n.object-cover {\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.p-4 {\n  padding: 1rem;\n}\n.p-2 {\n  padding: 0.5rem;\n}\n.p-10 {\n  padding: 2.5rem;\n}\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n.text-center {\n  text-align: center;\n}\n.text-xs {\n  font-size: 0.75rem;\n  line-height: 1rem;\n}\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n.font-bold {\n  font-weight: 700;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.font-light {\n  font-weight: 300;\n}\n.italic {\n  font-style: italic;\n}\n.text-violet-700 {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.text-red-700 {\n  --tw-text-opacity: 1;\n  color: rgb(185 28 28 / var(--tw-text-opacity));\n}\n.text-slate-400 {\n  --tw-text-opacity: 1;\n  color: rgb(148 163 184 / var(--tw-text-opacity));\n}\n.text-slate-300 {\n  --tw-text-opacity: 1;\n  color: rgb(203 213 225 / var(--tw-text-opacity));\n}\n.text-slate-500 {\n  --tw-text-opacity: 1;\n  color: rgb(100 116 139 / var(--tw-text-opacity));\n}\n.shadow-2xl {\n  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);\n  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);\n  box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.file\\:mr-4::-webkit-file-upload-button {\n  margin-right: 1rem;\n}\n.file\\:mr-4::file-selector-button {\n  margin-right: 1rem;\n}\n.file\\:cursor-pointer::-webkit-file-upload-button {\n  cursor: pointer;\n}\n.file\\:cursor-pointer::file-selector-button {\n  cursor: pointer;\n}\n.file\\:rounded-full::-webkit-file-upload-button {\n  border-radius: 9999px;\n}\n.file\\:rounded-full::file-selector-button {\n  border-radius: 9999px;\n}\n.file\\:border-0::-webkit-file-upload-button {\n  border-width: 0px;\n}\n.file\\:border-0::file-selector-button {\n  border-width: 0px;\n}\n.file\\:bg-violet-50::-webkit-file-upload-button {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.file\\:bg-violet-50::file-selector-button {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.file\\:py-2::-webkit-file-upload-button {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.file\\:py-2::file-selector-button {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.file\\:px-4::-webkit-file-upload-button {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.file\\:px-4::file-selector-button {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.file\\:text-sm::-webkit-file-upload-button {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.file\\:text-sm::file-selector-button {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.file\\:font-semibold::-webkit-file-upload-button {\n  font-weight: 600;\n}\n.file\\:font-semibold::file-selector-button {\n  font-weight: 600;\n}\n.file\\:text-violet-700::-webkit-file-upload-button {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.file\\:text-violet-700::file-selector-button {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.hover\\:file\\:bg-violet-100::-webkit-file-upload-button:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(237 233 254 / var(--tw-bg-opacity));\n}\n.hover\\:file\\:bg-violet-100::file-selector-button:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(237 233 254 / var(--tw-bg-opacity));\n}\n";
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs
+// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/plugins/server.mjs
 // Parents: 
-// - /Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry ($id_wP7aTsDxG9)
+// - /Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry ($id_NpTU6uJtm8)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_mHG7oNEQOP)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/components.plugin.mjs ($id_0madM1qOUt)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/components.plugin.mjs ($id_vjoJ9k1ixf)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_5vEgA2Fgrh)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
 // - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_fEh9isZZyu)
 // - /node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs ($id_i9ItelNnNP)
-// - /node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs ($id_Mj3mVTRNtW)
 // --------------------
-const $id_RmzrqwzXkl = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_cv2UL6wsHn = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/preload.server.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/components.plugin.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/components.plugin.mjs");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs");
 
@@ -1620,16 +1618,13 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs");
-
 __vite_ssr_exports__.default = [
   __vite_ssr_import_0__.default,
   __vite_ssr_import_1__.default,
   __vite_ssr_import_2__.default,
   __vite_ssr_import_3__.default,
   __vite_ssr_import_4__.default,
-  __vite_ssr_import_5__.default,
-  __vite_ssr_import_6__.default
+  __vite_ssr_import_5__.default
 ];
 }
 
@@ -1637,7 +1632,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /node_modules/nuxt/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs ($id_5a07wt6Pki)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/plugins/server.mjs ($id_YMrWq4AFs9)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
@@ -1658,14 +1653,14 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/components.plugin.mjs
+// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/components.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs ($id_5a07wt6Pki)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/plugins/server.mjs ($id_YMrWq4AFs9)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_R47NsnU6Pd = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_XS3ZuPq07H = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
@@ -1686,7 +1681,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_1__.defineNuxtPlugin(nuxtApp =>
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs ($id_5a07wt6Pki)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/plugins/server.mjs ($id_YMrWq4AFs9)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_wDImTp8t2G)
 // - vue ($id_VkOCJnUZrn)
@@ -2243,7 +2238,6 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 // Request: defu
 // Parents: 
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_5vEgA2Fgrh)
-// - /node_modules/@nuxt/image-edge/dist/runtime/image.mjs ($id_7oQJhkGG8t)
 // Dependencies: 
 
 // --------------------
@@ -2264,15 +2258,15 @@ import("defu")
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs ($id_5a07wt6Pki)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/plugins/server.mjs ($id_YMrWq4AFs9)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/head/runtime/components.mjs ($id_sqKdb79FW5)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/meta.config.mjs ($id_UF5OpGKuu1)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/meta.config.mjs ($id_6dMIFPBadH)
 // --------------------
-const $id_QzTjBmXxVV = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_yZLiOeyVdI = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/components.mjs");
@@ -2281,7 +2275,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/meta.config.mjs");
 
 const metaMixin = {
   created() {
@@ -2550,13 +2544,13 @@ Object.defineProperty(__vite_ssr_exports__, "Body", { enumerable: true, configur
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/meta.config.mjs
+// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
 // Dependencies: 
 
 // --------------------
-const $id_3Ucdmp6tjs = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_KJkPUiuLpK = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"meta":[],"link":[],"style":[],"script":[],"noscript":[],"charset":"utf-8","viewport":"width=device-width, initial-scale=1"}};
 }
 
@@ -2564,16 +2558,16 @@ __vite_ssr_exports__.default = {"globalMeta":{"meta":[],"link":[],"style":[],"sc
 // --------------------
 // Request: /node_modules/nuxt/dist/app/plugins/router.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs ($id_5a07wt6Pki)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/plugins/server.mjs ($id_YMrWq4AFs9)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - ufo ($id_Idgm3MW7hZ)
 // - h3 ($id_ltfhTi4n2w)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_4GnUEZ7ifE)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/middleware.mjs ($id_wyZB1RJppG)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/middleware.mjs ($id_GYpF0IGkGB)
 // --------------------
-const $id_yBdPh8v8UY = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_oklIIQMgMm = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("ufo");
@@ -2586,7 +2580,7 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/middleware.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/middleware.mjs");
 
 function getRouteFromPath(fullPath) {
   if (typeof fullPath === "object") {
@@ -2754,13 +2748,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_3__.defineNuxtPlugin((nuxtApp) 
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/middleware.mjs
+// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/middleware.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/plugins/router.mjs ($id_fEh9isZZyu)
 // Dependencies: 
 
 // --------------------
-const $id_ht3noj0wDX = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_SjgWwsmnpg = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const globalMiddleware = []
 Object.defineProperty(__vite_ssr_exports__, "globalMiddleware", { enumerable: true, configurable: true, get(){ return globalMiddleware }});
 const namedMiddleware = {}
@@ -2771,7 +2765,7 @@ Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: tru
 // --------------------
 // Request: /node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs ($id_5a07wt6Pki)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/plugins/server.mjs ($id_YMrWq4AFs9)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - pinia ($id_08NwGtDtAK)
@@ -2824,483 +2818,13 @@ import("pinia")
 
 
 // --------------------
-// Request: /node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs
+// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/root-component.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs ($id_5a07wt6Pki)
-// Dependencies: 
-// - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /node_modules/@nuxt/image-edge/dist/runtime/index.mjs ($id_Pwc5yaXCf6)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/image-options.mjs ($id_nkMCkogBl8)
-// --------------------
-const $id_GuOVHGXzPc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
-
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@nuxt/image-edge/dist/runtime/index.mjs");
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/image-options.mjs");
-
-__vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin(() => {
-  const img = __vite_ssr_import_1__.createImage(__vite_ssr_import_2__.imageOptions);
-  return {
-    provide: {
-      img
-    }
-  };
-});
-;
-}
-
-
-// --------------------
-// Request: /node_modules/@nuxt/image-edge/dist/runtime/index.mjs
-// Parents: 
-// - /node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs ($id_Mj3mVTRNtW)
-// - /node_modules/@nuxt/image-edge/dist/runtime/providers/ipx.mjs ($id_O1mqexVyq4)
-// Dependencies: 
-// - /node_modules/@nuxt/image-edge/dist/runtime/image.mjs ($id_7oQJhkGG8t)
-// - /node_modules/@nuxt/image-edge/dist/runtime/utils/index.mjs ($id_aL8TpwTVZJ)
-// --------------------
-const $id_WEuMxsaWIV = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/image-edge/dist/runtime/image.mjs");
-__vite_ssr_exportAll__(__vite_ssr_import_0__);
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@nuxt/image-edge/dist/runtime/utils/index.mjs");
-__vite_ssr_exportAll__(__vite_ssr_import_1__);
-;
-}
-
-
-// --------------------
-// Request: /node_modules/@nuxt/image-edge/dist/runtime/image.mjs
-// Parents: 
-// - /node_modules/@nuxt/image-edge/dist/runtime/index.mjs ($id_Pwc5yaXCf6)
-// Dependencies: 
-// - defu ($id_q1WUEsFSUQ)
-// - ufo ($id_Idgm3MW7hZ)
-// - /node_modules/@nuxt/image-edge/dist/runtime/utils/meta.mjs ($id_mclNrQjgJ0)
-// - /node_modules/@nuxt/image-edge/dist/runtime/utils/index.mjs ($id_aL8TpwTVZJ)
-// --------------------
-const $id_YGfFNhFXXl = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("defu");
-
-const __vite_ssr_import_1__ = await __vite_ssr_import__("ufo");
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/@nuxt/image-edge/dist/runtime/utils/meta.mjs");
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/@nuxt/image-edge/dist/runtime/utils/index.mjs");
-
-function createImage(globalOptions) {
-  const ctx = {
-    options: globalOptions
-  };
-  const getImage = (input, options = {}) => {
-    const image = resolveImage(ctx, input, options);
-    return image;
-  };
-  const $img = (input, modifiers = {}, options = {}) => {
-    return getImage(input, {
-      ...options,
-      modifiers: __vite_ssr_import_0__.defu(modifiers, options.modifiers || {})
-    }).url;
-  };
-  for (const presetName in globalOptions.presets) {
-    $img[presetName] = (source, modifiers, options) => $img(source, modifiers, { ...globalOptions.presets[presetName], ...options });
-  }
-  $img.options = globalOptions;
-  $img.getImage = getImage;
-  $img.getMeta = (input, options) => getMeta(ctx, input, options);
-  $img.getSizes = (input, options) => getSizes(ctx, input, options);
-  ctx.$img = $img;
-  return $img;
-}
-Object.defineProperty(__vite_ssr_exports__, "createImage", { enumerable: true, configurable: true, get(){ return createImage }});
-async function getMeta(ctx, input, options) {
-  const image = resolveImage(ctx, input, { ...options });
-  if (typeof image.getMeta === "function") {
-    return await image.getMeta();
-  } else {
-    return await __vite_ssr_import_2__.imageMeta(ctx, image.url);
-  }
-}
-function resolveImage(ctx, input, options) {
-  if (typeof input !== "string" || input === "") {
-    throw new TypeError(`input must be a string (received ${typeof input}: ${JSON.stringify(input)})`);
-  }
-  if (input.startsWith("data:")) {
-    return {
-      url: input
-    };
-  }
-  const { provider, defaults } = getProvider(ctx, options.provider || ctx.options.provider);
-  const preset = getPreset(ctx, options.preset);
-  input = __vite_ssr_import_1__.hasProtocol(input) ? input : __vite_ssr_import_1__.withLeadingSlash(input);
-  if (!provider.supportsAlias) {
-    for (const base in ctx.options.alias) {
-      if (input.startsWith(base)) {
-        input = __vite_ssr_import_1__.joinURL(ctx.options.alias[base], input.substr(base.length));
-      }
-    }
-  }
-  if (provider.validateDomains && __vite_ssr_import_1__.hasProtocol(input)) {
-    const inputHost = __vite_ssr_import_1__.parseURL(input).host;
-    if (!ctx.options.domains.find((d) => d === inputHost)) {
-      return {
-        url: input
-      };
-    }
-  }
-  const _options = __vite_ssr_import_0__.defu(options, preset, defaults);
-  _options.modifiers = { ..._options.modifiers };
-  const expectedFormat = _options.modifiers.format;
-  if (_options.modifiers?.width) {
-    _options.modifiers.width = __vite_ssr_import_3__.parseSize(_options.modifiers.width);
-  }
-  if (_options.modifiers?.height) {
-    _options.modifiers.height = __vite_ssr_import_3__.parseSize(_options.modifiers.height);
-  }
-  const image = provider.getImage(input, _options, ctx);
-  image.format = image.format || expectedFormat || "";
-  return image;
-}
-function getProvider(ctx, name) {
-  const provider = ctx.options.providers[name];
-  if (!provider) {
-    throw new Error("Unknown provider: " + name);
-  }
-  return provider;
-}
-function getPreset(ctx, name) {
-  if (!name) {
-    return {};
-  }
-  if (!ctx.options.presets[name]) {
-    throw new Error("Unknown preset: " + name);
-  }
-  return ctx.options.presets[name];
-}
-function getSizes(ctx, input, opts) {
-  const width = __vite_ssr_import_3__.parseSize(opts.modifiers?.width);
-  const height = __vite_ssr_import_3__.parseSize(opts.modifiers?.height);
-  const hwRatio = width && height ? height / width : 0;
-  const variants = [];
-  const sizes = {};
-  if (typeof opts.sizes === "string") {
-    for (const entry of opts.sizes.split(/[\s,]+/).filter((e) => e)) {
-      const s = entry.split(":");
-      if (s.length !== 2) {
-        continue;
-      }
-      sizes[s[0].trim()] = s[1].trim();
-    }
-  } else {
-    Object.assign(sizes, opts.sizes);
-  }
-  for (const key in sizes) {
-    const screenMaxWidth = ctx.options.screens && ctx.options.screens[key] || parseInt(key);
-    let size = String(sizes[key]);
-    const isFluid = size.endsWith("vw");
-    if (!isFluid && /^\d+$/.test(size)) {
-      size = size + "px";
-    }
-    if (!isFluid && !size.endsWith("px")) {
-      continue;
-    }
-    let _cWidth = parseInt(size);
-    if (!screenMaxWidth || !_cWidth) {
-      continue;
-    }
-    if (isFluid) {
-      _cWidth = Math.round(_cWidth / 100 * screenMaxWidth);
-    }
-    const _cHeight = hwRatio ? Math.round(_cWidth * hwRatio) : height;
-    variants.push({
-      width: _cWidth,
-      size,
-      screenMaxWidth,
-      media: `(max-width: ${screenMaxWidth}px)`,
-      src: ctx.$img(input, { ...opts.modifiers, width: _cWidth, height: _cHeight }, opts)
-    });
-  }
-  variants.sort((v1, v2) => v1.screenMaxWidth - v2.screenMaxWidth);
-  const defaultVar = variants[variants.length - 1];
-  if (defaultVar) {
-    defaultVar.media = "";
-  }
-  return {
-    sizes: variants.map((v) => `${v.media ? v.media + " " : ""}${v.size}`).join(", "),
-    srcset: variants.map((v) => `${v.src} ${v.width}w`).join(", "),
-    src: defaultVar?.src
-  };
-}
-;
-}
-
-
-// --------------------
-// Request: /node_modules/@nuxt/image-edge/dist/runtime/utils/meta.mjs
-// Parents: 
-// - /node_modules/@nuxt/image-edge/dist/runtime/image.mjs ($id_7oQJhkGG8t)
-// Dependencies: 
-// - image-meta ($id_IcfQzc1JLD)
-// --------------------
-const $id_444hD3WpzS = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-async function imageMeta(_ctx, url) {
-  const meta = await _imageMeta(url).catch((err) => {
-    console.error("Failed to get image meta for " + url, err + "");
-    return {
-      width: 0,
-      height: 0,
-      ratio: 0
-    };
-  });
-  return meta;
-}
-Object.defineProperty(__vite_ssr_exports__, "imageMeta", { enumerable: true, configurable: true, get(){ return imageMeta }});
-async function _imageMeta(url) {
-  if (true) {
-    const imageMeta2 = await __vite_ssr_dynamic_import__("image-meta").then((r) => r.imageMeta);
-    const data = await fetch(url).then((res) => res.buffer());
-    const metadata = imageMeta2(data);
-    if (!metadata) {
-      throw new Error(`No metadata could be extracted from the image \`${url}\`.`);
-    }
-    const { width, height } = metadata;
-    const meta = {
-      width,
-      height,
-      ratio: width && height ? width / height : void 0
-    };
-    return meta;
-  }
-  if (typeof Image === "undefined") {
-    throw new TypeError("Image not supported");
-  }
-  return new Promise((resolve, reject) => {
-    const img = new Image();
-    img.onload = () => {
-      const meta = {
-        width: img.width,
-        height: img.height,
-        ratio: img.width / img.height
-      };
-      resolve(meta);
-    };
-    img.onerror = (err) => reject(err);
-    img.src = url;
-  });
-}
-;
-}
-
-
-// --------------------
-// Request: image-meta
-// Parents: 
-// - /node_modules/@nuxt/image-edge/dist/runtime/utils/meta.mjs ($id_mclNrQjgJ0)
-// Dependencies: 
-
-// --------------------
-const $id_N1m0JbHX0G = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("image-meta")
-  .then(r => {
-    if (r.default && r.default.__esModule)
-      r = r.default
-    exports.default = r.default
-    ssrExportAll(r)
-  })
-  .catch(e => {
-    console.error(e)
-    throw new Error("[vite dev] Error loading external \"image-meta\".")
-  })
-
-
-// --------------------
-// Request: /node_modules/@nuxt/image-edge/dist/runtime/utils/index.mjs
-// Parents: 
-// - /node_modules/@nuxt/image-edge/dist/runtime/image.mjs ($id_7oQJhkGG8t)
-// - /node_modules/@nuxt/image-edge/dist/runtime/index.mjs ($id_Pwc5yaXCf6)
-// Dependencies: 
-
-// --------------------
-const $id_2rAObbccCo = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-function imageFetch(url) {
-  return fetch(cleanDoubleSlashes(url));
-}
-function getInt(x) {
-  if (typeof x === "number") {
-    return x;
-  }
-  if (typeof x === "string") {
-    return parseInt(x, 10);
-  }
-  return void 0;
-}
-Object.defineProperty(__vite_ssr_exports__, "getInt", { enumerable: true, configurable: true, get(){ return getInt }});
-function getFileExtension(url = "") {
-  const extension = url.split(/[?#]/).shift().split("/").pop().split(".").pop();
-  return extension;
-}
-Object.defineProperty(__vite_ssr_exports__, "getFileExtension", { enumerable: true, configurable: true, get(){ return getFileExtension }});
-function cleanDoubleSlashes(path = "") {
-  return path.replace(/(https?:\/\/)|(\/)+/g, "$1$2");
-}
-Object.defineProperty(__vite_ssr_exports__, "cleanDoubleSlashes", { enumerable: true, configurable: true, get(){ return cleanDoubleSlashes }});
-function createMapper(map) {
-  return (key) => {
-    return key ? map[key] || key : map.missingValue;
-  };
-}
-Object.defineProperty(__vite_ssr_exports__, "createMapper", { enumerable: true, configurable: true, get(){ return createMapper }});
-function createOperationsGenerator({ formatter, keyMap, joinWith = "/", valueMap } = {}) {
-  if (!formatter) {
-    formatter = (key, value) => `${key}=${value}`;
-  }
-  if (keyMap && typeof keyMap !== "function") {
-    keyMap = createMapper(keyMap);
-  }
-  const map = valueMap || {};
-  Object.keys(map).forEach((valueKey) => {
-    if (typeof map[valueKey] !== "function") {
-      map[valueKey] = createMapper(map[valueKey]);
-    }
-  });
-  return (modifiers = {}) => {
-    const operations = Object.entries(modifiers).filter(([_, value]) => typeof value !== "undefined").map(([key, value]) => {
-      const mapper = map[key];
-      if (typeof mapper === "function") {
-        value = mapper(modifiers[key]);
-      }
-      key = typeof keyMap === "function" ? keyMap(key) : key;
-      return formatter(key, value);
-    });
-    return operations.join(joinWith);
-  };
-}
-Object.defineProperty(__vite_ssr_exports__, "createOperationsGenerator", { enumerable: true, configurable: true, get(){ return createOperationsGenerator }});
-function renderAttributesToString(attributes = {}) {
-  return Object.entries(attributes).map(([key, value]) => value ? `${key}="${value}"` : "").filter(Boolean).join(" ");
-}
-Object.defineProperty(__vite_ssr_exports__, "renderAttributesToString", { enumerable: true, configurable: true, get(){ return renderAttributesToString }});
-function renderTag(tag, attrs, contents) {
-  const html = `<${tag} ${renderAttributesToString(attrs)}>`;
-  if (!contents) {
-    return html;
-  }
-  return html + contents + `</${tag}>`;
-}
-Object.defineProperty(__vite_ssr_exports__, "renderTag", { enumerable: true, configurable: true, get(){ return renderTag }});
-function generateAlt(src = "") {
-  return src.split(/[?#]/).shift().split("/").pop().split(".").shift();
-}
-Object.defineProperty(__vite_ssr_exports__, "generateAlt", { enumerable: true, configurable: true, get(){ return generateAlt }});
-function parseSize(input = "") {
-  if (typeof input === "number") {
-    return input;
-  }
-  if (typeof input === "string") {
-    if (input.replace("px", "").match(/^\d+$/g)) {
-      return parseInt(input, 10);
-    }
-  }
-}
-Object.defineProperty(__vite_ssr_exports__, "parseSize", { enumerable: true, configurable: true, get(){ return parseSize }});
-
-Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, value: imageFetch });;
-}
-
-
-// --------------------
-// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/image-options.mjs
-// Parents: 
-// - /node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs ($id_Mj3mVTRNtW)
-// Dependencies: 
-// - /node_modules/@nuxt/image-edge/dist/runtime/providers/ipx.mjs ($id_O1mqexVyq4)
-// --------------------
-const $id_0wrfBFG7qW = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/@nuxt/image-edge/dist/runtime/providers/ipx.mjs");
-
-
-const imageOptions = {
-  "screens": {
-    "xs": 320,
-    "sm": 640,
-    "md": 768,
-    "lg": 1024,
-    "xl": 1280,
-    "xxl": 1536,
-    "2xl": 1536
-  },
-  "presets": {},
-  "provider": "ipx",
-  "domains": [],
-  "alias": {}
-}
-Object.defineProperty(__vite_ssr_exports__, "imageOptions", { enumerable: true, configurable: true, get(){ return imageOptions }});
-
-imageOptions.providers = {
-  ['ipx']: { provider: __vite_ssr_import_0__, defaults: {} }
-}
-        ;
-}
-
-
-// --------------------
-// Request: /node_modules/@nuxt/image-edge/dist/runtime/providers/ipx.mjs
-// Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/image-options.mjs ($id_nkMCkogBl8)
-// Dependencies: 
-// - ufo ($id_Idgm3MW7hZ)
-// - /node_modules/@nuxt/image-edge/dist/runtime/index.mjs ($id_Pwc5yaXCf6)
-// --------------------
-const $id_ZM14eW7qiu = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("ufo");
-
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/@nuxt/image-edge/dist/runtime/index.mjs");
-
-const operationsGenerator = __vite_ssr_import_1__.createOperationsGenerator({
-  keyMap: {
-    format: "f",
-    fit: "fit",
-    width: "w",
-    height: "h",
-    resize: "s",
-    quality: "q",
-    background: "b"
-  },
-  joinWith: ",",
-  formatter: (key, val) => __vite_ssr_import_0__.encodeParam(key) + "_" + __vite_ssr_import_0__.encodeParam(val)
-});
-const getImage = (src, { modifiers = {}, baseURL } = {}, _ctx) => {
-  if (modifiers.width && modifiers.height) {
-    modifiers.resize = `${modifiers.width}x${modifiers.height}`;
-    delete modifiers.width;
-    delete modifiers.height;
-  }
-  const params = operationsGenerator(modifiers) || "_";
-  if (!baseURL) {
-    baseURL = __vite_ssr_import_0__.joinURL("/", "/_ipx");
-  }
-  return {
-    url: __vite_ssr_import_0__.joinURL(baseURL, params, __vite_ssr_import_0__.encodePath(src))
-  };
-};
-Object.defineProperty(__vite_ssr_exports__, "getImage", { enumerable: true, configurable: true, get(){ return getImage }});
-const validateDomains = true;
-Object.defineProperty(__vite_ssr_exports__, "validateDomains", { enumerable: true, configurable: true, get(){ return validateDomains }});
-const supportsAlias = true;
-Object.defineProperty(__vite_ssr_exports__, "supportsAlias", { enumerable: true, configurable: true, get(){ return supportsAlias }});
-;
-}
-
-
-// --------------------
-// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/root-component.mjs
-// Parents: 
-// - /Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry ($id_wP7aTsDxG9)
+// - /Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry ($id_NpTU6uJtm8)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // --------------------
-const $id_jUEm4tKLVn = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_2VDRqBPrcc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -3310,15 +2834,15 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/root-component.mjs ($id_v3scbUuHxZ)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/root-component.mjs ($id_GVs4MIucWl)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/error-component.mjs ($id_nJ5FHCvsSv)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/error-component.mjs ($id_I7uhmIlZ0v)
 // --------------------
-const $id_USCaVoO6xM = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_otwUIidkuY = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
@@ -3330,7 +2854,7 @@ const _sfc_main = {
   setup(__props, { expose }) {
   expose();
 
-const ErrorComponent = __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/error-component.mjs"))
+const ErrorComponent = __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__("/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/error-component.mjs"))
 
 const nuxtApp = __vite_ssr_import_1__.useNuxtApp()
 const onResolve = () => nuxtApp.callHook('app:suspense:resolve')
@@ -3390,7 +2914,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
 }
 
 
@@ -3406,8 +2930,8 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - /components/Settings.vue ($id_KNB27G4VRc)
 // - /components/Preview.vue ($id_7CNegRKX36)
 // - /components/Export.vue ($id_mpBCnzJAKE)
-// - /components/Support.vue ($id_GuipdVEtXc)
 // - /components/Footer.vue ($id_89jzJWR97X)
+// - /components/Support.vue ($id_GuipdVEtXc)
 // - /app.vue ($id_K0boQqLzfo)
 // Dependencies: 
 
@@ -3438,8 +2962,8 @@ import("vue/server-renderer")
 // - /components/Settings.vue ($id_KNB27G4VRc)
 // - /components/Preview.vue ($id_7CNegRKX36)
 // - /components/Export.vue ($id_mpBCnzJAKE)
-// - /components/Support.vue ($id_GuipdVEtXc)
 // - /components/Footer.vue ($id_89jzJWR97X)
+// - /components/Support.vue ($id_GuipdVEtXc)
 // - /app.vue ($id_K0boQqLzfo)
 // Dependencies: 
 
@@ -3458,13 +2982,13 @@ __vite_ssr_exports__.default = (sfc, props) => {
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/error-component.mjs
+// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/error-component.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // --------------------
-const $id_othbtiZtOK = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_FgEWZVUoW8 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -3474,7 +2998,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-error-page.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/error-component.mjs ($id_nJ5FHCvsSv)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/error-component.mjs ($id_I7uhmIlZ0v)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
@@ -3483,7 +3007,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_vC10oUHchO)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_FMi1dBhUQk)
 // --------------------
-const $id_pXBcbytDek = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_Hd23tAfhDI = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 
@@ -3561,7 +3085,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
 }
 
 
@@ -3577,7 +3101,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=bc8852ab&lang.css ($id_UH106zs9IT)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_pj2PKAuDY6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_VUszZO957V = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
@@ -3678,7 +3202,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-bc8852ab"],['__file',"/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-bc8852ab"],['__file',"/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
 }
 
 
@@ -3705,7 +3229,7 @@ __vite_ssr_exports__.default = "\n.spotlight[data-v-bc8852ab]{background:linear-
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=6b2d7187&lang.css ($id_qcoFgmhGJ5)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_d8Yyf9Tn5J = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_HHuZMC3iW4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
 
 const _sfc_main = {
@@ -3788,7 +3312,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-6b2d7187"],['__file',"/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-6b2d7187"],['__file',"/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
 }
 
 
@@ -3815,7 +3339,7 @@ __vite_ssr_exports__.default = "\n.spotlight[data-v-6b2d7187]{background:linear-
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css ($id_anXr5LNAH3)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_IkGfpTjoiM = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_dt9kkJUJmJ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
 
 const _sfc_main = {
@@ -3892,7 +3416,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-f37408fc"],['__file',"/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-f37408fc"],['__file',"/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
 }
 
 
@@ -3909,13 +3433,13 @@ __vite_ssr_exports__.default = "\n.spotlight[data-v-f37408fc]{background:linear-
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/app-component.mjs
+// Request: /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/app-component.mjs
 // Parents: 
-// - /Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry ($id_wP7aTsDxG9)
+// - /Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry ($id_NpTU6uJtm8)
 // Dependencies: 
 // - /app.vue ($id_K0boQqLzfo)
 // --------------------
-const $id_feg3mEF6YC = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_0LXjJ9sI5n = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -3925,21 +3449,22 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /app.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/app-component.mjs ($id_odOhY3wtG7)
+// - /@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/app-component.mjs ($id_E1dmq1EXzg)
 // Dependencies: 
 // - /components/Files.vue ($id_CRTg9XmBPA)
 // - /components/Settings.vue ($id_KNB27G4VRc)
 // - /node_modules/nuxt/dist/app/components/client-only.mjs ($id_HseDGTR18m)
 // - /components/Preview.vue ($id_7CNegRKX36)
 // - /components/Export.vue ($id_mpBCnzJAKE)
-// - /components/Support.vue ($id_GuipdVEtXc)
 // - /components/Footer.vue ($id_89jzJWR97X)
+// - /components/Support.vue ($id_GuipdVEtXc)
 // - /node_modules/nuxt/dist/head/runtime/index.mjs ($id_tzUUgT5kx6)
 // - vue ($id_VkOCJnUZrn)
 // - vue/server-renderer ($id_UyJffsox60)
+// - /assets/styles/main.scss?vue&type=style&index=0&src=true&lang.css ($id_9iaMvNDbxG)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_xNkuodh61d = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_hNkfkSjqXc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/Files.vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Settings.vue");
@@ -3950,9 +3475,9 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/components/Preview.vue
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/Export.vue");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Support.vue");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/components/Footer.vue");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Footer.vue");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Support.vue");
 
 const __vite_ssr_import_7__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
 
@@ -3983,9 +3508,9 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   const _component_ClientOnly = __vite_ssr_import_2__.default;
   const _component_Preview = __vite_ssr_import_3__.default;
   const _component_Export = __vite_ssr_import_4__.default;
-  const _component_Support = __vite_ssr_import_5__.default;
-  const _component_Footer = __vite_ssr_import_6__.default;
-  _push(`<div${__vite_ssr_import_10__.ssrRenderAttrs(__vite_ssr_import_9__.mergeProps({ class: "m-h-screen flex flex-col gap-20 items-center p-10 min-h-screen max-w-[800px] mx-auto" }, _attrs))}>`);
+  const _component_Footer = __vite_ssr_import_5__.default;
+  const _component_Support = __vite_ssr_import_6__.default;
+  _push(`<div${__vite_ssr_import_10__.ssrRenderAttrs(__vite_ssr_import_9__.mergeProps({ class: "m-h-screen flex flex-col items-center p-10 min-h-screen max-w-[800px] mx-auto" }, _attrs))}><div class="w-full mb-10"><h1>Grid from Imgs Generator</h1><p class="font-light text-sm">Upload your images, choose your settings and export your PNG file. <br>This tool is completely <strong class="text-violet-700">free to use</strong>, no ads. If you like using it, feel free to <strong><a href="https://www.buymeacoffee.com/etiennemoureton" target="_blank" class="text-violet-700 font-bold">support my work</a></strong>. <br>It uses <strong><a href="http://macyjs.com/" target="_blank">Macy.js</a></strong> under the hood to generate the grid. </p></div><div class="flex flex-col gap-20 w-full h-full my-5">`);
   _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Files, null, null, _parent));
   _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Settings, null, null, _parent));
   _push(__vite_ssr_import_10__.ssrRenderComponent(_component_ClientOnly, null, {
@@ -4002,21 +3527,24 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
     }),
     _: 1
   }, _parent));
-  _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Support, null, null, _parent));
+  _push(`</div>`);
   _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Footer, null, null, _parent));
+  _push(__vite_ssr_import_10__.ssrRenderComponent(_component_Support, null, null, _parent));
   _push(`</div>`);
 }
-const __vite_ssr_import_11__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_11__ = await __vite_ssr_import__("/assets/styles/main.scss?vue&type=style&index=0&src=true&lang.css");
+
+const __vite_ssr_import_12__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_11__.useSSRContext();
+  const ssrContext = __vite_ssr_import_12__.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("app.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-const __vite_ssr_import_12__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_13__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_12__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/app.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_13__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/app.vue"]]);
 ;
 }
 
@@ -4030,9 +3558,10 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_12__.default(_s
 // - /stores/files.ts ($id_oa6KAcnDRL)
 // - /assets/svg/delete.svg ($id_iS5GlXgMvF)
 // - vue/server-renderer ($id_UyJffsox60)
+// - /components/Files.vue?vue&type=style&index=0&lang.scss ($id_znFMfukVeJ)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_W8Gf8LbztI = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_hpMnsKaWhq = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
@@ -4047,7 +3576,7 @@ const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
     expose();
     const input = __vite_ssr_import_0__.ref();
     const error = __vite_ssr_import_0__.ref("");
-    const items = __vite_ssr_import_2__.useFiles().files;
+    const items = __vite_ssr_import_2__.default().files;
     __vite_ssr_import_0__.onMounted(() => {
       initListener();
     });
@@ -4073,7 +3602,15 @@ const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
     const deleteImg = (index) => {
       items.splice(index, 1);
     };
-    const __returned__ = { input, error, items, initListener, deleteImg, DeleteIcon: __vite_ssr_import_3__.default };
+    const fileNameReducer = (filename) => {
+      const fileNameParts = filename.split(".");
+      const fileNameExtension = fileNameParts[fileNameParts.length - 1];
+      let fileNameWithoutExtension = filename.slice(0, filename.length - (fileNameExtension.length + 1));
+      fileNameWithoutExtension = fileNameWithoutExtension.length < 10 ? fileNameWithoutExtension : `${fileNameWithoutExtension.slice(0, 8)}[...]`;
+      const fileNameSliced = `${fileNameWithoutExtension}.${fileNameExtension}`;
+      return fileNameSliced;
+    };
+    const __returned__ = { input, error, items, initListener, deleteImg, fileNameReducer, DeleteIcon: __vite_ssr_import_3__.default };
     Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
     return __returned__;
   }
@@ -4083,34 +3620,42 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("vue");
 const __vite_ssr_import_5__ = await __vite_ssr_import__("vue/server-renderer");
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(__vite_ssr_import_4__.mergeProps({ class: "w-full flex flex-col gap-2" }, _attrs))}><h2 class="align-left text-3xl font-bold">Files</h2><div class="flex justify-between items-center"><input type="file" name="files" id="" multiple class="file:cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">`);
+  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(__vite_ssr_import_4__.mergeProps({ class: "w-full flex flex-col gap-2" }, _attrs))}><h2>Files</h2><form class="flex justify-between items-center"><input type="file" name="files" id="" multiple class="file:cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">`);
   if ($setup.error) {
     _push(`<div class="px-4 py-2 bg-red-200 rounded-md"><p class="text-xs text-red-700">${__vite_ssr_import_5__.ssrInterpolate($setup.error)}</p></div>`);
   } else {
     _push(`<!---->`);
   }
-  _push(`</div><div class="grid grid-cols-3 gap-4"><!--[-->`);
-  __vite_ssr_import_5__.ssrRenderList($setup.items, (file, index) => {
-    _push(`<div class="relative"><img${__vite_ssr_import_5__.ssrRenderAttr("src", file.content)}><div class="flex justify-between p-4 bg-slate-100 rounded-b-md"><p class="text-sm">${__vite_ssr_import_5__.ssrInterpolate(file.name)}</p>`);
-    _push(__vite_ssr_import_5__.ssrRenderComponent($setup["DeleteIcon"], {
-      class: "cursor-pointer",
-      onClick: ($event) => $setup.deleteImg(index)
-    }, null, _parent));
-    _push(`</div></div>`);
-  });
-  _push(`<!--]--></div></div>`);
+  _push(`</form>`);
+  if ($setup.items.length) {
+    _push(`<div class="grid grid-cols-3 gap-4 files"><!--[-->`);
+    __vite_ssr_import_5__.ssrRenderList($setup.items, (file, index) => {
+      _push(`<div class="relative"><img class="h-full w-full object-cover"${__vite_ssr_import_5__.ssrRenderAttr("src", file.content)}><div class="flex justify-between p-4 bg-slate-100 rounded-b-md"><p class="text-sm">${__vite_ssr_import_5__.ssrInterpolate($setup.fileNameReducer(file.name))}</p>`);
+      _push(__vite_ssr_import_5__.ssrRenderComponent($setup["DeleteIcon"], {
+        class: "cursor-pointer",
+        onClick: ($event) => $setup.deleteImg(index)
+      }, null, _parent));
+      _push(`</div></div>`);
+    });
+    _push(`<!--]--></div>`);
+  } else {
+    _push(`<!---->`);
+  }
+  _push(`</div>`);
 }
-const __vite_ssr_import_6__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/components/Files.vue?vue&type=style&index=0&lang.scss");
+
+const __vite_ssr_import_7__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_6__.useSSRContext();
+  const ssrContext = __vite_ssr_import_7__.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Files.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_7__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Files.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_8__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Files.vue"]]);
 ;
 }
 
@@ -4123,7 +3668,7 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_7__.default(_sf
 // Dependencies: 
 // - pinia ($id_08NwGtDtAK)
 // --------------------
-const $id_UMbAIFYanX = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ZFJEljkKMs = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("pinia");
 
 const useFiles = __vite_ssr_import_0__.defineStore("files", {
@@ -4133,7 +3678,7 @@ const useFiles = __vite_ssr_import_0__.defineStore("files", {
     };
   }
 });
-Object.defineProperty(__vite_ssr_exports__, "useFiles", { enumerable: true, configurable: true, get(){ return useFiles }});
+__vite_ssr_exports__.default = useFiles;
 ;
 }
 
@@ -4177,6 +3722,18 @@ __vite_ssr_exports__.default = { render: render };
 
 
 // --------------------
+// Request: /components/Files.vue?vue&type=style&index=0&lang.scss
+// Parents: 
+// - /components/Files.vue ($id_CRTg9XmBPA)
+// Dependencies: 
+
+// --------------------
+const $id_xsnQLHdYew = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = ".files {\n  grid-template-rows: repeat(auto-fill, 150px);\n}";
+}
+
+
+// --------------------
 // Request: /components/Settings.vue
 // Parents: 
 // - /app.vue ($id_K0boQqLzfo)
@@ -4184,57 +3741,62 @@ __vite_ssr_exports__.default = { render: render };
 // - vue ($id_VkOCJnUZrn)
 // - /assets/svg/min.svg ($id_dJ2F6rn5hU)
 // - /assets/svg/max.svg ($id_BP1qmKgqb6)
+// - /assets/svg/arrow.svg ($id_XsFpxH5tHO)
 // - /stores/settings.ts ($id_8kiXpCQM3B)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_F32dP1Lqk2 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_tDKmiFRayd = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/assets/svg/min.svg");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/svg/max.svg");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/stores/settings.ts");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/assets/svg/arrow.svg");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/stores/settings.ts");
 
 const _sfc_main = /* @__PURE__ */ __vite_ssr_import_0__.defineComponent({
   __name: "Settings",
   setup(__props, { expose }) {
     expose();
-    const settings = __vite_ssr_import_3__.useSettings();
-    const __returned__ = { settings, MinIcon: __vite_ssr_import_1__.default, MaxIcon: __vite_ssr_import_2__.default };
+    const settings = __vite_ssr_import_4__.default();
+    const __returned__ = { settings, MinIcon: __vite_ssr_import_1__.default, MaxIcon: __vite_ssr_import_2__.default, ArrowIcon: __vite_ssr_import_3__.default };
     Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
     return __returned__;
   }
 });
-const __vite_ssr_import_4__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("vue/server-renderer");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("vue/server-renderer");
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_5__.ssrRenderAttrs(__vite_ssr_import_4__.mergeProps({ class: "w-full flex flex-col gap-2" }, _attrs))}><h2 class="align-left text-3xl font-bold">Settings</h2><div class="flex gap-8"><div class="w-24 flex flex-col gap-1"><p class="text-sm font-semibold text-slate-300">Margin</p><input class="h-30 bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" type="number" name="margin"${__vite_ssr_import_5__.ssrRenderAttr("value", $setup.settings.margin)} min="0" max="50" step="1"></div><div class="flex flex-col gap-1"><p class="text-sm font-semibold text-slate-300">Columns</p><div class="flex gap-2 bg-violet-50 rounded-3xl px-4 py-1 justify-center h-30">`);
-  _push(__vite_ssr_import_5__.ssrRenderComponent($setup["MinIcon"], {
+  _push(`<div${__vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({ class: "settings w-full flex flex-col gap-2" }, _attrs))}><h2>Settings</h2><form class="flex gap-8"><div class="w-24 flex flex-col gap-1"><label for="margin" class="text-sm font-semibold text-slate-300">Margin</label><input class="h-input bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" type="number" name="margin"${__vite_ssr_import_6__.ssrRenderAttr("value", $setup.settings.margin)} min="0" max="50" step="1"></div><div class="flex flex-col gap-1"><p class="text-sm font-semibold text-slate-300">Columns</p><div class="flex gap-2 bg-violet-50 rounded-3xl px-4 py-1 justify-center h-input">`);
+  _push(__vite_ssr_import_6__.ssrRenderComponent($setup["MinIcon"], {
     class: "cursor-pointer w-4 fill-violet-700",
     onClick: ($event) => $setup.settings.columns > 0 && $setup.settings.columns--
   }, null, _parent));
-  _push(`<p class="select-none w-3 text-center text-violet-700 bg-transparent" type="number" name="columns">${__vite_ssr_import_5__.ssrInterpolate($setup.settings.columns)}</p>`);
-  _push(__vite_ssr_import_5__.ssrRenderComponent($setup["MaxIcon"], {
+  _push(`<p class="select-none w-3 text-center text-violet-700 bg-transparent" type="number" name="columns">${__vite_ssr_import_6__.ssrInterpolate($setup.settings.columns)}</p>`);
+  _push(__vite_ssr_import_6__.ssrRenderComponent($setup["MaxIcon"], {
     class: "cursor-pointer w-4 fill-violet-700",
     onClick: ($event) => $setup.settings.columns < 5 && $setup.settings.columns++
   }, null, _parent));
-  _push(`</div></div><div class="w-40 flex flex-col gap-1"><p class="text-sm font-semibold text-slate-300">Radius</p><input class="bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" type="range" name="radius"${__vite_ssr_import_5__.ssrRenderAttr("value", $setup.settings.radius)} min="0" max="2" step="0.1"></div></div></div>`);
+  _push(`</div></div><div class="w-40 flex flex-col gap-1"><label for="radius" class="text-sm font-semibold text-slate-300">Radius</label><div class="h-input bg-violet-50 flex px-4 py-1 rounded-3xl"><input class="appearance-none settings__slider my-auto h-1 rounded-sm bg-white text-violet-700 w-full rounded-3xl" type="range" name="radius"${__vite_ssr_import_6__.ssrRenderAttr("value", $setup.settings.radius)} min="0" max="2" step="0.1"></div></div><div class="w-24 flex flex-col gap-1"><label for="extension" class="text-sm font-semibold text-slate-300">Extension</label><div class="h-input relative w-full"><select class="appearance-none h-full bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" name="extension" id=""><option value="png">PNG</option><option value="jpg">JPG</option><option value="webp">WEBP</option></select>`);
+  _push(__vite_ssr_import_6__.ssrRenderComponent($setup["ArrowIcon"], { class: "absolute fill-violet-700 top-0 bottom-0 my-auto right-2 w-4" }, null, _parent));
+  _push(`</div></div></form></div>`);
 }
-const __vite_ssr_import_6__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_6__.useSSRContext();
+  const ssrContext = __vite_ssr_import_7__.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Settings.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_7__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Settings.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_8__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Settings.vue"]]);
 ;
 }
 
@@ -4312,6 +3874,37 @@ __vite_ssr_exports__.default = { render: render };
 
 
 // --------------------
+// Request: /assets/svg/arrow.svg
+// Parents: 
+// - /components/Settings.vue ($id_KNB27G4VRc)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// --------------------
+const $id_0rxO8GVDOO = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+
+const _hoisted_1 = {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 24 24"
+}
+const _hoisted_2 = /*#__PURE__*/__vite_ssr_import_0__.createElementVNode("path", {
+  d: "M13 17.16c-.55.55-1.44.55-2 0L3.02 9.18c-.55-.55-.55-1.44 0-2 .55-.55 1.44-.55 2 0l6.99 6.99L19 7.18c.55-.55 1.44-.55 2 0 .55.55.55 1.44 0 2l-7.98 7.98Z",
+  style: {"fill-rule":"evenodd"}
+}, null, -1 /* HOISTED */)
+const _hoisted_3 = [
+  _hoisted_2
+]
+
+function render(_ctx, _cache) {
+  return (__vite_ssr_import_0__.openBlock(), __vite_ssr_import_0__.createElementBlock("svg", _hoisted_1, _hoisted_3))
+}
+Object.defineProperty(__vite_ssr_exports__, "render", { enumerable: true, configurable: true, get(){ return render }});
+__vite_ssr_exports__.default = { render: render };
+}
+
+
+// --------------------
 // Request: /stores/settings.ts
 // Parents: 
 // - /components/Settings.vue ($id_KNB27G4VRc)
@@ -4320,7 +3913,7 @@ __vite_ssr_exports__.default = { render: render };
 // Dependencies: 
 // - pinia ($id_08NwGtDtAK)
 // --------------------
-const $id_bBxDmCFZiv = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a5IXNGf4DK = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("pinia");
 
 const useSettings = __vite_ssr_import_0__.defineStore("settings", {
@@ -4328,11 +3921,12 @@ const useSettings = __vite_ssr_import_0__.defineStore("settings", {
     return {
       radius: 0.5,
       margin: 10,
-      columns: 3
+      columns: 3,
+      extension: "png"
     };
   }
 });
-Object.defineProperty(__vite_ssr_exports__, "useSettings", { enumerable: true, configurable: true, get(){ return useSettings }});
+__vite_ssr_exports__.default = useSettings;
 ;
 }
 
@@ -4413,32 +4007,33 @@ Object.defineProperty(__vite_ssr_exports__, "createClientOnly", { enumerable: tr
 // - /app.vue ($id_K0boQqLzfo)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
-// - macy ($id_RQMDm40qvh)
 // - /stores/settings.ts ($id_8kiXpCQM3B)
 // - /stores/files.ts ($id_oa6KAcnDRL)
+// - /composables/Macy.js ($id_nqWd37KtKo)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_ZHTwaAqnUn = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_WqVXPfbTEP = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("macy");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/stores/settings.ts");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/stores/settings.ts");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/stores/files.ts");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/stores/files.ts");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/composables/Macy.js");
 
 const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
   __name: "Preview",
   setup(__props, { expose }) {
     expose();
-    const files = __vite_ssr_import_4__.useFiles().files;
+    const files = __vite_ssr_import_3__.default().files;
     const filesLength = __vite_ssr_import_0__.computed(() => {
       return files.length ? true : false;
     });
-    const settings = __vite_ssr_import_3__.useSettings();
+    const Macy = __vite_ssr_import_4__.default();
+    const settings = __vite_ssr_import_2__.default();
     const gridElement = __vite_ssr_import_0__.ref(null);
     let grid = __vite_ssr_import_0__.ref(void 0);
     let config = __vite_ssr_import_0__.reactive({
@@ -4458,15 +4053,12 @@ const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
     };
     const Init = () => {
       grid.value && grid.remove();
-      grid = __vite_ssr_import_2__.default(config);
+      grid = Macy.value(config);
       grid.on(grid.constants.EVENT_IMAGE_COMPLETE, (ctx) => {
         gridElement.value.style.height = `${parseInt(gridElement.value.style.height.slice(0, -2)) - settings.margin}px`;
       });
       setRadius();
     };
-    __vite_ssr_import_0__.onMounted(() => {
-      Init();
-    });
     __vite_ssr_import_0__.watch(
       () => files,
       (files2, oldFiles) => {
@@ -4494,7 +4086,7 @@ const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
         setRadius();
       }
     );
-    const __returned__ = { files, filesLength, settings, gridElement, grid, config, setRadius, Init };
+    const __returned__ = { files, filesLength, Macy, settings, gridElement, grid, config, setRadius, Init };
     Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
     return __returned__;
   }
@@ -4504,7 +4096,7 @@ const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
 const __vite_ssr_import_6__ = await __vite_ssr_import__("vue/server-renderer");
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({ class: "flex flex-col gap-2 justify-center w-full" }, _attrs))}><h2 class="align-left text-3xl font-bold">Preview</h2><div style="${__vite_ssr_import_6__.ssrRenderStyle($setup.filesLength ? null : { display: "none" })}" class="preview w-full"><!--[-->`);
+  _push(`<div${__vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({ class: "flex flex-col gap-2 justify-center w-full" }, _attrs))}><h2>Preview</h2><div style="${__vite_ssr_import_6__.ssrRenderStyle($setup.filesLength ? null : { display: "none" })}" class="preview w-full"><!--[-->`);
   __vite_ssr_import_6__.ssrRenderList($setup.files, (file, index) => {
     _push(`<img style="${__vite_ssr_import_6__.ssrRenderStyle({ borderRadius: $setup.settings.radius + "rem" })}"${__vite_ssr_import_6__.ssrRenderAttr("src", file.content)}>`);
   });
@@ -4520,16 +4112,43 @@ _sfc_main.setup = (props, ctx) => {
 };
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_8__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Preview.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_8__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Preview.vue"]]);
 ;
+}
+
+
+// --------------------
+// Request: /composables/Macy.js
+// Parents: 
+// - /components/Preview.vue ($id_7CNegRKX36)
+// - /components/Export.vue ($id_mpBCnzJAKE)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// - macy ($id_RQMDm40qvh)
+// --------------------
+const $id_nkdRP7hZ2S = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const useMacy = () => {
+  const Macy = __vite_ssr_import_0__.ref(undefined);
+
+  __vite_ssr_import_0__.onMounted(() => {
+    __vite_ssr_dynamic_import__('macy').then((lib) => {
+      Macy.value = lib.default
+    })
+  })
+
+  return Macy
+}
+
+__vite_ssr_exports__.default = useMacy;
 }
 
 
 // --------------------
 // Request: macy
 // Parents: 
-// - /components/Preview.vue ($id_7CNegRKX36)
-// - /components/Export.vue ($id_mpBCnzJAKE)
+// - /composables/Macy.js ($id_nqWd37KtKo)
 // Dependencies: 
 
 // --------------------
@@ -4553,23 +4172,26 @@ import("macy")
 // - /app.vue ($id_K0boQqLzfo)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
-// - macy ($id_RQMDm40qvh)
 // - html-to-image ($id_HfQwJBh6KO)
 // - file-saver ($id_vMWPfZBttV)
 // - /stores/settings.ts ($id_8kiXpCQM3B)
+// - plausible-tracker ($id_UWiGBMK5o6)
+// - /composables/Macy.js ($id_nqWd37KtKo)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_pvvXELUK4h = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_Ria2i9vdJR = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("macy");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("html-to-image");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("html-to-image");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("file-saver");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("file-saver");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/stores/settings.ts");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/stores/settings.ts");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("plausible-tracker");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/composables/Macy.js");
 
 
 
@@ -4578,7 +4200,11 @@ const _sfc_main = {
   setup(__props, { expose }) {
   expose();
 
-const settings = __vite_ssr_import_4__.useSettings()
+const settings = __vite_ssr_import_3__.default()
+
+const Macy = __vite_ssr_import_5__.default()
+
+const { trackEvent } = __vite_ssr_import_4__.default()
 
 let grid = __vite_ssr_import_0__.ref()
 let config = __vite_ssr_import_0__.reactive({})
@@ -4590,6 +4216,7 @@ const exportSettings = {
 }
 
 const exportBlob = () => {
+  trackEvent('exports')
   config = {
     container: '.generator',
     trueOrder: false,
@@ -4605,13 +4232,14 @@ const exportBlob = () => {
 }
 
 const saveFile = () => {
+  const extension = settings.extension
   const gen = document.querySelector(exportSettings.generator)
-  __vite_ssr_import_2__.toBlob(gen)
+  __vite_ssr_import_1__.toBlob(gen)
   .then(function (blob) {
     if (window.saveAs) {
-      window.saveAs(blob, 'my-grid.png');
+      window.saveAs(blob, `my-grid.${extension}`);
     } else {
-     __vite_ssr_import_3__.saveAs(blob, 'my-grid.png');
+      __vite_ssr_import_2__.saveAs(blob, `my-grid.${extension}`);
     }
     gen.innerHTML = ""
   })
@@ -4623,7 +4251,7 @@ const generateNewCanvas = () => {
   const generatorElement = document.querySelector(exportSettings.generator)
   generatorElement.innerHTML = gridElement.innerHTML
 
-  grid = __vite_ssr_import_1__.default(config);
+  grid = Macy.value(config);
 
   grid.on(grid.constants.EVENT_IMAGE_COMPLETE, (ctx) => {
     gridElement.style.height = `${parseInt(gridElement.style.height.slice(0, -2)) - settings.margin}px`
@@ -4644,33 +4272,33 @@ __vite_ssr_import_0__.watch(
   }
 )
 
-const __returned__ = { settings, grid, config, exportSettings, exportBlob, saveFile, generateNewCanvas, Macy: __vite_ssr_import_1__.default, toBlob: __vite_ssr_import_2__.toBlob, saveAs: __vite_ssr_import_3__.saveAs, useSettings: __vite_ssr_import_4__.useSettings }
+const __returned__ = { settings, Macy, trackEvent, grid, config, exportSettings, exportBlob, saveFile, generateNewCanvas, toBlob: __vite_ssr_import_1__.toBlob, saveAs: __vite_ssr_import_2__.saveAs, useSettings: __vite_ssr_import_3__.default, Plausible: __vite_ssr_import_4__.default, useMacy: __vite_ssr_import_5__.default }
 Object.defineProperty(__returned__, '__isScriptSetup', { enumerable: false, value: true })
 return __returned__
 }
 
 }
-const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("vue");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("vue/server-renderer");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("vue/server-renderer");
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({ class: "w-full" }, _attrs))}><button class="flex gap-2 bg-violet-50 rounded-3xl px-8 py-2 justify-center h-30 text-violet-700 font-bold">Export</button><div class="fixed right-0 bottom-0 m-auto left-0 top-0 pointer-events-none"><div class="generator relative w-[1000px]"></div></div></div>`)
+  _push(`<div${__vite_ssr_import_7__.ssrRenderAttrs(__vite_ssr_import_6__.mergeProps({ class: "w-full" }, _attrs))}><button class="flex gap-2 bg-violet-50 rounded-3xl px-8 py-2 justify-center h-30 text-violet-700 font-bold">Export</button><div class="fixed right-0 bottom-0 m-auto left-0 top-0 pointer-events-none"><div class="generator relative w-[1000px]"></div></div></div>`)
 }
 
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("vue");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_7__.useSSRContext()
+  const ssrContext = __vite_ssr_import_8__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Export.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+const __vite_ssr_import_9__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Export.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Export.vue"]]);
 }
 
 
@@ -4717,62 +4345,24 @@ import("file-saver")
 
 
 // --------------------
-// Request: /components/Support.vue
+// Request: plausible-tracker
 // Parents: 
-// - /app.vue ($id_K0boQqLzfo)
-// Dependencies: 
-// - vue ($id_VkOCJnUZrn)
-// - vue/server-renderer ($id_UyJffsox60)
-// - /assets/imgs/coffee.png ($id_WKugRGwJ4J)
-// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
-// --------------------
-const $id_YQOgexm6V4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
-
-const __vite_ssr_import_1__ = await __vite_ssr_import__("vue/server-renderer");
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/imgs/coffee.png");
-
-
-
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(`<a${
-    __vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({
-      href: "https://www.buymeacoffee.com/etiennemoureton",
-      target: "_blank",
-      class: "fixed bottom-10 right-10 p-4 rounded-full flex items-center gap-4 bg-slate-50 shadow-2xl"
-    }, _attrs))
-  }><div class="w-[2.5rem] h-fit p-2 rounded-full overflow-hidden bg-[#f8dd03]"><img class="w-full"${
-    __vite_ssr_import_1__.ssrRenderAttr("src", __vite_ssr_import_2__.default)
-  }></div><div class="flex flex-col justify-center mr-5"><p class="text-xs text-slate-500">Liked using my tool ?</p><p class="text-base">Buy me a coffee</p></div></a>`)
-}
-
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_3__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Support.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Support.vue"]]);
-}
-
-
-// --------------------
-// Request: /assets/imgs/coffee.png
-// Parents: 
-// - /components/Support.vue ($id_GuipdVEtXc)
+// - /components/Export.vue ($id_mpBCnzJAKE)
 // Dependencies: 
 
 // --------------------
-const $id_JV51KbaC5x = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/imgs/coffee.png";
-}
+const $id_QniKmyHtR4 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
+import("plausible-tracker")
+  .then(r => {
+    if (r.default && r.default.__esModule)
+      r = r.default
+    exports.default = r.default
+    ssrExportAll(r)
+  })
+  .catch(e => {
+    console.error(e)
+    throw new Error("[vite dev] Error loading external \"plausible-tracker\".")
+  })
 
 
 // --------------------
@@ -4785,7 +4375,7 @@ __vite_ssr_exports__.default = "/_nuxt/assets/imgs/coffee.png";
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_w9W7clx80w = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_1rh05NNQuK = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/svg/github.svg");
 
 
@@ -4823,7 +4413,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/components/Footer.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Footer.vue"]]);
 }
 
 
@@ -4864,12 +4454,83 @@ __vite_ssr_exports__.default = { render: render };
 }
 
 
+// --------------------
+// Request: /components/Support.vue
+// Parents: 
+// - /app.vue ($id_K0boQqLzfo)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /assets/img/coffee.png ($id_lGtFq4iUsy)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_pVriNBWWH2 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const _sfc_main = {}
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue/server-renderer");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/img/coffee.png");
+
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<a${
+    __vite_ssr_import_1__.ssrRenderAttrs(__vite_ssr_import_0__.mergeProps({
+      href: "https://www.buymeacoffee.com/etiennemoureton",
+      target: "_blank",
+      class: "fixed bottom-10 right-10 p-4 rounded-full flex items-center gap-4 bg-slate-50 shadow-2xl"
+    }, _attrs))
+  }><div class="w-[2.5rem] h-fit p-2 rounded-full overflow-hidden bg-[#f8dd03]"><img class="w-full"${
+    __vite_ssr_import_1__.ssrRenderAttr("src", __vite_ssr_import_2__.default)
+  } alt="buy me a coffee logo"></div><div class="flex flex-col justify-center mr-5"><p class="text-xs text-slate-500">Liked using my tool ?</p><p class="text-base">Buy me a coffee</p></div></a>`)
+}
+
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Support.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Support.vue"]]);
+}
+
+
+// --------------------
+// Request: /assets/img/coffee.png
+// Parents: 
+// - /components/Support.vue ($id_GuipdVEtXc)
+// Dependencies: 
+
+// --------------------
+const $id_9QFhRJxl0G = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/_nuxt/assets/img/coffee.png";
+}
+
+
+// --------------------
+// Request: /assets/styles/main.scss?vue&type=style&index=0&src=true&lang.css
+// Parents: 
+// - /app.vue ($id_K0boQqLzfo)
+// Dependencies: 
+
+// --------------------
+const $id_ow5mhAs2y4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+__vite_ssr_exports__.default = "/*\n! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/\n*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}\n::before,\n::after {\n  --tw-content: '';\n}\n\n/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/\nhtml {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}\n\n/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/\nbody {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}\n\n/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/\nhr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}\n\n/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/\nabbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}\n\n/*\nRemove the default font size and weight for headings.\n*/\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}\n\n/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/\na {\n  color: inherit;\n  text-decoration: inherit;\n}\n\n/*\nAdd the correct font weight in Edge and Safari.\n*/\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/\ncode,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/*\nAdd the correct font size in all browsers.\n*/\nsmall {\n  font-size: 80%;\n}\n\n/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsub {\n  bottom: -0.25em;\n}\nsup {\n  top: -0.5em;\n}\n\n/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/\ntable {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}\n\n/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}\n\n/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/\nbutton,\nselect {\n  text-transform: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/\nbutton,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}\n\n/*\nUse the modern Firefox focus style for all focusable elements.\n*/\n:-moz-focusring {\n  outline: auto;\n}\n\n/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/\n:-moz-ui-invalid {\n  box-shadow: none;\n}\n\n/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/\nprogress {\n  vertical-align: baseline;\n}\n\n/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/\n::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/\n[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/\n::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/*\nAdd the correct display in Chrome and Safari.\n*/\nsummary {\n  display: list-item;\n}\n\n/*\nRemoves the default spacing and border for appropriate elements.\n*/\nblockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}\nfieldset {\n  margin: 0;\n  padding: 0;\n}\nlegend {\n  padding: 0;\n}\nol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n/*\nPrevent resizing textareas horizontally by default.\n*/\ntextarea {\n  resize: vertical;\n}\n\n/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/\ninput::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\ninput::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}\n\n/*\nSet the default cursor for buttons.\n*/\nbutton,\n[role=\"button\"] {\n  cursor: pointer;\n}\n\n/*\nMake sure disabled buttons don't get the pointer cursor.\n*/\n:disabled {\n  cursor: default;\n}\n\n/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/\nimg,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}\n\n/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/\nimg,\nvideo {\n  max-width: 100%;\n  height: auto;\n}\nh1, \n.h1 {\n  margin-bottom: 1rem;\n  width: 100%;\n  font-size: 3rem;\n  line-height: 1;\n  font-weight: 800;\n}\nh2, \n.h2 {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n  font-weight: 700;\n}\n*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n::-webkit-backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}\n.container {\n  width: 100%;\n}\n@media (min-width: 640px) {\n.container {\n    max-width: 640px;\n}\n}\n@media (min-width: 768px) {\n.container {\n    max-width: 768px;\n}\n}\n@media (min-width: 1024px) {\n.container {\n    max-width: 1024px;\n}\n}\n@media (min-width: 1280px) {\n.container {\n    max-width: 1280px;\n}\n}\n@media (min-width: 1536px) {\n.container {\n    max-width: 1536px;\n}\n}\n.pointer-events-none {\n  pointer-events: none;\n}\n.fixed {\n  position: fixed;\n}\n.absolute {\n  position: absolute;\n}\n.relative {\n  position: relative;\n}\n.right-0 {\n  right: 0px;\n}\n.bottom-0 {\n  bottom: 0px;\n}\n.left-0 {\n  left: 0px;\n}\n.top-0 {\n  top: 0px;\n}\n.right-2 {\n  right: 0.5rem;\n}\n.bottom-10 {\n  bottom: 2.5rem;\n}\n.right-10 {\n  right: 2.5rem;\n}\n.m-auto {\n  margin: auto;\n}\n.my-auto {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n.mx-auto {\n  margin-left: auto;\n  margin-right: auto;\n}\n.my-5 {\n  margin-top: 1.25rem;\n  margin-bottom: 1.25rem;\n}\n.mt-auto {\n  margin-top: auto;\n}\n.mb-0 {\n  margin-bottom: 0px;\n}\n.mr-5 {\n  margin-right: 1.25rem;\n}\n.mb-10 {\n  margin-bottom: 2.5rem;\n}\n.flex {\n  display: flex;\n}\n.grid {\n  display: grid;\n}\n.h-full {\n  height: 100%;\n}\n.h-input {\n  height: 32px;\n}\n.h-1 {\n  height: 0.25rem;\n}\n.h-fit {\n  height: -webkit-fit-content;\n  height: -moz-fit-content;\n  height: fit-content;\n}\n.min-h-screen {\n  min-height: 100vh;\n}\n.w-full {\n  width: 100%;\n}\n.w-\\[1000px\\] {\n  width: 1000px;\n}\n.w-\\[1rem\\] {\n  width: 1rem;\n}\n.w-24 {\n  width: 6rem;\n}\n.w-4 {\n  width: 1rem;\n}\n.w-3 {\n  width: 0.75rem;\n}\n.w-40 {\n  width: 10rem;\n}\n.w-\\[2\\.5rem\\] {\n  width: 2.5rem;\n}\n.max-w-\\[800px\\] {\n  max-width: 800px;\n}\n.cursor-pointer {\n  cursor: pointer;\n}\n.select-none {\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n}\n.appearance-none {\n  -webkit-appearance: none;\n     -moz-appearance: none;\n          appearance: none;\n}\n.grid-cols-3 {\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-center {\n  align-items: center;\n}\n.justify-center {\n  justify-content: center;\n}\n.justify-between {\n  justify-content: space-between;\n}\n.gap-2 {\n  gap: 0.5rem;\n}\n.gap-4 {\n  gap: 1rem;\n}\n.gap-8 {\n  gap: 2rem;\n}\n.gap-1 {\n  gap: 0.25rem;\n}\n.gap-20 {\n  gap: 5rem;\n}\n.overflow-hidden {\n  overflow: hidden;\n}\n.rounded-3xl {\n  border-radius: 1.5rem;\n}\n.rounded-md {\n  border-radius: 0.375rem;\n}\n.rounded-sm {\n  border-radius: 0.125rem;\n}\n.rounded-full {\n  border-radius: 9999px;\n}\n.rounded-b-md {\n  border-bottom-right-radius: 0.375rem;\n  border-bottom-left-radius: 0.375rem;\n}\n.bg-violet-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.bg-red-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(254 202 202 / var(--tw-bg-opacity));\n}\n.bg-slate-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(241 245 249 / var(--tw-bg-opacity));\n}\n.bg-transparent {\n  background-color: transparent;\n}\n.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}\n.bg-slate-50 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 250 252 / var(--tw-bg-opacity));\n}\n.bg-\\[\\#f8dd03\\] {\n  --tw-bg-opacity: 1;\n  background-color: rgb(248 221 3 / var(--tw-bg-opacity));\n}\n.fill-violet-700 {\n  fill: #6d28d9;\n}\n.object-cover {\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.p-4 {\n  padding: 1rem;\n}\n.p-2 {\n  padding: 0.5rem;\n}\n.p-10 {\n  padding: 2.5rem;\n}\n.px-8 {\n  padding-left: 2rem;\n  padding-right: 2rem;\n}\n.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.px-4 {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.py-1 {\n  padding-top: 0.25rem;\n  padding-bottom: 0.25rem;\n}\n.text-center {\n  text-align: center;\n}\n.text-xs {\n  font-size: 0.75rem;\n  line-height: 1rem;\n}\n.text-sm {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.text-base {\n  font-size: 1rem;\n  line-height: 1.5rem;\n}\n.font-bold {\n  font-weight: 700;\n}\n.font-semibold {\n  font-weight: 600;\n}\n.font-light {\n  font-weight: 300;\n}\n.italic {\n  font-style: italic;\n}\n.text-violet-700 {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.text-red-700 {\n  --tw-text-opacity: 1;\n  color: rgb(185 28 28 / var(--tw-text-opacity));\n}\n.text-slate-400 {\n  --tw-text-opacity: 1;\n  color: rgb(148 163 184 / var(--tw-text-opacity));\n}\n.text-slate-300 {\n  --tw-text-opacity: 1;\n  color: rgb(203 213 225 / var(--tw-text-opacity));\n}\n.text-slate-500 {\n  --tw-text-opacity: 1;\n  color: rgb(100 116 139 / var(--tw-text-opacity));\n}\n.shadow-2xl {\n  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);\n  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);\n  box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);\n  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);\n}\n.file\\:mr-4::-webkit-file-upload-button {\n  margin-right: 1rem;\n}\n.file\\:mr-4::file-selector-button {\n  margin-right: 1rem;\n}\n.file\\:cursor-pointer::-webkit-file-upload-button {\n  cursor: pointer;\n}\n.file\\:cursor-pointer::file-selector-button {\n  cursor: pointer;\n}\n.file\\:rounded-full::-webkit-file-upload-button {\n  border-radius: 9999px;\n}\n.file\\:rounded-full::file-selector-button {\n  border-radius: 9999px;\n}\n.file\\:border-0::-webkit-file-upload-button {\n  border-width: 0px;\n}\n.file\\:border-0::file-selector-button {\n  border-width: 0px;\n}\n.file\\:bg-violet-50::-webkit-file-upload-button {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.file\\:bg-violet-50::file-selector-button {\n  --tw-bg-opacity: 1;\n  background-color: rgb(245 243 255 / var(--tw-bg-opacity));\n}\n.file\\:py-2::-webkit-file-upload-button {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.file\\:py-2::file-selector-button {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}\n.file\\:px-4::-webkit-file-upload-button {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.file\\:px-4::file-selector-button {\n  padding-left: 1rem;\n  padding-right: 1rem;\n}\n.file\\:text-sm::-webkit-file-upload-button {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.file\\:text-sm::file-selector-button {\n  font-size: 0.875rem;\n  line-height: 1.25rem;\n}\n.file\\:font-semibold::-webkit-file-upload-button {\n  font-weight: 600;\n}\n.file\\:font-semibold::file-selector-button {\n  font-weight: 600;\n}\n.file\\:text-violet-700::-webkit-file-upload-button {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.file\\:text-violet-700::file-selector-button {\n  --tw-text-opacity: 1;\n  color: rgb(109 40 217 / var(--tw-text-opacity));\n}\n.hover\\:file\\:bg-violet-100::-webkit-file-upload-button:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(237 233 254 / var(--tw-bg-opacity));\n}\n.hover\\:file\\:bg-violet-100::file-selector-button:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(237 233 254 / var(--tw-bg-opacity));\n}";
+}
+
+
 const __modules__ = {
-  "/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry": $id_Xk2am7UNEn,
+  "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry": $id_tEpgkFvrUI,
   vue: $id_G33erDMZ5a,
   "@vue/runtime-dom": $id_9sriful2d8,
   ohmyfetch: $id_kLE5W6MKaY,
-  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/paths.mjs": $id_ffdzpSP0Vn,
+  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/paths.mjs": $id_ZxIb9N3Kgi,
   ufo: $id_KJr7LehhrL,
   "/node_modules/nuxt/dist/app/index.mjs": $id_fgrt3UeQEL,
   "/node_modules/nuxt/dist/app/nuxt.mjs": $id_lfCjBrgcte,
@@ -4896,60 +4557,57 @@ const __modules__ = {
   "/node_modules/nuxt/dist/head/runtime/index.mjs": $id_DBzckdbLOm,
   "/node_modules/nuxt/dist/head/runtime/composables.mjs": $id_TG3cDPMBp5,
   "@vue/shared": $id_NOAOzpHkPB,
-  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/css.mjs": $id_QnFlLIYsPD,
-  "/node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css": $id_PaM7djyZYl,
-  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/plugins/server.mjs": $id_RmzrqwzXkl,
+  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/css.mjs": $id_93hvp1aTls,
+  "/node_modules/@nuxtjs/tailwindcss/dist/runtime/tailwind.css": $id_uQEhhwyoEw,
+  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/plugins/server.mjs": $id_cv2UL6wsHn,
   "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_1SAEi7QN5N,
-  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/components.plugin.mjs": $id_R47NsnU6Pd,
+  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/components.plugin.mjs": $id_XS3ZuPq07H,
   "/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs": $id_wRsEVKfW1P,
   "/node_modules/@vueuse/head/dist/index.mjs": $id_19kbcSkZ7c,
   defu: $id_q6X4BWspBy,
-  "/node_modules/nuxt/dist/head/runtime/plugin.mjs": $id_QzTjBmXxVV,
+  "/node_modules/nuxt/dist/head/runtime/plugin.mjs": $id_yZLiOeyVdI,
   "/node_modules/nuxt/dist/head/runtime/components.mjs": $id_PE2LM6mDyc,
-  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/meta.config.mjs": $id_3Ucdmp6tjs,
-  "/node_modules/nuxt/dist/app/plugins/router.mjs": $id_yBdPh8v8UY,
-  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/middleware.mjs": $id_ht3noj0wDX,
+  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/meta.config.mjs": $id_KJkPUiuLpK,
+  "/node_modules/nuxt/dist/app/plugins/router.mjs": $id_oklIIQMgMm,
+  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/middleware.mjs": $id_SjgWwsmnpg,
   "/node_modules/@pinia/nuxt/dist/runtime/plugin.vue3.mjs": $id_wcjqAwSegi,
   pinia: $id_jzLU7WEUI3,
-  "/node_modules/@nuxt/image-edge/dist/runtime/plugin.mjs": $id_GuOVHGXzPc,
-  "/node_modules/@nuxt/image-edge/dist/runtime/index.mjs": $id_WEuMxsaWIV,
-  "/node_modules/@nuxt/image-edge/dist/runtime/image.mjs": $id_YGfFNhFXXl,
-  "/node_modules/@nuxt/image-edge/dist/runtime/utils/meta.mjs": $id_444hD3WpzS,
-  "image-meta": $id_N1m0JbHX0G,
-  "/node_modules/@nuxt/image-edge/dist/runtime/utils/index.mjs": $id_2rAObbccCo,
-  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/image-options.mjs": $id_0wrfBFG7qW,
-  "/node_modules/@nuxt/image-edge/dist/runtime/providers/ipx.mjs": $id_ZM14eW7qiu,
-  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/root-component.mjs": $id_jUEm4tKLVn,
-  "/node_modules/nuxt/dist/app/components/nuxt-root.vue": $id_USCaVoO6xM,
+  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/root-component.mjs": $id_2VDRqBPrcc,
+  "/node_modules/nuxt/dist/app/components/nuxt-root.vue": $id_otwUIidkuY,
   "vue/server-renderer": $id_aRHphPzMpI,
   "/@id/__x00__plugin-vue:export-helper": $id_mHD6riC5ol,
-  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/error-component.mjs": $id_othbtiZtOK,
-  "/node_modules/nuxt/dist/app/components/nuxt-error-page.vue": $id_pXBcbytDek,
-  "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": $id_pj2PKAuDY6,
+  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/error-component.mjs": $id_FgEWZVUoW8,
+  "/node_modules/nuxt/dist/app/components/nuxt-error-page.vue": $id_Hd23tAfhDI,
+  "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": $id_VUszZO957V,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=bc8852ab&lang.css": $id_jIbUn0IkCP,
-  "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue": $id_d8Yyf9Tn5J,
+  "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue": $id_HHuZMC3iW4,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=6b2d7187&lang.css": $id_zU3KktJDTV,
-  "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": $id_IkGfpTjoiM,
+  "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": $id_dt9kkJUJmJ,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css": $id_aNL2Q0cdkg,
-  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/.nuxt/app-component.mjs": $id_feg3mEF6YC,
-  "/app.vue": $id_xNkuodh61d,
-  "/components/Files.vue": $id_W8Gf8LbztI,
-  "/stores/files.ts": $id_UMbAIFYanX,
+  "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/app-component.mjs": $id_0LXjJ9sI5n,
+  "/app.vue": $id_hNkfkSjqXc,
+  "/components/Files.vue": $id_hpMnsKaWhq,
+  "/stores/files.ts": $id_ZFJEljkKMs,
   "/assets/svg/delete.svg": $id_Gi9UNEg3Ic,
-  "/components/Settings.vue": $id_F32dP1Lqk2,
+  "/components/Files.vue?vue&type=style&index=0&lang.scss": $id_xsnQLHdYew,
+  "/components/Settings.vue": $id_tDKmiFRayd,
   "/assets/svg/min.svg": $id_Q0gwYcjRNN,
   "/assets/svg/max.svg": $id_3AbeJUVQcj,
-  "/stores/settings.ts": $id_bBxDmCFZiv,
+  "/assets/svg/arrow.svg": $id_0rxO8GVDOO,
+  "/stores/settings.ts": $id_a5IXNGf4DK,
   "/node_modules/nuxt/dist/app/components/client-only.mjs": $id_jGGcL8nQCs,
-  "/components/Preview.vue": $id_ZHTwaAqnUn,
+  "/components/Preview.vue": $id_WqVXPfbTEP,
+  "/composables/Macy.js": $id_nkdRP7hZ2S,
   macy: $id_tyBfKjChNC,
-  "/components/Export.vue": $id_pvvXELUK4h,
+  "/components/Export.vue": $id_Ria2i9vdJR,
   "html-to-image": $id_IqGGcwm447,
   "file-saver": $id_yVoyX8fRFT,
-  "/components/Support.vue": $id_YQOgexm6V4,
-  "/assets/imgs/coffee.png": $id_JV51KbaC5x,
-  "/components/Footer.vue": $id_w9W7clx80w,
-  "/assets/svg/github.svg": $id_GEvmaYxvOp
+  "plausible-tracker": $id_QniKmyHtR4,
+  "/components/Footer.vue": $id_1rh05NNQuK,
+  "/assets/svg/github.svg": $id_GEvmaYxvOp,
+  "/components/Support.vue": $id_pVriNBWWH2,
+  "/assets/img/coffee.png": $id_9QFhRJxl0G,
+  "/assets/styles/main.scss?vue&type=style&index=0&src=true&lang.css": $id_ow5mhAs2y4
 }
 
 
@@ -5037,4 +4695,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__("/Users/etienne/Documents/etiennemoureton.fr/mansorygrid-maker/node_modules/nuxt/dist/app/entry")
+export default await __ssrLoadModule__("/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/node_modules/nuxt/dist/app/entry")

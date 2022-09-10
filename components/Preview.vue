@@ -11,15 +11,17 @@
 </template>
 
 <script setup lang="ts">
-import Macy from 'macy'
 import useSettings from '~~/stores/settings';
 import useFiles from '~~/stores/files';
+import useMacy from '~~/composables/Macy';
 
 const files = useFiles().files
 
 const filesLength = computed(() => {
   return files.length ? true : false
 })
+
+const Macy = useMacy()
 
 const settings = useSettings()
 
@@ -46,7 +48,7 @@ const setRadius = () => {
 const Init = () => {
   grid.value && grid.remove()
 
-  grid = Macy(config)
+  grid = Macy.value(config)
 
   // handle empty space at bottom
   grid.on(grid.constants.EVENT_IMAGE_COMPLETE, (ctx) => {
@@ -55,10 +57,6 @@ const Init = () => {
 
   setRadius()
 }
-
-onMounted(() => {
-  Init()
-})
 
 watch(
   () => files,

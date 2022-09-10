@@ -8,13 +8,15 @@
 </template>
 
 <script setup>
-import Macy from 'macy'
 import { toBlob } from 'html-to-image'
 import { saveAs } from 'file-saver';
 import useSettings from '~~/stores/settings';
 import Plausible from 'plausible-tracker';
+import useMacy from '~~/composables/Macy';
 
 const settings = useSettings()
+
+const Macy = useMacy()
 
 const { trackEvent } = Plausible()
 
@@ -63,7 +65,7 @@ const generateNewCanvas = () => {
   const generatorElement = document.querySelector(exportSettings.generator)
   generatorElement.innerHTML = gridElement.innerHTML
 
-  grid = Macy(config);
+  grid = Macy.value(config);
 
   grid.on(grid.constants.EVENT_IMAGE_COMPLETE, (ctx) => {
     gridElement.style.height = `${parseInt(gridElement.style.height.slice(0, -2)) - settings.margin}px`
