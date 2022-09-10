@@ -1,7 +1,7 @@
 <template>
   <div class="settings w-full flex flex-col gap-2">
     <h2>Settings</h2>
-    <form class="flex gap-8">
+    <form class="flex flex-wrap gap-x-8 gap-y-4">
       <SettingsNumber
         setting="margin" 
         label="Margin" 
