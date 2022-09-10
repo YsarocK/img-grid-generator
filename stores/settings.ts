@@ -4,7 +4,7 @@ type Settings = {
   radius: number,
   margin: number,
   columns: number,
-  extension: string
+  extension: 'png' | 'jpg' | 'webp'
 }
 
 const useSettings = defineStore('settings', {

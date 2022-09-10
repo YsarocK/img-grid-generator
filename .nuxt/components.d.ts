@@ -13,9 +13,7 @@ declare module 'vue' {
     'ClientOnly': typeof import("../node_modules/nuxt/dist/app/components/client-only")['default'],
     'ServerPlaceholder': typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default'],
     'NuxtLink': typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default'],
-    'NuxtLoadingIndicator': typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default'],
-    'NuxtImg': typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-img.vue")['default'],
-    'NuxtPicture': typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-picture.vue")['default']
+    'NuxtLoadingIndicator': typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default']
     'LazyExport': typeof import("../components/Export.vue")['default'],
     'LazyFiles': typeof import("../components/Files.vue")['default'],
     'LazyFooter': typeof import("../components/Footer.vue")['default'],
@@ -28,9 +26,7 @@ declare module 'vue' {
     'LazyClientOnly': typeof import("../node_modules/nuxt/dist/app/components/client-only")['default'],
     'LazyServerPlaceholder': typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default'],
     'LazyNuxtLink': typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default'],
-    'LazyNuxtLoadingIndicator': typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default'],
-    'LazyNuxtImg': typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-img.vue")['default'],
-    'LazyNuxtPicture': typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-picture.vue")['default']
+    'LazyNuxtLoadingIndicator': typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default']
   }
 }
 
@@ -46,9 +42,7 @@ export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/com
 export const ClientOnly: typeof import("../node_modules/nuxt/dist/app/components/client-only")['default'],
 export const ServerPlaceholder: typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default'],
 export const NuxtLink: typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default'],
-export const NuxtLoadingIndicator: typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default'],
-export const NuxtImg: typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-img.vue")['default'],
-export const NuxtPicture: typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-picture.vue")['default']
+export const NuxtLoadingIndicator: typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default']
 export const LazyExport: typeof import("../components/Export.vue")['default'],
 export const LazyFiles: typeof import("../components/Files.vue")['default'],
 export const LazyFooter: typeof import("../components/Footer.vue")['default'],
@@ -61,8 +55,6 @@ export const LazyNuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app
 export const LazyClientOnly: typeof import("../node_modules/nuxt/dist/app/components/client-only")['default'],
 export const LazyServerPlaceholder: typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default'],
 export const LazyNuxtLink: typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default'],
-export const LazyNuxtLoadingIndicator: typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default'],
-export const LazyNuxtImg: typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-img.vue")['default'],
-export const LazyNuxtPicture: typeof import("../node_modules/@nuxt/image-edge/dist/runtime/components/nuxt-picture.vue")['default']
+export const LazyNuxtLoadingIndicator: typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default']
 
 export const componentNames: string[]

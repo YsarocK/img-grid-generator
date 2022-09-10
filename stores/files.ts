@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import FileType from '~/types/File'
 
-interface State {
+type State = {
   files: FileType[],
 }
 

@@ -61,12 +61,6 @@
       "vue-demi": [
         "node_modules/nuxt/dist/app/compat/vue-demi"
       ],
-      "#image": [
-        "node_modules/@nuxt/image-edge/dist/runtime"
-      ],
-      "#image/*": [
-        "node_modules/@nuxt/image-edge/dist/runtime/*"
-      ],
       "pinia": [
         "node_modules/pinia/dist/pinia"
       ],

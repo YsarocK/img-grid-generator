@@ -26,6 +26,7 @@
           <select v-model="settings.extension" class="appearance-none h-full bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" name="extension" id="">
             <option value="png">PNG</option>
             <option value="jpg">JPG</option>
+            <option value="webp">WEBP</option>
           </select>
           <ArrowIcon class="absolute fill-violet-700 top-0 bottom-0 my-auto right-2 w-4"/>
         </div>

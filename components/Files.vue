@@ -11,7 +11,7 @@
       <div class="relative" v-for="(file, index) in items" :key="index">
         <img class="h-full w-full object-cover	" :src="file.content" />
         <div class="flex justify-between p-4 bg-slate-100 rounded-b-md	">
-          <p class="text-sm">{{ file.name }}</p>
+          <p class="text-sm">{{ fileNameReducer(file.name) }}</p>
           <DeleteIcon class="cursor-pointer" @click="deleteImg(index)" />
         </div>
       </div>
@@ -57,6 +57,16 @@ const initListener = () => {
 const deleteImg = (index: number) => {
   items.splice(index, 1)
 }
+
+const fileNameReducer = (filename: string) => {
+  const fileNameParts = filename.split('.')
+  const fileNameExtension = fileNameParts[fileNameParts.length - 1]
+  let fileNameWithoutExtension = filename.slice(0, filename.length - (fileNameExtension.length + 1))
+  fileNameWithoutExtension = fileNameWithoutExtension.length < 10 ? fileNameWithoutExtension : `${fileNameWithoutExtension.slice(0, 8)}[...]`
+  const fileNameSliced = `${fileNameWithoutExtension}.${fileNameExtension}`
+  return fileNameSliced
+}
+
 </script>
 
 <style lang="scss">
