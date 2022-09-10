@@ -46,6 +46,7 @@ const setRadius = () => {
 }
 
 const Init = () => {
+  console.log(Macy)
   grid.value && grid.remove()
 
   grid = Macy.value(config)

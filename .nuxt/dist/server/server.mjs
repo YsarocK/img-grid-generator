@@ -124,7 +124,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /assets/svg/arrow.svg ($id_XsFpxH5tHO)
 // - /node_modules/nuxt/dist/app/components/client-only.mjs ($id_HseDGTR18m)
 // - /components/Preview.vue ($id_7CNegRKX36)
-// - /composables/Macy.js ($id_nqWd37KtKo)
+// - /composables/Macy.ts ($id_V5AxMN7Tp1)
 // - /components/Export.vue ($id_mpBCnzJAKE)
 // - /assets/svg/github.svg ($id_ceX65CDywN)
 // - /components/Footer.vue ($id_89jzJWR97X)
@@ -4009,11 +4009,11 @@ Object.defineProperty(__vite_ssr_exports__, "createClientOnly", { enumerable: tr
 // - vue ($id_VkOCJnUZrn)
 // - /stores/settings.ts ($id_8kiXpCQM3B)
 // - /stores/files.ts ($id_oa6KAcnDRL)
-// - /composables/Macy.js ($id_nqWd37KtKo)
+// - /composables/Macy.ts ($id_V5AxMN7Tp1)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_WqVXPfbTEP = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_JI8a0wcsME = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
@@ -4022,7 +4022,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/stores/settings.ts");
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/stores/files.ts");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/composables/Macy.js");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/composables/Macy.ts");
 
 const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
   __name: "Preview",
@@ -4052,6 +4052,7 @@ const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
       });
     };
     const Init = () => {
+      console.log(Macy);
       grid.value && grid.remove();
       grid = Macy.value(config);
       grid.on(grid.constants.EVENT_IMAGE_COMPLETE, (ctx) => {
@@ -4118,7 +4119,7 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_8__.default(_sf
 
 
 // --------------------
-// Request: /composables/Macy.js
+// Request: /composables/Macy.ts
 // Parents: 
 // - /components/Preview.vue ($id_7CNegRKX36)
 // - /components/Export.vue ($id_mpBCnzJAKE)
@@ -4126,29 +4127,25 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_8__.default(_sf
 // - vue ($id_VkOCJnUZrn)
 // - macy ($id_RQMDm40qvh)
 // --------------------
-const $id_nkdRP7hZ2S = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_UBR6Q5sMQ3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const useMacy = () => {
-  const Macy = __vite_ssr_import_0__.ref(undefined);
-
+  const Macy = __vite_ssr_import_0__.ref(void 0);
   __vite_ssr_import_0__.onMounted(() => {
-    __vite_ssr_dynamic_import__('macy').then((lib) => {
-      Macy.value = lib.default
-    })
-  })
-
-  return Macy
-}
-
+    __vite_ssr_dynamic_import__("macy").then((c) => Macy.value = c.default);
+  });
+  return Macy;
+};
 __vite_ssr_exports__.default = useMacy;
+;
 }
 
 
 // --------------------
 // Request: macy
 // Parents: 
-// - /composables/Macy.js ($id_nqWd37KtKo)
+// - /composables/Macy.ts ($id_V5AxMN7Tp1)
 // Dependencies: 
 
 // --------------------
@@ -4176,11 +4173,11 @@ import("macy")
 // - file-saver ($id_vMWPfZBttV)
 // - /stores/settings.ts ($id_8kiXpCQM3B)
 // - plausible-tracker ($id_UWiGBMK5o6)
-// - /composables/Macy.js ($id_nqWd37KtKo)
+// - /composables/Macy.ts ($id_V5AxMN7Tp1)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_Ria2i9vdJR = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a8oUfhLo8U = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("html-to-image");
@@ -4191,7 +4188,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/stores/settings.ts");
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("plausible-tracker");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/composables/Macy.js");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/composables/Macy.ts");
 
 
 
@@ -4596,10 +4593,10 @@ const __modules__ = {
   "/assets/svg/arrow.svg": $id_0rxO8GVDOO,
   "/stores/settings.ts": $id_a5IXNGf4DK,
   "/node_modules/nuxt/dist/app/components/client-only.mjs": $id_jGGcL8nQCs,
-  "/components/Preview.vue": $id_WqVXPfbTEP,
-  "/composables/Macy.js": $id_nkdRP7hZ2S,
+  "/components/Preview.vue": $id_JI8a0wcsME,
+  "/composables/Macy.ts": $id_UBR6Q5sMQ3,
   macy: $id_tyBfKjChNC,
-  "/components/Export.vue": $id_Ria2i9vdJR,
+  "/components/Export.vue": $id_a8oUfhLo8U,
   "html-to-image": $id_IqGGcwm447,
   "file-saver": $id_yVoyX8fRFT,
   "plausible-tracker": $id_QniKmyHtR4,

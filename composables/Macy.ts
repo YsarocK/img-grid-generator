@@ -1,12 +1,10 @@
 import { Ref } from 'vue'
 
 const useMacy = () => {
-  const Macy: Ref<undefined | Function>  = ref(undefined);
+  const Macy: Ref<undefined | Function> = ref(undefined);
 
   onMounted(() => {
-    import('macy').then((lib) => {
-      Macy.value = lib.default
-    })
+    import('macy').then(c => Macy.value = c.default)
   })
 
   return Macy
