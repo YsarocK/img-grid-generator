@@ -44,7 +44,7 @@ const exportBlob = () => {
 }
 
 const saveFile = () => {
-  const extension = 'png'
+  const extension = settings.extension
   const gen = document.querySelector(exportSettings.generator)
   toBlob(gen)
   .then(function (blob) {
