@@ -118,10 +118,14 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_FMi1dBhUQk)
 // - /components/Files.vue ($id_CRTg9XmBPA)
 // - /assets/svg/delete.svg ($id_iS5GlXgMvF)
-// - /components/Settings.vue ($id_KNB27G4VRc)
+// - /components/Settings/Wrapper.vue ($id_1NvWEEb3t6)
+// - /components/Settings/Number.vue ($id_BnRrq2GEP4)
 // - /assets/svg/min.svg ($id_dJ2F6rn5hU)
 // - /assets/svg/max.svg ($id_BP1qmKgqb6)
+// - /components/Settings/Range.vue ($id_4YxAV9Lvrw)
+// - /components/Settings/Select.vue ($id_biH7pc0rS8)
 // - /assets/svg/arrow.svg ($id_XsFpxH5tHO)
+// - /components/Settings.vue ($id_KNB27G4VRc)
 // - /node_modules/nuxt/dist/app/components/client-only.mjs ($id_HseDGTR18m)
 // - /components/Preview.vue ($id_7CNegRKX36)
 // - /composables/Macy.ts ($id_V5AxMN7Tp1)
@@ -2927,6 +2931,10 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_m
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_vC10oUHchO)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_FMi1dBhUQk)
 // - /components/Files.vue ($id_CRTg9XmBPA)
+// - /components/Settings/Wrapper.vue ($id_1NvWEEb3t6)
+// - /components/Settings/Number.vue ($id_BnRrq2GEP4)
+// - /components/Settings/Range.vue ($id_4YxAV9Lvrw)
+// - /components/Settings/Select.vue ($id_biH7pc0rS8)
 // - /components/Settings.vue ($id_KNB27G4VRc)
 // - /components/Preview.vue ($id_7CNegRKX36)
 // - /components/Export.vue ($id_mpBCnzJAKE)
@@ -2959,6 +2967,10 @@ import("vue/server-renderer")
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_vC10oUHchO)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_FMi1dBhUQk)
 // - /components/Files.vue ($id_CRTg9XmBPA)
+// - /components/Settings/Wrapper.vue ($id_1NvWEEb3t6)
+// - /components/Settings/Number.vue ($id_BnRrq2GEP4)
+// - /components/Settings/Range.vue ($id_4YxAV9Lvrw)
+// - /components/Settings/Select.vue ($id_biH7pc0rS8)
 // - /components/Settings.vue ($id_KNB27G4VRc)
 // - /components/Preview.vue ($id_7CNegRKX36)
 // - /components/Export.vue ($id_mpBCnzJAKE)
@@ -3738,31 +3750,119 @@ __vite_ssr_exports__.default = ".files {\n  grid-template-rows: repeat(auto-fill
 // Parents: 
 // - /app.vue ($id_K0boQqLzfo)
 // Dependencies: 
+// - /components/Settings/Number.vue ($id_BnRrq2GEP4)
+// - /components/Settings/Range.vue ($id_4YxAV9Lvrw)
+// - /components/Settings/Select.vue ($id_biH7pc0rS8)
+// - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_ANFM2JVPTY = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/Settings/Number.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Settings/Range.vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/components/Settings/Select.vue");
+
+const _sfc_main = {}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("vue/server-renderer");
+
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_SettingsNumber = __vite_ssr_import_0__.default
+  const _component_SettingsRange = __vite_ssr_import_1__.default
+  const _component_SettingsSelect = __vite_ssr_import_2__.default
+
+  _push(`<div${__vite_ssr_import_4__.ssrRenderAttrs(__vite_ssr_import_3__.mergeProps({ class: "settings w-full flex flex-col gap-2" }, _attrs))}><h2>Settings</h2><form class="flex gap-8">`)
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_SettingsNumber, {
+    setting: "margin",
+    label: "Margin",
+    min: "0",
+    max: "50",
+    step: "1",
+    type: "free"
+  }, null, _parent))
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_SettingsNumber, {
+    setting: "columns",
+    label: "Columns",
+    min: "1",
+    max: "5"
+  }, null, _parent))
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_SettingsRange, {
+    setting: "radius",
+    label: "Radius",
+    min: "0",
+    max: "2",
+    step: "0.1"
+  }, null, _parent))
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_SettingsSelect, {
+    setting: "extension",
+    label: "Extension",
+    fields: [
+          {value: 'png', label: 'PNG'},
+          {value: 'webp', label: 'WEBP'},
+          {value: 'jpg', label: 'JPG'}
+        ]
+  }, null, _parent))
+  _push(`</form></div>`)
+}
+
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
+  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/Settings.vue")
+  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Settings.vue"]]);
+}
+
+
+// --------------------
+// Request: /components/Settings/Number.vue
+// Parents: 
+// - /components/Settings.vue ($id_KNB27G4VRc)
+// Dependencies: 
+// - /components/Settings/Wrapper.vue ($id_1NvWEEb3t6)
 // - vue ($id_VkOCJnUZrn)
 // - /assets/svg/min.svg ($id_dJ2F6rn5hU)
 // - /assets/svg/max.svg ($id_BP1qmKgqb6)
-// - /assets/svg/arrow.svg ($id_XsFpxH5tHO)
 // - /stores/settings.ts ($id_8kiXpCQM3B)
 // - vue/server-renderer ($id_UyJffsox60)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_HKWUdc3vEd = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+const $id_8OSXYeSLDF = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/Settings/Wrapper.vue");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/assets/svg/min.svg");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/svg/max.svg");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/svg/min.svg");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/assets/svg/arrow.svg");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/assets/svg/max.svg");
 
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/stores/settings.ts");
 
-const _sfc_main = /* @__PURE__ */ __vite_ssr_import_0__.defineComponent({
-  __name: "Settings",
+const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
+  __name: "Number",
+  props: {
+    setting: { type: String, required: false },
+    label: { type: String, required: false },
+    min: { type: String, required: false },
+    max: { type: String, required: false },
+    type: { type: String, required: false },
+    step: { type: String, required: false }
+  },
   setup(__props, { expose }) {
     expose();
+    const { setting, label, min, max, type } = __props;
     const settings = __vite_ssr_import_4__.default();
-    const __returned__ = { settings, MinIcon: __vite_ssr_import_1__.default, MaxIcon: __vite_ssr_import_2__.default, ArrowIcon: __vite_ssr_import_3__.default };
+    const __returned__ = { settings, MinIcon: __vite_ssr_import_2__.default, MaxIcon: __vite_ssr_import_3__.default };
     Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
     return __returned__;
   }
@@ -3772,31 +3872,124 @@ const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
 const __vite_ssr_import_6__ = await __vite_ssr_import__("vue/server-renderer");
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<div${__vite_ssr_import_6__.ssrRenderAttrs(__vite_ssr_import_5__.mergeProps({ class: "settings w-full flex flex-col gap-2" }, _attrs))}><h2>Settings</h2><form class="flex gap-8"><div class="w-24 flex flex-col gap-1"><label for="margin" class="text-sm font-semibold text-slate-300">Margin</label><input class="h-input bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" type="number" name="margin"${__vite_ssr_import_6__.ssrRenderAttr("value", $setup.settings.margin)} min="0" max="50" step="1"></div><div class="flex flex-col gap-1"><p class="text-sm font-semibold text-slate-300">Columns</p><div class="flex gap-2 bg-violet-50 rounded-3xl px-4 py-1 justify-center h-input">`);
-  _push(__vite_ssr_import_6__.ssrRenderComponent($setup["MinIcon"], {
-    class: "cursor-pointer w-4 fill-violet-700",
-    onClick: ($event) => $setup.settings.columns > 1 && $setup.settings.columns--
-  }, null, _parent));
-  _push(`<p class="select-none w-3 text-center text-violet-700 bg-transparent" type="number" name="columns">${__vite_ssr_import_6__.ssrInterpolate($setup.settings.columns)}</p>`);
-  _push(__vite_ssr_import_6__.ssrRenderComponent($setup["MaxIcon"], {
-    class: "cursor-pointer w-4 fill-violet-700",
-    onClick: ($event) => $setup.settings.columns < 5 && $setup.settings.columns++
-  }, null, _parent));
-  _push(`</div></div><div class="w-40 flex flex-col gap-1"><label for="radius" class="text-sm font-semibold text-slate-300">Radius</label><div class="h-input bg-violet-50 flex px-4 py-1 rounded-3xl"><input class="appearance-none settings__slider my-auto h-1 rounded-sm bg-white text-violet-700 w-full rounded-3xl" type="range" name="radius"${__vite_ssr_import_6__.ssrRenderAttr("value", $setup.settings.radius)} min="0" max="2" step="0.1"></div></div><div class="w-24 flex flex-col gap-1"><label for="extension" class="text-sm font-semibold text-slate-300">Extension</label><div class="h-input relative w-full"><select class="appearance-none h-full bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" name="extension" id=""><option value="png">PNG</option><option value="jpg">JPG</option><option value="webp">WEBP</option></select>`);
-  _push(__vite_ssr_import_6__.ssrRenderComponent($setup["ArrowIcon"], { class: "absolute fill-violet-700 top-0 bottom-0 my-auto right-2 w-4" }, null, _parent));
-  _push(`</div></div></form></div>`);
+  const _component_SettingsWrapper = __vite_ssr_import_0__.default;
+  _push(__vite_ssr_import_6__.ssrRenderComponent(_component_SettingsWrapper, __vite_ssr_import_5__.mergeProps({
+    setting: $props.setting,
+    label: $props.label
+  }, _attrs), {
+    default: __vite_ssr_import_5__.withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        if ($props.type === "free") {
+          _push2(`<input class="w-24 h-input bg-violet-50 text-violet-700 px-4 py-1 rounded-3xl" type="number"${__vite_ssr_import_6__.ssrRenderAttr("name", $props.setting)}${__vite_ssr_import_6__.ssrRenderAttr("value", $setup.settings[$props.setting])}${__vite_ssr_import_6__.ssrRenderAttr("min", $props.min)}${__vite_ssr_import_6__.ssrRenderAttr("max", $props.max)}${__vite_ssr_import_6__.ssrRenderAttr("step", $props.step)}${_scopeId}>`);
+        } else {
+          _push2(`<div class="w-fit flex gap-2 bg-violet-50 rounded-3xl px-4 py-1 justify-center h-input"${_scopeId}>`);
+          _push2(__vite_ssr_import_6__.ssrRenderComponent($setup["MinIcon"], {
+            class: "cursor-pointer w-4 fill-violet-700",
+            onClick: ($event) => $setup.settings[$props.setting] > $props.min && $setup.settings[$props.setting]--
+          }, null, _parent2, _scopeId));
+          _push2(`<p class="select-none w-3 text-center text-violet-700 bg-transparent"${_scopeId}>${__vite_ssr_import_6__.ssrInterpolate($setup.settings[$props.setting])}</p>`);
+          _push2(__vite_ssr_import_6__.ssrRenderComponent($setup["MaxIcon"], {
+            class: "cursor-pointer w-4 fill-violet-700",
+            onClick: ($event) => $setup.settings[$props.setting] < $props.max && $setup.settings[$props.setting]++
+          }, null, _parent2, _scopeId));
+          _push2(`</div>`);
+        }
+      } else {
+        return [
+          $props.type === "free" ? __vite_ssr_import_5__.withDirectives((__vite_ssr_import_5__.openBlock(), __vite_ssr_import_5__.createBlock("input", {
+            key: 0,
+            class: "w-24 h-input bg-violet-50 text-violet-700 px-4 py-1 rounded-3xl",
+            type: "number",
+            name: $props.setting,
+            "onUpdate:modelValue": ($event) => $setup.settings[$props.setting] = $event,
+            min: $props.min,
+            max: $props.max,
+            step: $props.step
+          }, null, 8, ["name", "onUpdate:modelValue", "min", "max", "step"])), [
+            [__vite_ssr_import_5__.vModelText, $setup.settings[$props.setting]]
+          ]) : (__vite_ssr_import_5__.openBlock(), __vite_ssr_import_5__.createBlock("div", {
+            key: 1,
+            class: "w-fit flex gap-2 bg-violet-50 rounded-3xl px-4 py-1 justify-center h-input"
+          }, [
+            __vite_ssr_import_5__.createVNode($setup["MinIcon"], {
+              class: "cursor-pointer w-4 fill-violet-700",
+              onClick: ($event) => $setup.settings[$props.setting] > $props.min && $setup.settings[$props.setting]--
+            }, null, 8, ["onClick"]),
+            __vite_ssr_import_5__.createVNode("p", { class: "select-none w-3 text-center text-violet-700 bg-transparent" }, __vite_ssr_import_5__.toDisplayString($setup.settings[$props.setting]), 1),
+            __vite_ssr_import_5__.createVNode($setup["MaxIcon"], {
+              class: "cursor-pointer w-4 fill-violet-700",
+              onClick: ($event) => $setup.settings[$props.setting] < $props.max && $setup.settings[$props.setting]++
+            }, null, 8, ["onClick"])
+          ]))
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
 }
 const __vite_ssr_import_7__ = await __vite_ssr_import__("vue");
 
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = __vite_ssr_import_7__.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Settings.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Settings/Number.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_8__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Settings.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_8__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Settings/Number.vue"]]);
+;
+}
+
+
+// --------------------
+// Request: /components/Settings/Wrapper.vue
+// Parents: 
+// - /components/Settings/Number.vue ($id_BnRrq2GEP4)
+// - /components/Settings/Range.vue ($id_4YxAV9Lvrw)
+// - /components/Settings/Select.vue ($id_biH7pc0rS8)
+// Dependencies: 
+// - vue ($id_VkOCJnUZrn)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_13MCmw2dJb = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("vue");
+
+const _sfc_main = /* @__PURE__ */ __vite_ssr_import_0__.defineComponent({
+  __name: "Wrapper",
+  props: {
+    setting: { type: String, required: false },
+    label: { type: String, required: false }
+  },
+  setup(__props, { expose }) {
+    expose();
+    const { setting, label } = __props;
+    const __returned__ = {};
+    Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
+    return __returned__;
+  }
+});
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("vue/server-renderer");
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${__vite_ssr_import_2__.ssrRenderAttrs(__vite_ssr_import_1__.mergeProps({ class: "flex flex-col gap-1" }, _attrs))}><label${__vite_ssr_import_2__.ssrRenderAttr("for", $props.setting)} class="text-sm font-semibold text-slate-300">${__vite_ssr_import_2__.ssrInterpolate($props.label)}</label>`);
+  __vite_ssr_import_2__.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent);
+  _push(`</div>`);
+}
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_3__.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Settings/Wrapper.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_4__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Settings/Wrapper.vue"]]);
 ;
 }
 
@@ -3804,7 +3997,7 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_8__.default(_sf
 // --------------------
 // Request: /assets/svg/min.svg
 // Parents: 
-// - /components/Settings.vue ($id_KNB27G4VRc)
+// - /components/Settings/Number.vue ($id_BnRrq2GEP4)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // --------------------
@@ -3842,7 +4035,7 @@ __vite_ssr_exports__.default = { render: render };
 // --------------------
 // Request: /assets/svg/max.svg
 // Parents: 
-// - /components/Settings.vue ($id_KNB27G4VRc)
+// - /components/Settings/Number.vue ($id_BnRrq2GEP4)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // --------------------
@@ -3874,9 +4067,218 @@ __vite_ssr_exports__.default = { render: render };
 
 
 // --------------------
-// Request: /assets/svg/arrow.svg
+// Request: /stores/settings.ts
+// Parents: 
+// - /components/Settings/Number.vue ($id_BnRrq2GEP4)
+// - /components/Settings/Range.vue ($id_4YxAV9Lvrw)
+// - /components/Settings/Select.vue ($id_biH7pc0rS8)
+// - /components/Preview.vue ($id_7CNegRKX36)
+// - /components/Export.vue ($id_mpBCnzJAKE)
+// Dependencies: 
+// - pinia ($id_08NwGtDtAK)
+// --------------------
+const $id_a5IXNGf4DK = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("pinia");
+
+const useSettings = __vite_ssr_import_0__.defineStore("settings", {
+  state: () => {
+    return {
+      radius: 0.5,
+      margin: 10,
+      columns: 3,
+      extension: "png"
+    };
+  }
+});
+__vite_ssr_exports__.default = useSettings;
+;
+}
+
+
+// --------------------
+// Request: /components/Settings/Range.vue
 // Parents: 
 // - /components/Settings.vue ($id_KNB27G4VRc)
+// Dependencies: 
+// - /components/Settings/Wrapper.vue ($id_1NvWEEb3t6)
+// - vue ($id_VkOCJnUZrn)
+// - /stores/settings.ts ($id_8kiXpCQM3B)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_Mf7wVOf29M = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/Settings/Wrapper.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/stores/settings.ts");
+
+const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
+  __name: "Range",
+  props: {
+    setting: { type: String, required: false },
+    label: { type: String, required: false },
+    min: { type: String, required: false },
+    max: { type: String, required: false },
+    step: { type: String, required: false }
+  },
+  setup(__props, { expose }) {
+    expose();
+    const { setting, label, min, max, step } = __props;
+    const settings = __vite_ssr_import_2__.default();
+    const __returned__ = { settings };
+    Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
+    return __returned__;
+  }
+});
+const __vite_ssr_import_3__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_4__ = await __vite_ssr_import__("vue/server-renderer");
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_SettingsWrapper = __vite_ssr_import_0__.default;
+  _push(__vite_ssr_import_4__.ssrRenderComponent(_component_SettingsWrapper, __vite_ssr_import_3__.mergeProps({
+    setting: $props.setting,
+    label: $props.label
+  }, _attrs), {
+    default: __vite_ssr_import_3__.withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(`<div class="w-40 h-input bg-violet-50 flex px-4 py-1 rounded-3xl"${_scopeId}><input class="appearance-none settings__slider my-auto h-1 rounded-sm bg-white text-violet-700 w-full rounded-3xl" type="range" name="radius"${__vite_ssr_import_4__.ssrRenderAttr("value", $setup.settings[$props.setting])}${__vite_ssr_import_4__.ssrRenderAttr("min", $props.min)}${__vite_ssr_import_4__.ssrRenderAttr("max", $props.max)}${__vite_ssr_import_4__.ssrRenderAttr("step", $props.step)}${_scopeId}></div>`);
+      } else {
+        return [
+          __vite_ssr_import_3__.createVNode("div", { class: "w-40 h-input bg-violet-50 flex px-4 py-1 rounded-3xl" }, [
+            __vite_ssr_import_3__.withDirectives(__vite_ssr_import_3__.createVNode("input", {
+              class: "appearance-none settings__slider my-auto h-1 rounded-sm bg-white text-violet-700 w-full rounded-3xl",
+              type: "range",
+              name: "radius",
+              "onUpdate:modelValue": ($event) => $setup.settings[$props.setting] = $event,
+              min: $props.min,
+              max: $props.max,
+              step: $props.step
+            }, null, 8, ["onUpdate:modelValue", "min", "max", "step"]), [
+              [__vite_ssr_import_3__.vModelText, $setup.settings[$props.setting]]
+            ])
+          ])
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+}
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_5__.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Settings/Range.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_6__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Settings/Range.vue"]]);
+;
+}
+
+
+// --------------------
+// Request: /components/Settings/Select.vue
+// Parents: 
+// - /components/Settings.vue ($id_KNB27G4VRc)
+// Dependencies: 
+// - /components/Settings/Wrapper.vue ($id_1NvWEEb3t6)
+// - vue ($id_VkOCJnUZrn)
+// - /assets/svg/arrow.svg ($id_XsFpxH5tHO)
+// - /stores/settings.ts ($id_8kiXpCQM3B)
+// - vue/server-renderer ($id_UyJffsox60)
+// - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
+// --------------------
+const $id_PrfohnZd3e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/Settings/Wrapper.vue");
+
+const __vite_ssr_import_1__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/assets/svg/arrow.svg");
+
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/stores/settings.ts");
+
+const _sfc_main = /* @__PURE__ */ __vite_ssr_import_1__.defineComponent({
+  __name: "Select",
+  props: {
+    setting: { type: String, required: false },
+    label: { type: String, required: false },
+    fields: { type: Array, required: true }
+  },
+  setup(__props, { expose }) {
+    expose();
+    const { setting, label, fields } = __props;
+    const settings = __vite_ssr_import_3__.default();
+    const __returned__ = { settings, ArrowIcon: __vite_ssr_import_2__.default };
+    Object.defineProperty(__returned__, "__isScriptSetup", { enumerable: false, value: true });
+    return __returned__;
+  }
+});
+const __vite_ssr_import_4__ = await __vite_ssr_import__("vue");
+
+const __vite_ssr_import_5__ = await __vite_ssr_import__("vue/server-renderer");
+
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  const _component_SettingsWrapper = __vite_ssr_import_0__.default;
+  _push(__vite_ssr_import_5__.ssrRenderComponent(_component_SettingsWrapper, __vite_ssr_import_4__.mergeProps({
+    setting: $props.setting,
+    label: $props.label
+  }, _attrs), {
+    default: __vite_ssr_import_4__.withCtx((_, _push2, _parent2, _scopeId) => {
+      if (_push2) {
+        _push2(`<div class="w-24 h-input relative w-full"${_scopeId}><select class="appearance-none h-full bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl"${__vite_ssr_import_5__.ssrRenderAttr("name", $props.setting)}${_scopeId}><!--[-->`);
+        __vite_ssr_import_5__.ssrRenderList($props.fields, (field) => {
+          _push2(`<option${__vite_ssr_import_5__.ssrRenderAttr("value", field.value)}${_scopeId}>${__vite_ssr_import_5__.ssrInterpolate(field.label)}</option>`);
+        });
+        _push2(`<!--]--></select>`);
+        _push2(__vite_ssr_import_5__.ssrRenderComponent($setup["ArrowIcon"], { class: "absolute fill-violet-700 top-0 bottom-0 my-auto right-2 w-4" }, null, _parent2, _scopeId));
+        _push2(`</div>`);
+      } else {
+        return [
+          __vite_ssr_import_4__.createVNode("div", { class: "w-24 h-input relative w-full" }, [
+            __vite_ssr_import_4__.withDirectives(__vite_ssr_import_4__.createVNode("select", {
+              "onUpdate:modelValue": ($event) => $setup.settings[$props.setting] = $event,
+              class: "appearance-none h-full bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl",
+              name: $props.setting
+            }, [
+              (__vite_ssr_import_4__.openBlock(true), __vite_ssr_import_4__.createBlock(__vite_ssr_import_4__.Fragment, null, __vite_ssr_import_4__.renderList($props.fields, (field) => {
+                return __vite_ssr_import_4__.openBlock(), __vite_ssr_import_4__.createBlock("option", {
+                  value: field.value
+                }, __vite_ssr_import_4__.toDisplayString(field.label), 9, ["value"]);
+              }), 256))
+            ], 8, ["onUpdate:modelValue", "name"]), [
+              [__vite_ssr_import_4__.vModelSelect, $setup.settings[$props.setting]]
+            ]),
+            __vite_ssr_import_4__.createVNode($setup["ArrowIcon"], { class: "absolute fill-violet-700 top-0 bottom-0 my-auto right-2 w-4" })
+          ])
+        ];
+      }
+    }),
+    _: 1
+  }, _parent));
+}
+const __vite_ssr_import_6__ = await __vite_ssr_import__("vue");
+
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = __vite_ssr_import_6__.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Settings/Select.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/__x00__plugin-vue:export-helper");
+
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_7__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/components/Settings/Select.vue"]]);
+;
+}
+
+
+// --------------------
+// Request: /assets/svg/arrow.svg
+// Parents: 
+// - /components/Settings/Select.vue ($id_biH7pc0rS8)
 // Dependencies: 
 // - vue ($id_VkOCJnUZrn)
 // --------------------
@@ -3901,33 +4303,6 @@ function render(_ctx, _cache) {
 }
 Object.defineProperty(__vite_ssr_exports__, "render", { enumerable: true, configurable: true, get(){ return render }});
 __vite_ssr_exports__.default = { render: render };
-}
-
-
-// --------------------
-// Request: /stores/settings.ts
-// Parents: 
-// - /components/Settings.vue ($id_KNB27G4VRc)
-// - /components/Preview.vue ($id_7CNegRKX36)
-// - /components/Export.vue ($id_mpBCnzJAKE)
-// Dependencies: 
-// - pinia ($id_08NwGtDtAK)
-// --------------------
-const $id_a5IXNGf4DK = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("pinia");
-
-const useSettings = __vite_ssr_import_0__.defineStore("settings", {
-  state: () => {
-    return {
-      radius: 0.5,
-      margin: 10,
-      columns: 3,
-      extension: "png"
-    };
-  }
-});
-__vite_ssr_exports__.default = useSettings;
-;
 }
 
 
@@ -4587,11 +4962,15 @@ const __modules__ = {
   "/stores/files.ts": $id_ZFJEljkKMs,
   "/assets/svg/delete.svg": $id_Gi9UNEg3Ic,
   "/components/Files.vue?vue&type=style&index=0&lang.scss": $id_xsnQLHdYew,
-  "/components/Settings.vue": $id_HKWUdc3vEd,
+  "/components/Settings.vue": $id_ANFM2JVPTY,
+  "/components/Settings/Number.vue": $id_8OSXYeSLDF,
+  "/components/Settings/Wrapper.vue": $id_13MCmw2dJb,
   "/assets/svg/min.svg": $id_Q0gwYcjRNN,
   "/assets/svg/max.svg": $id_3AbeJUVQcj,
-  "/assets/svg/arrow.svg": $id_0rxO8GVDOO,
   "/stores/settings.ts": $id_a5IXNGf4DK,
+  "/components/Settings/Range.vue": $id_Mf7wVOf29M,
+  "/components/Settings/Select.vue": $id_PrfohnZd3e,
+  "/assets/svg/arrow.svg": $id_0rxO8GVDOO,
   "/node_modules/nuxt/dist/app/components/client-only.mjs": $id_jGGcL8nQCs,
   "/components/Preview.vue": $id_JI8a0wcsME,
   "/composables/Macy.ts": $id_UBR6Q5sMQ3,
