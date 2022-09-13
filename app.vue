@@ -24,7 +24,15 @@
 useHead({
   title: 'Grid from Imgs Generator | Free tool',
   meta: [
-    { name: 'description', content: 'Upload your images, choose your settings (spacing, radius and more) and export your PNG/JPG/WEBP grid file. Completely free to use.' }
+    { name: 'name', content: 'Grid from Imgs Generator | Free tool' },
+    { name: 'og:title', content: 'Grid from Imgs Generator | Free tool' },
+    { name: 'twitter:title', content: 'Grid from Imgs Generator | Free tool' },
+    { name: 'description', content: 'Upload your images, choose your settings (spacing, radius and more) and export your PNG/JPG/WEBP grid file. Completely free to use.' },
+    { name: 'og:description', content: 'Upload your images, choose your settings (spacing, radius and more) and export your PNG/JPG/WEBP grid file. Completely free to use.' },
+    { name: 'twitter:description', content: 'Upload your images, choose your settings (spacing, radius and more) and export your PNG/JPG/WEBP grid file. Completely free to use.' },
+    { name: 'og:url', content: 'https://img-grid-generator.com' },
+    { name: 'og:type', content: 'website' },
+    { name: 'twitter:card', content: 'app' },
   ],
 })
 </script>
