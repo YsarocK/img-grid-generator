@@ -22,9 +22,9 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Grid from Img Generator',
+  title: 'Grid from Imgs Generator | Free tool',
   meta: [
-    { name: 'description', content: 'Generate PNG/JPG/WEBP grids online for free. Select your images, margin, radius & more.' }
+    { name: 'description', content: 'Upload your images, choose your settings (spacing, radius and more) and export your PNG/JPG/WEBP grid file. Completely free to use.' }
   ],
 })
 </script>

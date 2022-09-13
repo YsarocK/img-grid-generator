@@ -39,14 +39,13 @@ let config = reactive({
 })
 
 // handle radius
-const setRadius = () => {
+const setRadius = (radius = settings.radius) => {
   gridElement.value.querySelectorAll('img').forEach(el => { 
-    el.style.borderRadius = settings.radius + 'rem'
+    el.style.borderRadius = radius + 'rem'
   })
 }
 
 const Init = () => {
-  console.log(Macy)
   grid.value && grid.remove()
 
   grid = Macy.value(config)
@@ -61,7 +60,7 @@ const Init = () => {
 
 watch(
   () => files,
-  (files, oldFiles) => {
+  () => {
     Init()
   },
   { deep: true }
@@ -86,7 +85,7 @@ watch(
 watch(
   () => settings.radius,
   (radius, prevRadius) => {
-    setRadius()
+    setRadius(radius)
   }
 )
 </script>
