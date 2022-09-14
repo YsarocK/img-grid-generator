@@ -7,9 +7,9 @@
         <p class="text-xs text-red-700">{{ error }}</p>
       </div>
     </form>
-    <div v-if="items.length" class="grid grid-cols-3 gap-4 files">
+    <div v-if="items.length" class="files grid grid-cols-3 gap-4 files">
       <div class="relative" v-for="(file, index) in items" :key="index">
-        <img class="h-full w-full object-cover	" :src="file.content" />
+        <img class="h-[150px] w-full object-cover	" :src="file.content" />
         <div class="flex justify-between p-4 bg-slate-100 rounded-b-md	">
           <p class="text-sm">{{ fileNameReducer(file.name) }}</p>
           <DeleteIcon class="cursor-pointer" @click="deleteImg(index)" />
