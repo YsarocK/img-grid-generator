@@ -3476,7 +3476,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // - /assets/styles/main.scss?vue&type=style&index=0&src=true&lang.css ($id_9iaMvNDbxG)
 // - /@id/__x00__plugin-vue:export-helper ($id_eFZ80lXORx)
 // --------------------
-const $id_QXRuaUOICU = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_2FXEo3Q04N = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/components/Files.vue");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/components/Settings.vue");
@@ -3500,9 +3500,17 @@ const _sfc_main = /* @__PURE__ */ __vite_ssr_import_8__.defineComponent({
   setup(__props, { expose }) {
     expose();
     __vite_ssr_import_7__.useHead({
-      title: "Grid from Img Generator",
+      title: "Grid from Imgs Generator | Free tool",
       meta: [
-        { name: "description", content: "Generate PNG/JPG/WEBP grids online for free. Select your images, margin, radius & more." }
+        { name: "name", content: "Grid from Imgs Generator | Free tool" },
+        { name: "og:title", content: "Grid from Imgs Generator | Free tool" },
+        { name: "twitter:title", content: "Grid from Imgs Generator | Free tool" },
+        { name: "description", content: "Upload your images, choose your settings (spacing, radius and more) and export your PNG/JPG/WEBP grid file. Completely free to use." },
+        { name: "og:description", content: "Upload your images, choose your settings (spacing, radius and more) and export your PNG/JPG/WEBP grid file. Completely free to use." },
+        { name: "twitter:description", content: "Upload your images, choose your settings (spacing, radius and more) and export your PNG/JPG/WEBP grid file. Completely free to use." },
+        { name: "og:url", content: "https://img-grid-generator.com" },
+        { name: "og:type", content: "website" },
+        { name: "twitter:card", content: "app" }
       ]
     });
     const __returned__ = {};
@@ -4956,7 +4964,7 @@ const __modules__ = {
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": $id_dt9kkJUJmJ,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=f37408fc&lang.css": $id_aNL2Q0cdkg,
   "/@id/virtual:nuxt:/Users/etienne/Documents/etiennemoureton.fr/img-grid-generator/.nuxt/app-component.mjs": $id_0LXjJ9sI5n,
-  "/app.vue": $id_QXRuaUOICU,
+  "/app.vue": $id_2FXEo3Q04N,
   "/components/Files.vue": $id_hpMnsKaWhq,
   "/stores/files.ts": $id_ZFJEljkKMs,
   "/assets/svg/delete.svg": $id_Gi9UNEg3Ic,

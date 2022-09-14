@@ -30,7 +30,7 @@ const exportSettings = {
 }
 
 const exportBlob = () => {
-  trackEvent('exports')
+  trackEvent('exports', { props: { fileType: settings.extension } })
   config = {
     container: '.generator',
     trueOrder: false,
