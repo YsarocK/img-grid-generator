@@ -1,2 +1,3 @@
+Sitemap : https://img-grid-generator.com/sitemap.xml
 User-agent: *
 Allow: /

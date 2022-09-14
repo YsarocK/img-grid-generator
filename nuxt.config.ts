@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'vue-plausible',
     '@pinia/nuxt',
-    'nuxt-svgo',
+    'nuxt-svgo'
   ],
   plausible: {
     domain: 'img-grid-generator.com',
