@@ -1,8 +1,10 @@
 <template>
   <div class="w-full flex flex-col gap-2">
-    <h2>Files</h2>
-    <form class="flex justify-between items-center">
-      <input ref="input" type="file" name="files" id="" multiple class="file:cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">
+    <form class="flex flex-col justify-between gap-2">
+      <label for="files">
+        <h2>Files</h2>
+      </label>
+      <input ref="input" type="file" name="files" id="files" multiple class="file:cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">
       <div v-if="error" class="px-4 py-2 bg-red-200 rounded-md">
         <p class="text-xs text-red-700">{{ error }}</p>
       </div>
