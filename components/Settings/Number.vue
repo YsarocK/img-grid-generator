@@ -3,7 +3,7 @@
     :setting="setting"
     :label="label"
   >
-    <input v-if="type === 'free'" class="w-24 h-input bg-violet-50 text-violet-700 px-4 py-1 rounded-3xl" type="number" :name="setting" v-model="settings[setting]" :min="min" :max="max" :step="step">
+    <input v-if="type === 'free'" class="w-24 h-input bg-violet-50 text-violet-700 px-4 py-1 rounded-3xl" type="number" :name="setting" v-model="settings[setting]" :min="min" :max="max" :step="step" :id="setting">
     <div v-else class="w-fit flex gap-2 bg-violet-50 rounded-3xl px-4 py-1 justify-center h-input">
       <MinIcon class="cursor-pointer w-4 fill-violet-700" @click="settings[setting] > min && settings[setting]--"/>
       <p class="select-none	w-3 text-center text-violet-700 bg-transparent">{{ settings[setting] }}</p>

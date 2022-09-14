@@ -4,7 +4,7 @@
     :label="label"
   >
     <div class="w-24 h-input relative w-full">
-      <select v-model="settings[setting]" class="appearance-none h-full bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" :name="setting">
+      <select v-model="settings[setting]" class="appearance-none h-full bg-violet-50 text-violet-700 w-full px-4 py-1 rounded-3xl" :name="setting" :id="setting">
         <option v-for="field in fields" :value="field.value">{{ field.label }}</option>
       </select>
       <ArrowIcon class="absolute fill-violet-700 top-0 bottom-0 my-auto right-2 w-4"/>

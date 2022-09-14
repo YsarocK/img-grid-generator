@@ -22,6 +22,9 @@
 
 <script setup lang="ts">
 useHead({
+  htmlAttrs: {
+    lang: 'en',
+  },
   title: 'Grid from Imgs Generator | Free tool',
   meta: [
     { name: 'name', content: 'Grid from Imgs Generator | Free tool' },
