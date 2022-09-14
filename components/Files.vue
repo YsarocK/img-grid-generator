@@ -68,9 +68,3 @@ const fileNameReducer = (filename: string) => {
 }
 
 </script>
-
-<style lang="scss">
-.files {
-  grid-template-rows: repeat(auto-fill, 150px);
-}
-</style>
