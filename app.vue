@@ -8,7 +8,7 @@
       </p>
     </div>
     <div class="flex flex-col gap-20 w-full h-full my-5">
-      <Files/>
+      <Upload/>
       <Settings/>
       <ClientOnly>
         <Preview/>
@@ -38,7 +38,7 @@ useHead({
     { name: 'og:url', content: 'https://img-grid-generator.com' },
     { name: 'og:type', content: 'website' },
     { name: 'twitter:card', content: 'app' },
-  ],
+  ]
 })
 </script>
 

@@ -41,6 +41,8 @@ const input = ref()
 const showInput: Ref<boolean> = ref(true)
 const error: Ref<string> = ref('')
 
+const availableExtensions = ['image/png', 'image/jpeg', 'image/svg+xml', 'image/webp']
+
 const items = useFiles().files
 
 onMounted(() => {
@@ -49,8 +51,13 @@ onMounted(() => {
 
 const initListener = () => {
   input.value.addEventListener("change", function() {
-    Array.from(this.files).length > 0 && (showInput.value = false)
-    Array.from(this.files).forEach((file: File) => {
+    const imgs = Array.from(this.files)
+    imgs.length > 0 && (showInput.value = false)
+    imgs.forEach((file: File) => {
+      if(!availableExtensions.includes(file.type)) {
+        error.value = 'Only PNG, JPG, WEBP & SVG files are allowed'
+        return
+      }
       if(file.size > 5000000) {
         error.value = 'Maximum file size is 2MB'
         return
