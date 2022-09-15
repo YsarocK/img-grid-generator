@@ -1,10 +1,20 @@
 <template>
   <div class="w-full flex flex-col gap-2">
+    <div class="flex justify-between">
+      <h2>Files</h2>
+      <button v-if="!showInput" @click="input.click()" class="text-sm font-bold flex bg-violet-50 rounded-3xl px-4 py-1 justify-center items-center h-30 text-violet-700">Add files</button>
+    </div>
     <form class="flex flex-col justify-between gap-2">
-      <label for="files">
-        <h2>Files</h2>
-      </label>
-      <input ref="input" type="file" name="files" id="files" multiple class="file:cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100">
+      <div v-show="showInput" class="flex justify-center items-center w-full">
+        <label for="dropzone-file" class="flex flex-col justify-center items-center w-full h-64 bg-gray-50 rounded-lg border-2 border-gray-300 border-dashed cursor-pointer dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+          <div class="flex flex-col justify-center items-center pt-5 pb-6">
+            <svg aria-hidden="true" class="mb-3 w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG, WEBP or GIF (MAX. 2Mo)</p>
+          </div>
+          <input ref="input" multiple id="dropzone-file" type="file" class="hidden">
+        </label>
+      </div> 
       <div v-if="error" class="px-4 py-2 bg-red-200 rounded-md">
         <p class="text-xs text-red-700">{{ error }}</p>
       </div>
@@ -28,6 +38,7 @@ import DeleteIcon from '~/assets/svg/delete.svg'
 import type { Ref } from 'vue'
 
 const input = ref()
+const showInput: Ref<boolean> = ref(true)
 const error: Ref<string> = ref('')
 
 const items = useFiles().files
@@ -38,6 +49,7 @@ onMounted(() => {
 
 const initListener = () => {
   input.value.addEventListener("change", function() {
+    Array.from(this.files).length > 0 && (showInput.value = false)
     Array.from(this.files).forEach((file: File) => {
       if(file.size > 5000000) {
         error.value = 'Maximum file size is 2MB'
@@ -68,5 +80,9 @@ const fileNameReducer = (filename: string) => {
   const fileNameSliced = `${fileNameWithoutExtension}.${fileNameExtension}`
   return fileNameSliced
 }
+
+watch(items, () => {
+  items.length < 1 && (showInput.value = true)
+})
 
 </script>
