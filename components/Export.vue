@@ -35,11 +35,7 @@ const exportBlob = () => {
     container: '.generator',
     trueOrder: false,
     margin: settings.margin,
-    columns: settings.columns,
-    breakAt: {
-        520: 2,
-        400: 1
-    }
+    columns: settings.columns
   }
   generateNewCanvas()
   setTimeout(() => saveFile(), 100)
